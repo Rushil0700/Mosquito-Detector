@@ -1,0 +1,50 @@
+10:43:03  
+10:43:03  ==============================================================================
+10:43:03  STEP 1: environment and settings
+10:43:03  ==============================================================================
+10:43:03    python 3.11.16 | TensorFlow 2.21.0 | devices ['CPU']
+10:43:03    training data: real+synth | seed 1 | output results/m4_runs/20261001_104303_real_plus_synth
+10:43:03    model ResNet50V2 (imagenet), input resized to [128, 128], dropout 0.3 | batch 256, lr 0.0003, max epochs 30, early stop patience 8
+10:43:03    augmentation: gain ±10 dB, freq mask ≤8 bands, time mask ≤10 frames (p=0.5), pitch shift ±15 % (p=0.7)
+10:43:03    species classes: Ae. aegypti, Ae. albopictus, An. stephensi, Cx. quinquefasciatus, other mosquito
+10:43:03    fixes: whitening 15 bands | site balance True | lr schedule cosine | select epoch by val_score | synthetic set ['synth2_train', 'synth2other_train']
+10:43:03  
+10:43:03  ==============================================================================
+10:43:03  STEP 2: load features (1 s log-mel windows, 64 bands x 63 frames)
+10:43:03  ==============================================================================
+10:43:04    train       160,997 windows | mosquito 118,766 | background  42,231 | synthetic 60,000 | ~22.4 h
+10:43:04    val          23,288 windows | mosquito  20,245 | background   3,043 | ~3.2 h
+10:43:04    test         22,866 windows | mosquito  17,703 | background   5,163 | ~3.2 h
+10:43:04    test_A       66,959 windows | mosquito   3,988 | background  62,971 | ~9.3 h
+10:43:04    test_B       31,101 windows | mosquito  16,970 | background  14,131 | ~4.3 h
+10:43:04    external        820 windows | mosquito     535 | background     285 | ~0.1 h
+10:43:04    species-labelled TRAINING windows (real / synthetic):
+10:43:04      Ae. aegypti              2,665 real    6,000 synthetic
+10:43:04      Ae. albopictus           1,113 real    6,000 synthetic
+10:43:04      An. stephensi            1,174 real    6,000 synthetic
+10:43:04      Cx. quinquefasciatus     7,349 real    6,000 synthetic
+10:43:04      other mosquito          55,878 real   16,000 synthetic
+10:43:04    (validation and all test sets are real recordings; synthetic clips appear in training only)
+10:43:04  
+10:43:04  ==============================================================================
+10:43:04  STEP 3: build the model (shared CNN, two outputs: presence + species)
+10:43:04  ==============================================================================
+10:43:04    presence training weights: min 0.17, median 0.23, max 14.52  (equal weight per class and per recording site)
+10:43:04    species training weights: min 0.06, median 0.16, max 11.14  (equal weight per class and per recording site)
+10:43:04    training recording sites per species (real): Ae. aegypti 3; Ae. albopictus 1; An. stephensi 1; Cx. quinquefasciatus 1; other mosquito 9
+10:43:06    logmel_db    InputLayer             output (None, 64, 63)         params       0
+10:43:06    whiten       SpectralWhitening      output (None, 64, 63)         params       0
+10:43:06    reshape      Reshape                output (None, 64, 63, 1)      params       0
+10:43:06    band_norm    Rescaling              output (None, 64, 63, 1)      params       0
+10:43:06    to_resnet_size Resizing               output (None, 128, 128, 1)    params       0
+10:43:06    to_rgb       Conv2D                 output (None, 128, 128, 3)    params       6
+10:43:06    resnet       Functional             output (None, 4, 4, 2048)     params 23,564,800
+10:43:06    gap          GlobalAveragePooling2D output (None, 2048)           params       0
+10:43:06    dropout      Dropout                output (None, 2048)           params       0
+10:43:06    presence     Dense                  output (None, 1)              params   2,049
+10:43:06    species      Dense                  output (None, 5)              params  10,245
+10:43:06    total parameters: 23,577,100 (~23025 KB after int8 quantisation, ~92098 KB as float32 -- both small for an Android phone)
+10:43:06  
+10:43:06  ==============================================================================
+10:43:06  STEP 4: train (keeps the epoch with the best val_score; stops after 8 epochs without improvement)
+10:43:06  ==============================================================================

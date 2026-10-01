@@ -1,0 +1,34 @@
+# Synthetic set v2 (training only): break the link between species and recording site.
+# Tone = the v1.1 synthesizer (configs/synth_mumbai.yaml: calibration bank from TRAINING sessions only).
+# Noise = random REAL background from ANY training site/device, or a TRAINING household environment (DEMAND), never
+# the species' own lab noise. No-mosquito clips are made from the same noise pool with the same device randomisation,
+# so noise type / device carry no information about the label.
+tone_config: configs/synth_mumbai.yaml
+seed: 2029
+clip_seconds: 1.0
+out_dir: data/synthetic/clips_v2
+n_per_class_sex: 3000            # mosquito clips per species per sex (4 species x female/male)
+n_negative: 12000                # noise-only clips
+
+noise:
+  mix_prob: {background: 0.5, household: 0.5}   # where a clip's noise bed comes from
+  second_layer_prob: 0.3          # add a second, quieter noise source (e.g. room background + fan)
+  second_layer_db: [-15, -3]
+  # REAL background windows: segments_split.csv, split == train, presence == 0 (HumBugDB + Abuzz, many sites / devices)
+  household_dir: data/noise/public/demand
+  household_train_envs: [DKITCHEN, DWASHING, NFIELD, NPARK, NRIVER, OHALLWAY, OMEETING, PRESTO, PSTATION, SPSQUARE, TBUS, TMETRO]
+  household_test_envs: [DLIVING, STRAFFIC, OOFFICE, TCAR, PCAFETER]   # held out for the M5 accuracy-vs-noise test
+  custom_dir: data/noise/custom   # user's own recordings: TEST ONLY (never used here)
+
+# Tone-to-noise ratio in the 250-3900 Hz band (energy, dB). Includes faint mosquitoes (Kenya-like low SNR).
+snr_db: [-5, 25]
+
+device:                           # device randomisation applied to the whole mix (mosquito and no-mosquito alike)
+  highpass_hz: [20, 300]
+  lowpass_hz: [2800, 3990]
+  n_peaking_eq: [0, 3]
+  peaking_gain_db: [-8, 8]
+  self_noise_db: [-70, -35]       # re. clip peak
+  clip_probability: 0.03
+  peak_dbfs: [-45, -3]
+  int16_probability: 0.5          # quantise to 16-bit like native 8 kHz phones

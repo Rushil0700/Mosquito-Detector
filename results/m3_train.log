@@ -1,0 +1,22 @@
+m3_detector_baseline: 79,409 parameters | train 100,997 windows | val 23,288
+Epoch 1/30
+395/395 - 106s - 269ms/step - auc: 0.9708 - loss: 0.2141 - val_auc: 0.9658 - val_loss: 0.8957
+Epoch 2/30
+395/395 - 106s - 267ms/step - auc: 0.9856 - loss: 0.1409 - val_auc: 0.9771 - val_loss: 0.1638
+Epoch 3/30
+395/395 - 105s - 266ms/step - auc: 0.9892 - loss: 0.1191 - val_auc: 0.9864 - val_loss: 0.1397
+Epoch 4/30
+395/395 - 108s - 273ms/step - auc: 0.9913 - loss: 0.1042 - val_auc: 0.9844 - val_loss: 0.0989
+Epoch 5/30
+395/395 - 106s - 269ms/step - auc: 0.9923 - loss: 0.0972 - val_auc: 0.9882 - val_loss: 0.1977
+Epoch 6/30
+395/395 - 110s - 277ms/step - auc: 0.9931 - loss: 0.0901 - val_auc: 0.9876 - val_loss: 0.2170
+Epoch 7/30
+395/395 - 106s - 267ms/step - auc: 0.9937 - loss: 0.0849 - val_auc: 0.9860 - val_loss: 0.1796
+Epoch 8/30
+395/395 - 109s - 275ms/step - auc: 0.9941 - loss: 0.0819 - val_auc: 0.9834 - val_loss: 0.1071
+Epoch 9/30
+395/395 - 105s - 265ms/step - auc: 0.9942 - loss: 0.0809 - val_auc: 0.9861 - val_loss: 0.0927
+Epoch 10/30
+395/395 - 102s - 258ms/step - auc: 0.9949 - loss: 0.0761 - val_auc: 0.9857 - val_loss: 0.0990
+{'params': 79409, 'epochs_run': 10, 'best_epoch': 5, 'best_val': 0.9881871342658997, 'monitor': 'val_auc', 'train_minutes': 17.7, 'n_train': 100997, 'n_val': 23288}

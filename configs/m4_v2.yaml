@@ -1,0 +1,35 @@
+# M4 v2: detector + species with the four fixes against the recording-site shortcut (results/experiments.md, M4 first
+# results): synthetic v2 (randomised backgrounds + noise-only clips), spectral whitening in the model, site-balanced
+# training, steadier schedule / model selection. Validation and all tests: REAL recordings only.
+name: m4_v2
+seed: 1
+features_dir: data/processed/features
+out_dir: results/m4_v2
+tasks: [presence, species]
+synthetic_set: [synth2_train, synth2other_train]   # synthetic v2: 4 Mumbai species + 16 other species (training only)
+
+model:
+  channels: [16, 32, 64, 96]
+  dropout: 0.3
+  whiten_bands: 15               # remove the broad spectral envelope (device / room colouring, level) per window
+
+train:
+  batch_size: 256
+  epochs: 40
+  learning_rate: 0.001
+  lr_schedule: cosine            # decays smoothly to 2 % of the start value over `epochs`
+  early_stopping_patience: 10
+  monitor: val_score             # mean(val presence AUC, val species balanced accuracy)
+  class_weight: balanced
+  site_balance: true             # within each class, every recording site gets equal weight (capped at 10x)
+
+augment:
+  gain_db: 10                    # (no effect after whitening; kept for configs without it)
+  freq_mask: 8
+  time_mask: 10
+  mask_prob: 0.5
+
+evaluate:
+  splits: [val, test, test_A, test_B, external]
+  threshold_from: val_f1
+  smoothing: [2, 3]

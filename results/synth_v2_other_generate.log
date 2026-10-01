@@ -1,0 +1,25 @@
+presence  cls                 sex  source    
+0                                  noise_only    8000
+1         ae_sierrensis       any  calibrated    1000
+          an_albimanus        any  calibrated    1000
+          an_arabiensis       any  calibrated    1000
+          an_atroparvus       any  calibrated    1000
+          an_coustani         any  calibrated    1000
+          an_dirus            any  calibrated    1000
+          an_farauti          any  calibrated    1000
+          an_funestus         any  calibrated    1000
+          an_gambiae          any  calibrated    1000
+          an_maculipalpis     any  calibrated    1000
+          an_minimus          any  calibrated    1000
+          an_quadrimaculatus  any  calibrated    1000
+          an_squamosus        any  calibrated    1000
+          cs_incidens         any  calibrated    1000
+          ma_africanus        any  calibrated    1000
+          ma_uniformis        any  calibrated    1000
+
+noise bed sources (share):
+noise
+background    0.503
+household     0.497
+
+wrote 24000 clips -> data/synthetic/clips_v2_other, manifest data/synthetic/manifest_clips_v2_other.csv

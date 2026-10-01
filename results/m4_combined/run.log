@@ -1,0 +1,53 @@
+11:20:10  4-species model: results/m4_runs/20260929_200213_real_plus_synth
+5-class model:   results/m4_runs/20260929_142950_real_plus_synth
+11:20:23  
+veto threshold chosen on VALIDATION recordings (max balanced recall): p_other >= 0.50
+11:20:23    (validation has only Ae. aegypti and Culex among the targets; albopictus / stephensi are test-only)
+11:20:23  
+VAL — windows (n: Ae. aegypti 670, Ae. albopictus 0, An. stephensi 0, Cx. quinquefasciatus 3181, other 13166)
+11:20:23  
+              Ae. aegypti Ae. albopictus An. stephensi Cx. quinquefasciatus other → rejected balanced targets answered correct when answered genus correct other → 'Ae. aegypti'
+4-class alone         98%              —             —                  95%               0%      64%             100%                   95%           95%                   74%
+5-class alone         73%              —             —                  85%              76%      78%              85%                   98%           98%                   21%
+product               73%              —             —                  85%              76%      78%              85%                   98%           98%                   20%
+veto @ 0.50           74%              —             —                  86%              74%      78%              86%                   98%           98%                   21%
+11:20:23  
+VAL — recordings (n: Ae. aegypti 34, Ae. albopictus 0, An. stephensi 0, Cx. quinquefasciatus 122, other 528)
+11:20:23  
+              Ae. aegypti Ae. albopictus An. stephensi Cx. quinquefasciatus other → rejected balanced targets answered correct when answered genus correct other → 'Ae. aegypti'
+4-class alone        100%              —             —                  98%               0%      66%             100%                   98%           98%                   79%
+5-class alone         94%              —             —                  90%              79%      88%              91%                  100%          100%                   18%
+product               91%              —             —                  89%              81%      87%              89%                  100%          100%                   17%
+veto @ 0.50           94%              —             —                  93%              74%      87%              93%                  100%          100%                   22%
+11:20:23  
+TEST — windows (n: Ae. aegypti 848, Ae. albopictus 55, An. stephensi 121, Cx. quinquefasciatus 3500, other 11378)
+11:20:23  
+              Ae. aegypti Ae. albopictus An. stephensi Cx. quinquefasciatus other → rejected balanced targets answered correct when answered genus correct other → 'Ae. aegypti'
+4-class alone         95%            16%            0%                  90%               0%      40%             100%                   88%           88%                   76%
+5-class alone         66%             0%            0%                  83%              65%      43%              82%                   94%           94%                   30%
+product               65%             9%            0%                  81%              66%      44%              81%                   93%           93%                   30%
+veto @ 0.50           68%            13%            0%                  82%              63%      45%              83%                   92%           92%                   31%
+11:20:23  
+TEST — recordings (n: Ae. aegypti 36, Ae. albopictus 52, An. stephensi 7, Cx. quinquefasciatus 212, other 443)
+11:20:23  
+              Ae. aegypti Ae. albopictus An. stephensi Cx. quinquefasciatus other → rejected balanced targets answered correct when answered genus correct other → 'Ae. aegypti'
+4-class alone         78%            17%            0%                  96%               0%      38%             100%                   78%           81%                   70%
+5-class alone         58%             0%            0%                  89%              78%      45%              79%                   87%           88%                   18%
+product               58%            10%            0%                  88%              80%      47%              78%                   89%           90%                   16%
+veto @ 0.50           64%            13%            0%                  90%              75%      49%              84%                   86%           88%                   19%
+11:20:23  
+TEST windows, veto threshold sweep (sensitivity only):
+11:20:23  
+          other → rejected balanced targets answered correct when answered other → 'Ae. aegypti'
+threshold                                                                                       
+0.1                    89%      35%              54%                   95%                   10%
+0.2                    82%      39%              68%                   93%                   16%
+0.3                    76%      43%              74%                   93%                   21%
+0.4                    70%      44%              79%                   93%                   26%
+0.5                    63%      45%              83%                   92%                   31%
+0.6                    56%      46%              86%                   91%                   37%
+0.7                    48%      46%              90%                   90%                   43%
+0.8                    38%      46%              93%                   90%                   51%
+0.9                    23%      44%              96%                   89%                   62%
+11:20:23  
+wrote results/m4_combined/run.log and results/m4_combined/combined.csv

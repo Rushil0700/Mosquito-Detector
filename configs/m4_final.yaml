@@ -1,0 +1,44 @@
+# M4 final: detector + 5-class species head for an ANDROID phone (results/experiments.md, 2026-09-30).
+# Same data, fixes and synthetic sets as m4_v2, plus:
+#   * pitch-shift augmentation: the main remaining failure is the same species flying at a different pitch in another lab
+#     (London An. stephensi, San Mateo Culex); shifting whole windows by up to +-15 % forces the model to use more than
+#     the exact wingbeat frequency.
+#   * a 4x larger CNN (~316k parameters, ~310 KB int8): the phone has no microcontroller memory limit.
+# The "other mosquito" class stays (the 4-class head called 70 % of unknown species Ae. aegypti); the report ends with the
+# "other" threshold table, i.e. the app's sensitivity setting.
+name: m4_final
+seed: 1
+features_dir: data/processed/features
+features_config: configs/features.yaml   # mel parameters for the pitch shift
+out_dir: results/m4_final
+tasks: [presence, species]
+synthetic_set: [synth2_train, synth2other_train]
+
+model:
+  channels: [32, 64, 128, 192]
+  dropout: 0.3
+  whiten_bands: 15
+
+train:
+  batch_size: 256
+  epochs: 30                     # the cosine schedule spans this; ~4 min per epoch on the M4 Mac
+  learning_rate: 0.001
+  lr_schedule: cosine
+  early_stopping_patience: 8
+  monitor: val_score             # mean(val presence AUC, val species balanced accuracy)
+  class_weight: balanced
+  site_balance: true
+
+augment:
+  gain_db: 10
+  freq_mask: 8
+  time_mask: 10
+  mask_prob: 0.5
+  pitch_shift:
+    prob: 0.7                    # share of training windows that get shifted
+    max_ratio: 1.15              # ratio log-uniform in [1/1.15, 1.15]: the lab-to-lab gaps seen are 10-20 %
+
+evaluate:
+  splits: [val, test, test_A, test_B, external]
+  threshold_from: val_f1
+  smoothing: [2, 3]

@@ -1,0 +1,7 @@
+split,threshold,recall,false_alarms_per_h
+val,0.5,0.956,515.8
+val,0.9,0.947,634.1
+val,0.98,0.934,487.4
+test,0.5,0.952,382.1
+test,0.9,0.947,541.1
+test,0.98,0.936,645.7

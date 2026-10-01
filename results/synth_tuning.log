@@ -1,0 +1,58 @@
+start: 0.738 {'ae_aegypti': 0.706, 'cx_quinquefasciatus': 0.771}
+  r1 am_scale=0.2: 0.795 {'ae_aegypti': 0.768, 'cx_quinquefasciatus': 0.822}
+  r1 am_scale=0.35: 0.776 {'ae_aegypti': 0.742, 'cx_quinquefasciatus': 0.811}
+  r1 am_scale=0.5: 0.754 {'ae_aegypti': 0.716, 'cx_quinquefasciatus': 0.792}
+  r1 am_scale=0.7: 0.739 {'ae_aegypti': 0.698, 'cx_quinquefasciatus': 0.78}
+  r1 am_tau_s=0.015: 0.741 {'ae_aegypti': 0.702, 'cx_quinquefasciatus': 0.781}
+  r1 am_tau_s=0.06: 0.735 {'ae_aegypti': 0.702, 'cx_quinquefasciatus': 0.769}
+  r1 am_tau_s=0.12: 0.742 {'ae_aegypti': 0.645, 'cx_quinquefasciatus': 0.839}
+  r1 harmonic_jitter_db=0.0: 0.737 {'ae_aegypti': 0.703, 'cx_quinquefasciatus': 0.771}
+  r1 harmonic_jitter_db=1.0: 0.736 {'ae_aegypti': 0.704, 'cx_quinquefasciatus': 0.767}
+  r1 harmonic_jitter_db=2.0: 0.723 {'ae_aegypti': 0.682, 'cx_quinquefasciatus': 0.764}
+  -> keep harmonic_jitter_db=2.0 (best 0.723)
+  r1 drift_scale=0.7: 0.720 {'ae_aegypti': 0.664, 'cx_quinquefasciatus': 0.776}
+  r1 drift_scale=0.85: 0.712 {'ae_aegypti': 0.658, 'cx_quinquefasciatus': 0.765}
+  -> keep drift_scale=0.85 (best 0.712)
+  r1 drift_scale=1.0: 0.723 {'ae_aegypti': 0.682, 'cx_quinquefasciatus': 0.764}
+  r1 drift_scale=1.2: 0.738 {'ae_aegypti': 0.702, 'cx_quinquefasciatus': 0.774}
+  r1 drift_tau_s=0.02: 0.678 {'ae_aegypti': 0.648, 'cx_quinquefasciatus': 0.707}
+  -> keep drift_tau_s=0.02 (best 0.678)
+  r1 drift_tau_s=0.05: 0.712 {'ae_aegypti': 0.658, 'cx_quinquefasciatus': 0.765}
+  r1 drift_tau_s=0.1: 0.822 {'ae_aegypti': 0.755, 'cx_quinquefasciatus': 0.888}
+  r1 harmonic_tilt_db=0.4: 0.682 {'ae_aegypti': 0.651, 'cx_quinquefasciatus': 0.714}
+  r1 harmonic_tilt_db=0.8: 0.731 {'ae_aegypti': 0.686, 'cx_quinquefasciatus': 0.776}
+  r1 harmonic_tilt_db=1.2: 0.792 {'ae_aegypti': 0.74, 'cx_quinquefasciatus': 0.843}
+  r2 am_scale=0.2: 0.744 {'ae_aegypti': 0.722, 'cx_quinquefasciatus': 0.765}
+  r2 am_scale=0.35: 0.722 {'ae_aegypti': 0.696, 'cx_quinquefasciatus': 0.749}
+  r2 am_scale=0.5: 0.692 {'ae_aegypti': 0.662, 'cx_quinquefasciatus': 0.722}
+  r2 am_scale=0.7: 0.671 {'ae_aegypti': 0.642, 'cx_quinquefasciatus': 0.699}
+  -> keep am_scale=0.7 (best 0.671)
+  r2 am_scale=1.0: 0.678 {'ae_aegypti': 0.648, 'cx_quinquefasciatus': 0.707}
+  r2 am_tau_s=0.015: 0.688 {'ae_aegypti': 0.664, 'cx_quinquefasciatus': 0.712}
+  r2 am_tau_s=0.06: 0.645 {'ae_aegypti': 0.6, 'cx_quinquefasciatus': 0.691}
+  -> keep am_tau_s=0.06 (best 0.645)
+  r2 am_tau_s=0.12: 0.848 {'ae_aegypti': 0.789, 'cx_quinquefasciatus': 0.908}
+  r2 harmonic_jitter_db=0.0: 0.718 {'ae_aegypti': 0.691, 'cx_quinquefasciatus': 0.746}
+  r2 harmonic_jitter_db=0.5: 0.706 {'ae_aegypti': 0.682, 'cx_quinquefasciatus': 0.731}
+  r2 harmonic_jitter_db=1.0: 0.663 {'ae_aegypti': 0.641, 'cx_quinquefasciatus': 0.685}
+  r2 drift_scale=0.7: 0.654 {'ae_aegypti': 0.601, 'cx_quinquefasciatus': 0.707}
+  r2 drift_scale=1.0: 0.653 {'ae_aegypti': 0.607, 'cx_quinquefasciatus': 0.699}
+  r2 drift_scale=1.2: 0.667 {'ae_aegypti': 0.615, 'cx_quinquefasciatus': 0.719}
+  r2 drift_tau_s=0.05: 0.685 {'ae_aegypti': 0.615, 'cx_quinquefasciatus': 0.756}
+  r2 drift_tau_s=0.1: 0.802 {'ae_aegypti': 0.712, 'cx_quinquefasciatus': 0.892}
+  r2 harmonic_tilt_db=0.4: 0.657 {'ae_aegypti': 0.604, 'cx_quinquefasciatus': 0.71}
+  r2 harmonic_tilt_db=0.8: 0.687 {'ae_aegypti': 0.622, 'cx_quinquefasciatus': 0.752}
+  r2 harmonic_tilt_db=1.2: 0.729 {'ae_aegypti': 0.655, 'cx_quinquefasciatus': 0.804}
+
+best mean fair AUC on tune split: 0.645
+tuning:
+  drift_from: sharpness
+  drift_scale: 0.85
+  drift_tau_s: 0.02
+  am_scale: 0.7
+  am_tau_s: 0.06
+  harmonic_jitter_db: 2.0
+  harmonic_tilt_db: 0.0
+  snr_jitter_db: 0.0
+  level_jitter_db: 0.0
+

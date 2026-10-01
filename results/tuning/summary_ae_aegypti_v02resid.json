@@ -1,0 +1,45 @@
+{
+ "cls": "ae_aegypti",
+ "n_trials": 160,
+ "best_trial": 128,
+ "search_score": 0.7354173392047386,
+ "check_current": 0.784446792926224,
+ "check_best": 0.7689022936788482,
+ "gain": 0.015544499247375776,
+ "kept": false,
+ "block": {
+  "tuning": {
+   "drift_from": "sharpness",
+   "drift_scale": 0.5721506360612708,
+   "drift_tau_s": 0.01274233166370686,
+   "am_scale": 0.6125150559075899,
+   "am_tau_s": 0.05052208138338963,
+   "harmonic_jitter_db": 2.811392054828019,
+   "fast_fm_scale": 0.20305366706632444,
+   "fast_am_scale": 0.08636040878077582,
+   "fast_bw_hz": 97.5509104762442,
+   "harmonic_tilt_db": -0.41825025680810834,
+   "snr_jitter_db": 3.800138460818636,
+   "tnr_offset_db": 0.18322307541717228
+  },
+  "flight": {
+   "start_distance_m": [
+    0.03,
+    0.16538940345155584
+   ],
+   "speed_m_s": [
+    0.1,
+    0.8253977519413231
+   ],
+   "turn_rate": 1.8879561429095475,
+   "flyby_prob": 0.3946450418047719,
+   "flyby_miss_m": 0.2044672839442823
+  },
+  "room": {
+   "enabled": false
+  },
+  "source": {
+   "harmonic_levels": "peak"
+  }
+ }
+}

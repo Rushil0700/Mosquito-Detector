@@ -1,0 +1,15 @@
+split,species,windows,recall
+val,(no species label),3228,0.962
+val,ae_aegypti,670,0.967
+val,cx_quinquefasciatus,3181,0.983
+val,other_mosquito,13166,0.969
+test,(no species label),1801,0.939
+test,ae_aegypti,848,0.98
+test,ae_albopictus,55,1.0
+test,an_stephensi,121,1.0
+test,cx_quinquefasciatus,3500,0.992
+test,other_mosquito,11378,0.984
+test_A,other_mosquito,3988,0.276
+test_B,(no species label),11779,0.957
+test_B,other_mosquito,5191,1.0
+external,ae_aegypti,535,0.976

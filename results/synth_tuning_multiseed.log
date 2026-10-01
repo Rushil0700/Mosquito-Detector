@@ -1,0 +1,45 @@
+start: 0.696 {'ae_aegypti': 0.669, 'cx_quinquefasciatus': 0.723}
+  r1 am_scale=0.2: 0.758 {'ae_aegypti': 0.745, 'cx_quinquefasciatus': 0.77}
+  r1 am_scale=0.35: 0.736 {'ae_aegypti': 0.722, 'cx_quinquefasciatus': 0.75}
+  r1 am_scale=0.5: 0.717 {'ae_aegypti': 0.698, 'cx_quinquefasciatus': 0.736}
+  r1 am_scale=1.0: 0.692 {'ae_aegypti': 0.653, 'cx_quinquefasciatus': 0.73}
+  r1 am_tau_s=0.015: 0.726 {'ae_aegypti': 0.724, 'cx_quinquefasciatus': 0.727}
+  r1 am_tau_s=0.03: 0.717 {'ae_aegypti': 0.713, 'cx_quinquefasciatus': 0.721}
+  r1 am_tau_s=0.12: 0.859 {'ae_aegypti': 0.794, 'cx_quinquefasciatus': 0.924}
+  r1 harmonic_jitter_db=0.0: 0.740 {'ae_aegypti': 0.73, 'cx_quinquefasciatus': 0.75}
+  r1 harmonic_jitter_db=0.5: 0.734 {'ae_aegypti': 0.728, 'cx_quinquefasciatus': 0.741}
+  r1 harmonic_jitter_db=1.0: 0.712 {'ae_aegypti': 0.704, 'cx_quinquefasciatus': 0.719}
+  r1 drift_scale=0.7: 0.693 {'ae_aegypti': 0.657, 'cx_quinquefasciatus': 0.728}
+  r1 drift_scale=1.0: 0.706 {'ae_aegypti': 0.682, 'cx_quinquefasciatus': 0.729}
+  r1 drift_scale=1.2: 0.721 {'ae_aegypti': 0.698, 'cx_quinquefasciatus': 0.744}
+  r1 drift_tau_s=0.05: 0.732 {'ae_aegypti': 0.683, 'cx_quinquefasciatus': 0.78}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 79, in <module>
+    main()
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 67, in main
+    sc, pc = score(trial, real, bank, nb, args.n, args.seeds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 35, in score
+    res, _ = compare(real, cfg, bank, noise_bank, n, np.random.default_rng(seed), seed=seed)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/validate.py", line 93, in compare
+    syn = [synthesize(entries[rng.integers(len(entries))], cfg, rng, noise_bank, drift_map=dm, cls=cls)[0] for _ in range(len(real))]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/validate.py", line 93, in <listcomp>
+    syn = [synthesize(entries[rng.integers(len(entries))], cfg, rng, noise_bank, drift_map=dm, cls=cls)[0] for _ in range(len(real))]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/generate.py", line 129, in synthesize
+    got = blind_tone_snr(x, sr, f0_mean)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/calibrate.py", line 76, in blind_tone_snr
+    return harmonic_levels(f, s, f0, floor)[1]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/calibrate.py", line 55, in harmonic_levels
+    snr = float(np.nanmax(levels) - floor)
+                ^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py", line 485, in nanmax
+    res = np.fmax.reduce(a, axis=axis, out=out, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation fmax which has no identity

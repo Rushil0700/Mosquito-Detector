@@ -1,0 +1,29 @@
+# M4: detector + species head (Ae. aegypti, Ae. albopictus, An. stephensi, Cx. quinquefasciatus, other), REAL data only.
+name: m4_species_real
+seed: 1
+features_dir: data/processed/features
+out_dir: results/m4_real
+tasks: [presence, species]      # species head masked where no species label (ignored classes, unlabelled)
+use_synthetic: false
+
+model:
+  channels: [16, 32, 64, 96]      # one conv block (3x3 conv, batch-norm, ReLU, 2x2 max-pool except last) per entry
+  dropout: 0.3
+
+train:
+  batch_size: 256
+  epochs: 30
+  learning_rate: 0.001
+  early_stopping_patience: 5      # on validation presence ROC-AUC
+  class_weight: balanced          # 78.8k mosquito vs 22.2k background windows in train
+
+augment:
+  gain_db: 10                     # random level shift +-10 dB (level alone must not identify a recording / device)
+  freq_mask: 8                    # SpecAugment: mask up to 8 mel bands ...
+  time_mask: 10                   # ... and up to 10 frames, each with probability 0.5
+  mask_prob: 0.5
+
+evaluate:
+  splits: [val, test, test_A, test_B, external]
+  threshold_from: val_f1          # decision threshold = max F1 on the validation split
+  smoothing: [2, 3]               # also report "k of n consecutive windows" decisions (2 of 3)

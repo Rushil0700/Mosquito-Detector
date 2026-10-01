@@ -1,0 +1,45 @@
+{
+ "cls": "cx_quinquefasciatus",
+ "n_trials": 120,
+ "best_trial": 113,
+ "search_score": 0.7347726061218193,
+ "check_current": 0.7670103526639173,
+ "check_best": 0.7581516707347866,
+ "gain": 0.00885868192913064,
+ "kept": false,
+ "block": {
+  "tuning": {
+   "drift_from": "sharpness",
+   "drift_scale": 0.7410241717782768,
+   "drift_tau_s": 0.01773002871952761,
+   "am_scale": 0.7818235005063067,
+   "am_tau_s": 0.08730473674484754,
+   "harmonic_jitter_db": 2.2406410332076336,
+   "fast_fm_scale": 0.04241795241466563,
+   "fast_am_scale": 0.17577740772450956,
+   "fast_bw_hz": 47.31721449100982,
+   "harmonic_tilt_db": 0.19655110693512223,
+   "snr_jitter_db": 0.2282537815655558,
+   "tnr_offset_db": -0.4494226142769404
+  },
+  "flight": {
+   "start_distance_m": [
+    0.03,
+    0.3025348312188537
+   ],
+   "speed_m_s": [
+    0.1,
+    0.8760244092536071
+   ],
+   "turn_rate": 2.156722127188389,
+   "flyby_prob": 0.10585095055609947,
+   "flyby_miss_m": 0.07236210492139698
+  },
+  "room": {
+   "enabled": false
+  },
+  "source": {
+   "harmonic_levels": "peak"
+  }
+ }
+}

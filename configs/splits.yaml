@@ -1,0 +1,34 @@
+# M2 data splits. Unit = recording SESSION (never split across train / val / test); for the cross-lab tests the
+# whole SITE is held out. Forced assignments first, then the remaining sessions are assigned at random (seeded)
+# to reach ~70 / 15 / 15 % of audio minutes.
+seed: 42
+ratios: {train: 0.70, val: 0.15, test: 0.15}
+
+# Unseen sites for detection (as in the HumBugDB paper): never used for training or model selection.
+test_A_sites: ["USAMRU-K"]                          # Kenya, An. gambiae, Alcatel phone; 8.9 h background (false alarms/h)
+test_B_sites: ["field site near Pu Teuy Village"]   # Thailand field site
+
+# Held-out test data for the four target species.
+test_sites:
+  - "LSTMH Culture cages, London"                   # An. stephensi (different lab + recorder than Abuzz)
+  - "CDC insect cultures, Atlanta"                  # small Ae. albopictus / aegypti / stephensi / quinquefasciatus set
+                                                    # (same CDC insectary as Abuzz-CDC, but different phone and date)
+  - "SanMateoVCD"                                   # Cx. quinquefasciatus from a different lab than Oxford
+test_sessions:
+  - "humbugdb|Ifakara|tascam|2020-03-24"            # Ae. aegypti 6.6 min
+  - "abuzz|UCD_LA|Aedes aegypti"                    # Ae. aegypti 5.3 min, different lab
+  - "humbugdb|Oxford Zoology|Telinga|2017-10-23"    # Cx. quinquefasciatus
+  - "humbugdb|Oxford Zoology|Telinga|2017-10-24"
+val_sessions:
+  - "humbugdb|Ifakara|tascam|2020-03-21"            # Ae. aegypti 6.8 min
+  - "abuzz|UCD_PR|Aedes aegypti"
+  - "humbugdb|Oxford Zoology|Telinga|2017-10-16"    # Cx. quinquefasciatus
+  - "humbugdb|Oxford Zoology|Telinga|2017-10-19"
+train_sessions:
+  - "abuzz|Abuzz_multiphone_2016-03|Anopheles stephensi"   # the only large An. stephensi source
+  - "abuzz|CDC|Aedes albopictus"                           # the only large Ae. albopictus source
+  - "humbugdb|Ifakara|tascam|2020-03-13"                   # Ae. aegypti 8.5 min (training needs Ae. aegypti from
+  - "humbugdb|Ifakara|tascam|2020-03-26"                   #  both HumBugDB and Abuzz; a random draw left 0.1 min)
+  - "abuzz|Auburn|Aedes aegypti"
+  - "abuzz|CDC|Aedes aegypti"
+external_datasets: ["ufrgs"]                         # external test only

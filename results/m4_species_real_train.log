@@ -1,0 +1,30 @@
+m4_species_real: 79,894 parameters | train 100,997 windows | val 23,288
+Epoch 1/30
+395/395 - 116s - 293ms/step - loss: 0.8677 - presence_auc: 0.9570 - presence_loss: 0.2670 - species_loss: 0.6002 - species_sparse_categorical_accuracy: 0.4606 - val_loss: 1.7450 - val_presence_auc: 0.9446 - val_presence_loss: 0.8637 - val_species_loss: 0.8814 - val_species_sparse_categorical_accuracy: 0.4660
+Epoch 2/30
+395/395 - 100s - 254ms/step - loss: 0.5239 - presence_auc: 0.9770 - presence_loss: 0.1832 - species_loss: 0.3406 - species_sparse_categorical_accuracy: 0.5434 - val_loss: 1.4777 - val_presence_auc: 0.9779 - val_presence_loss: 0.1204 - val_species_loss: 1.3573 - val_species_sparse_categorical_accuracy: 0.4675
+Epoch 3/30
+395/395 - 104s - 263ms/step - loss: 0.4357 - presence_auc: 0.9819 - presence_loss: 0.1600 - species_loss: 0.2758 - species_sparse_categorical_accuracy: 0.5659 - val_loss: 0.6638 - val_presence_auc: 0.9820 - val_presence_loss: 0.2206 - val_species_loss: 0.4431 - val_species_sparse_categorical_accuracy: 0.5823
+Epoch 4/30
+395/395 - 109s - 277ms/step - loss: 0.3820 - presence_auc: 0.9855 - presence_loss: 0.1420 - species_loss: 0.2399 - species_sparse_categorical_accuracy: 0.5814 - val_loss: 0.5945 - val_presence_auc: 0.9826 - val_presence_loss: 0.1073 - val_species_loss: 0.4871 - val_species_sparse_categorical_accuracy: 0.5649
+Epoch 5/30
+395/395 - 97s - 246ms/step - loss: 0.3458 - presence_auc: 0.9874 - presence_loss: 0.1306 - species_loss: 0.2152 - species_sparse_categorical_accuracy: 0.5922 - val_loss: 0.7577 - val_presence_auc: 0.9844 - val_presence_loss: 0.2947 - val_species_loss: 0.4628 - val_species_sparse_categorical_accuracy: 0.6233
+Epoch 6/30
+395/395 - 99s - 251ms/step - loss: 0.3213 - presence_auc: 0.9886 - presence_loss: 0.1226 - species_loss: 0.1986 - species_sparse_categorical_accuracy: 0.5979 - val_loss: 0.6066 - val_presence_auc: 0.9854 - val_presence_loss: 0.1469 - val_species_loss: 0.4596 - val_species_sparse_categorical_accuracy: 0.6234
+Epoch 7/30
+395/395 - 102s - 258ms/step - loss: 0.2985 - presence_auc: 0.9897 - presence_loss: 0.1154 - species_loss: 0.1829 - species_sparse_categorical_accuracy: 0.6021 - val_loss: 0.7705 - val_presence_auc: 0.9851 - val_presence_loss: 0.1208 - val_species_loss: 0.6497 - val_species_sparse_categorical_accuracy: 0.5973
+Epoch 8/30
+395/395 - 99s - 249ms/step - loss: 0.2948 - presence_auc: 0.9902 - presence_loss: 0.1122 - species_loss: 0.1826 - species_sparse_categorical_accuracy: 0.6051 - val_loss: 0.5915 - val_presence_auc: 0.9863 - val_presence_loss: 0.0939 - val_species_loss: 0.4974 - val_species_sparse_categorical_accuracy: 0.5805
+Epoch 9/30
+395/395 - 100s - 252ms/step - loss: 0.2735 - presence_auc: 0.9905 - presence_loss: 0.1098 - species_loss: 0.1637 - species_sparse_categorical_accuracy: 0.6077 - val_loss: 0.4836 - val_presence_auc: 0.9855 - val_presence_loss: 0.1028 - val_species_loss: 0.3807 - val_species_sparse_categorical_accuracy: 0.6198
+Epoch 10/30
+395/395 - 99s - 251ms/step - loss: 0.2648 - presence_auc: 0.9911 - presence_loss: 0.1056 - species_loss: 0.1595 - species_sparse_categorical_accuracy: 0.6112 - val_loss: 0.6202 - val_presence_auc: 0.9873 - val_presence_loss: 0.1756 - val_species_loss: 0.4445 - val_species_sparse_categorical_accuracy: 0.6443
+Epoch 11/30
+395/395 - 104s - 264ms/step - loss: 0.2504 - presence_auc: 0.9916 - presence_loss: 0.1029 - species_loss: 0.1474 - species_sparse_categorical_accuracy: 0.6134 - val_loss: 0.7462 - val_presence_auc: 0.9854 - val_presence_loss: 0.1082 - val_species_loss: 0.6379 - val_species_sparse_categorical_accuracy: 0.5886
+Epoch 12/30
+395/395 - 106s - 269ms/step - loss: 0.2399 - presence_auc: 0.9920 - presence_loss: 0.0999 - species_loss: 0.1400 - species_sparse_categorical_accuracy: 0.6192 - val_loss: 1.4854 - val_presence_auc: 0.9817 - val_presence_loss: 0.5762 - val_species_loss: 0.9093 - val_species_sparse_categorical_accuracy: 0.5694
+Epoch 13/30
+395/395 - 11271s - 29s/step - loss: 0.2407 - presence_auc: 0.9924 - presence_loss: 0.0963 - species_loss: 0.1444 - species_sparse_categorical_accuracy: 0.6169 - val_loss: 0.6997 - val_presence_auc: 0.9860 - val_presence_loss: 0.1096 - val_species_loss: 0.5899 - val_species_sparse_categorical_accuracy: 0.5938
+Epoch 14/30
+395/395 - 13312s - 34s/step - loss: 0.2289 - presence_auc: 0.9925 - presence_loss: 0.0951 - species_loss: 0.1339 - species_sparse_categorical_accuracy: 0.6182 - val_loss: 0.8158 - val_presence_auc: 0.9862 - val_presence_loss: 0.0953 - val_species_loss: 0.7203 - val_species_sparse_categorical_accuracy: 0.5809
+{'params': 79894, 'epochs_run': 14, 'best_epoch': 9, 'best_val': 0.48355522751808167, 'monitor': 'val_loss', 'train_minutes': 430.3, 'n_train': 100997, 'n_val': 23288}

@@ -1,0 +1,3 @@
+cls,n,auc_all,auc_fair,top
+ae_aegypti,397,0.8401423776560983,0.8295655704940708,"{'mel_mean_3735Hz': 0.64, 'mel_std_3487Hz': 0.62, 'mel_mean_881Hz': 0.61, 'mel_mean_1335Hz': 0.61, 'mel_std_3735Hz': 0.61, 'mel_mean_3487Hz': 0.6}"
+cx_quinquefasciatus,199,0.7989444710992146,0.798868715436479,"{'mel_mean_948Hz': 0.69, 'mel_mean_881Hz': 0.67, 'mel_mean_416Hz': 0.66, 'mel_mean_1757Hz': 0.65, 'mel_mean_1335Hz': 0.65, 'mel_mean_482Hz': 0.63}"

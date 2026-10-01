@@ -1,0 +1,1220 @@
+species,folder,ext,sr,dur
+Aedes albopictus,CDC_T209,.wav,8000,60.0
+Aedes albopictus,CDC_T209,.wav,8000,60.0
+Aedes albopictus,CDC_T209,.wav,8000,60.0
+Aedes albopictus,CDC_T209,.wav,8000,60.0
+Aedes albopictus,CDC_T209,.wav,8000,60.0
+Aedes albopictus,CDC_Xperia,.wav,44100,326.704762
+Aedes albopictus,CDC_Nexus,.wav,44100,339.661497
+Anopheles gambiae rsp,CDC_Xperia,.wav,44100,314.514286
+Anopheles gambiae rsp,CDC_Nexus,.wav,44100,253.143946
+Aedes mediovittatus,UCD_T209,.wav,8000,60.0
+Aedes mediovittatus,UCD_T209,.wav,8000,60.0
+Aedes mediovittatus,UCD_T209,.wav,8000,60.0
+Anopheles minimus,iPhone6,.m4a,44100,74.001995
+Anopheles minimus,iPhone6,.wav,44100,20.72381
+Anopheles minimus,iPhone6,.wav,44100,54.565442
+Anopheles minimus,iPhone6,.m4a,44100,54.613333
+Anopheles minimus,iPhone6,.wav,44100,73.954104
+Anopheles minimus,iPhone6,.m4a,44100,28.235465
+Anopheles minimus,iPhone6,.wav,44100,70.563991
+Anopheles minimus,iPhone6,.wav,44100,51.012789
+Anopheles minimus,iPhone6,.m4a,44100,70.611882
+Anopheles minimus,iPhone6,.wav,44100,28.187574
+Anopheles minimus,iPhone6,.m4a,44100,51.06068
+Anopheles minimus,SamsungT209,.wav,44100,20.72381
+Anopheles minimus,SamsungT209,.wav,8000,60.0
+Anopheles minimus,SamsungT209,.wav,8000,60.0
+Anopheles minimus,SamsungT209,.wav,8000,60.0
+Anopheles minimus,SamsungT209,.wav,8000,60.0
+Anopheles minimus,SamsungT209,.wav,8000,60.0
+Anopheles minimus,SamsungT209,.amr,8000,60.0
+Anopheles minimus,SamsungT209,.amr,8000,60.0
+Anopheles minimus,SamsungT209,.amr,8000,60.0
+Anopheles minimus,SamsungT209,.amr,8000,60.0
+Anopheles minimus,SamsungT209,.amr,8000,60.0
+Anopheles minimus,GoogleNexus,.wav,44100,20.72381
+Anopheles minimus,GoogleNexus,.wav,44100,67.709388
+Anopheles minimus,GoogleNexus,.wav,44100,37.685986
+Anopheles minimus,GoogleNexus,.wav,44100,74.048435
+Anopheles minimus,GoogleNexus,.wav,44100,40.89034
+Anopheles minimus,GoogleNexus,.wav,44100,9.752381
+Anopheles minimus,GoogleNexus,.wav,44100,13.444354
+Anopheles minimus,GoogleNexus,.wav,44100,22.918095
+Anopheles minimus,GoogleNexus,.wav,44100,5.712109
+Anopheles minimus,GoogleNexus,.wav,44100,6.826667
+Anopheles minimus,GoogleNexus,.wav,44100,45.069932
+Anopheles minimus,GoogleNexus,.wav,44100,7.453605
+Anopheles minimus,Huawei866C,.wav,8000,66.06
+Anopheles minimus,Huawei866C,.wav,8000,57.86
+Anopheles minimus,Huawei866C,.wav,8000,7.94
+Anopheles minimus,Huawei866C,.wav,8000,66.44
+Anopheles minimus,Huawei866C,.wav,8000,71.18
+Anopheles minimus,Huawei866C,.wav,8000,29.7
+Anopheles minimus,Huawei866C,.amr,8000,66.06
+Anopheles minimus,Huawei866C,.amr,8000,57.86
+Anopheles minimus,Huawei866C,.amr,8000,66.44
+Anopheles minimus,Huawei866C,.amr,8000,71.18
+Anopheles minimus,Huawei866C,.amr,8000,29.7
+Anopheles minimus,Nokia5235,.wav,44100,20.72381
+Anopheles minimus,Nokia5235,.mp4,48000,36.629333
+Anopheles minimus,Nokia5235,.mp4,48000,97.429333
+Anopheles minimus,Nokia5235,.mp4,48000,88.064
+Anopheles minimus,Nokia5235,.mp4,48000,84.394667
+Anopheles minimus,Nokia5235,.mp4,48000,55.68
+Anopheles minimus,Nokia5235,.mp4,48000,61.994667
+Anopheles minimus,Nokia5235,.mp4,48000,88.234667
+Anopheles minimus,Nokia5235,.wav,48000,97.429333
+Anopheles minimus,Nokia5235,.wav,48000,36.629333
+Anopheles minimus,Nokia5235,.wav,48000,84.394667
+Anopheles minimus,Nokia5235,.wav,48000,88.064
+Anopheles minimus,Nokia5235,.wav,48000,55.68
+Anopheles minimus,Nokia5235,.wav,48000,88.234667
+Anopheles minimus,Nokia5235,.wav,48000,61.994667
+Anopheles minimus,SonyXperia,.wav,44100,64.609524
+Anopheles minimus,SonyXperia,.wav,44100,20.72381
+Anopheles minimus,SonyXperia,.wav,44100,63.390476
+Anopheles minimus,SonyXperia,.wav,44100,88.990476
+Anopheles minimus,SonyXperia,.wav,44100,99.961905
+Anopheles minimus,SonyXperia,.wav,44100,71.92381
+Anopheles minimus,SonyXperia,.wav,44100,62.171429
+Anopheles minimus,iPhone4C,.wav,44100,36.732517
+Anopheles minimus,iPhone4C,.wav,44100,20.72381
+Anopheles minimus,iPhone4C,.wav,44100,27.235556
+Anopheles minimus,iPhone4C,.m4a,44100,27.283447
+Anopheles minimus,iPhone4C,.m4a,44100,36.780408
+Anopheles minimus,iPhone4C,.wav,44100,70.355011
+Anopheles minimus,iPhone4C,.m4a,44100,54.056054
+Anopheles minimus,iPhone4C,.m4a,44100,49.853243
+Anopheles minimus,iPhone4C,.m4a,44100,42.910476
+Anopheles minimus,iPhone4C,.wav,44100,49.805351
+Anopheles minimus,iPhone4C,.wav,44100,42.862585
+Anopheles minimus,iPhone4C,.m4a,44100,70.402902
+Anopheles minimus,iPhone4C,.wav,44100,54.008163
+Anopheles minimus,Nokia6555B,.wav,44100,20.72381
+Anopheles minimus,Nokia6555B,.wav,8000,121.28
+Anopheles minimus,Nokia6555B,.wav,8000,120.0
+Anopheles minimus,Nokia6555B,.wav,8000,85.28
+Anopheles minimus,Nokia6555B,.wav,8000,62.72
+Anopheles minimus,Nokia6555B,.wav,8000,88.32
+Anopheles minimus,Nokia6555B,.amr,8000,125.19225
+Anopheles minimus,Nokia6555B,.amr,8000,123.871
+Anopheles minimus,Nokia6555B,.amr,8000,64.74325
+Anopheles minimus,Nokia6555B,.amr,8000,88.031
+Anopheles minimus,Nokia6555B,.amr,8000,91.169
+Anopheles stephensi,iPhone6,.wav,44100,20.72381
+Anopheles stephensi,iPhone6,.wav,44100,42.607166
+Anopheles stephensi,iPhone6,.wav,44100,62.808526
+Anopheles stephensi,iPhone6,.wav,44100,23.218503
+Anopheles stephensi,iPhone6,.wav,44100,33.969342
+Anopheles stephensi,iPhone6,.wav,44100,15.114739
+Anopheles stephensi,iPhone6,.wav,44100,40.726349
+Anopheles stephensi,iPhone6,.wav,44100,30.927528
+Anopheles stephensi,iPhone6,.m4a,44100,62.856417
+Anopheles stephensi,iPhone6,.m4a,44100,23.266395
+Anopheles stephensi,iPhone6,.m4a,44100,42.655057
+Anopheles stephensi,iPhone6,.m4a,44100,30.97542
+Anopheles stephensi,iPhone6,.m4a,44100,40.77424
+Anopheles stephensi,iPhone6,.m4a,44100,34.017234
+Anopheles stephensi,iPhone6,.m4a,44100,15.16263
+Anopheles stephensi,iPhone4S,.wav,44100,20.72381
+Anopheles stephensi,iPhone4S,.wav,44100,10.168889
+Anopheles stephensi,iPhone4S,.wav,44100,55.099501
+Anopheles stephensi,iPhone4S,.wav,44100,34.387302
+Anopheles stephensi,iPhone4S,.wav,44100,42.909025
+Anopheles stephensi,iPhone4S,.wav,44100,52.963265
+Anopheles stephensi,iPhone4S,.wav,44100,70.656871
+Anopheles stephensi,iPhone4S,.wav,44100,19.75873
+Anopheles stephensi,iPhone4S,.wav,44100,37.057596
+Anopheles stephensi,iPhone4S,.wav,44100,52.568526
+Anopheles stephensi,iPhone4S,.wav,44100,51.593288
+Anopheles stephensi,iPhone4S,.m4a,44100,55.147392
+Anopheles stephensi,iPhone4S,.m4a,44100,10.21678
+Anopheles stephensi,iPhone4S,.m4a,44100,19.806621
+Anopheles stephensi,iPhone4S,.m4a,44100,70.704762
+Anopheles stephensi,iPhone4S,.m4a,44100,53.011156
+Anopheles stephensi,iPhone4S,.m4a,44100,52.616417
+Anopheles stephensi,iPhone4S,.m4a,44100,51.641179
+Anopheles stephensi,iPhone4S,.m4a,44100,37.105488
+Anopheles stephensi,iPhone4S,.m4a,44100,42.956916
+Anopheles stephensi,iPhone4S,.m4a,44100,34.435193
+Anopheles stephensi,SamsungT209,.wav,44100,20.72381
+Anopheles stephensi,SamsungT209,.wav,8000,60.0
+Anopheles stephensi,SamsungT209,.wav,8000,60.0
+Anopheles stephensi,SamsungT209,.wav,8000,60.0
+Anopheles stephensi,SamsungT209,.wav,8000,60.0
+Anopheles stephensi,SamsungT209,.wav,8000,58.14
+Anopheles stephensi,SamsungT209,.amr,8000,58.14
+Anopheles stephensi,SamsungT209,.amr,8000,60.0
+Anopheles stephensi,SamsungT209,.amr,8000,60.0
+Anopheles stephensi,SamsungT209,.amr,8000,60.0
+Anopheles stephensi,SamsungT209,.amr,8000,60.0
+Anopheles stephensi,GoogleNexus,.wav,44100,20.72381
+Anopheles stephensi,GoogleNexus,.wav,44100,18.808163
+Anopheles stephensi,GoogleNexus,.wav,44100,39.636463
+Anopheles stephensi,GoogleNexus,.wav,44100,65.689252
+Anopheles stephensi,GoogleNexus,.wav,44100,27.445986
+Anopheles stephensi,GoogleNexus,.wav,44100,25.147211
+Anopheles stephensi,GoogleNexus,.wav,44100,35.317551
+Anopheles stephensi,GoogleNexus,.wav,44100,37.894966
+Anopheles stephensi,GoogleNexus,.wav,44100,46.532789
+Anopheles stephensi,GoogleNexus,.wav,44100,45.418231
+Anopheles stephensi,GoogleNexus,.wav,44100,42.144218
+Anopheles stephensi,GoogleNexus,.wav,44100,75.441633
+Anopheles stephensi,Huawei866C,.wav,8000,7.94
+Anopheles stephensi,Huawei866C,.wav,8000,63.62
+Anopheles stephensi,Huawei866C,.wav,8000,26.38
+Anopheles stephensi,Huawei866C,.wav,8000,40.58
+Anopheles stephensi,Huawei866C,.wav,8000,58.38
+Anopheles stephensi,Huawei866C,.wav,8000,39.06
+Anopheles stephensi,Huawei866C,.wav,8000,68.5
+Anopheles stephensi,Huawei866C,.wav,8000,64.26
+Anopheles stephensi,Huawei866C,.wav,8000,51.34
+Anopheles stephensi,Huawei866C,.amr,8000,39.06
+Anopheles stephensi,Huawei866C,.amr,8000,68.5
+Anopheles stephensi,Huawei866C,.amr,8000,64.26
+Anopheles stephensi,Huawei866C,.amr,8000,63.62
+Anopheles stephensi,Huawei866C,.amr,8000,26.38
+Anopheles stephensi,Huawei866C,.amr,8000,40.58
+Anopheles stephensi,Huawei866C,.amr,8000,58.38
+Anopheles stephensi,Huawei866C,.amr,8000,51.34
+Anopheles stephensi,Nokia5235,.wav,44100,20.72381
+Anopheles stephensi,Nokia5235,.wav,48000,57.194667
+Anopheles stephensi,Nokia5235,.wav,48000,28.394667
+Anopheles stephensi,Nokia5235,.wav,48000,59.264
+Anopheles stephensi,Nokia5235,.wav,48000,44.629333
+Anopheles stephensi,Nokia5235,.wav,48000,75.349333
+Anopheles stephensi,Nokia5235,.mp4,48000,28.394667
+Anopheles stephensi,Nokia5235,.mp4,48000,59.264
+Anopheles stephensi,Nokia5235,.mp4,48000,75.349333
+Anopheles stephensi,Nokia5235,.mp4,48000,44.629333
+Anopheles stephensi,Nokia5235,.mp4,48000,57.194667
+Anopheles stephensi,SonyXperia,.wav,44100,45.104762
+Anopheles stephensi,SonyXperia,.wav,44100,82.895238
+Anopheles stephensi,SonyXperia,.wav,44100,20.72381
+Anopheles stephensi,SonyXperia,.wav,44100,36.571429
+Anopheles stephensi,SonyXperia,.wav,44100,90.209524
+Anopheles stephensi,SonyXperia,.wav,44100,37.790476
+Anopheles stephensi,SonyXperia,.wav,44100,78.019048
+Anopheles stephensi,Nokia6555B,.wav,44100,20.72381
+Anopheles stephensi,Nokia6555B,.wav,8000,58.4
+Anopheles stephensi,Nokia6555B,.wav,8000,76.96
+Anopheles stephensi,Nokia6555B,.wav,8000,60.32
+Anopheles stephensi,Nokia6555B,.wav,8000,110.72
+Anopheles stephensi,Nokia6555B,.wav,8000,60.48
+Anopheles stephensi,Nokia6555B,.wav,8000,61.12
+Anopheles stephensi,Nokia6555B,.amr,8000,60.283875
+Anopheles stephensi,Nokia6555B,.amr,8000,79.442625
+Anopheles stephensi,Nokia6555B,.amr,8000,62.26575
+Anopheles stephensi,Nokia6555B,.amr,8000,114.291625
+Anopheles stephensi,Nokia6555B,.amr,8000,62.431
+Anopheles stephensi,Nokia6555B,.amr,8000,63.091625
+Anopheles arabiensis dongola,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis dongola,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis dongola,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis dongola,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis dongola,CDC_Xperia,.wav,44100,392.533333
+Anopheles arabiensis dongola,CDC_Nexus,.wav,44100,407.579864
+Culex pipiens,SanMateoVCD_Xperia,.wav,44100,124.342857
+Culex pipiens,SanMateoVCD_Xperia,.wav,44100,63.390476
+Culex pipiens,SanMateoVCD_Xperia,.wav,44100,131.657143
+Culex pipiens,SanMateoVCD_Xperia,.wav,44100,45.104762
+Culex pipiens,SanMateoVCD_iPhone4S,.wav,44100,49.875011
+Culex pipiens,SanMateoVCD_iPhone4S,.wav,44100,44.836281
+Culex pipiens,SanMateoVCD_iPhone4S,.wav,44100,88.559456
+Culex pipiens,SanMateoVCD_iPhone4S,.wav,44100,96.80254
+Culex pipiens,SanMateoVCD_iPhone4S,.wav,44100,65.8039
+Anopheles arabiensis rufisque,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis rufisque,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis rufisque,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis rufisque,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis rufisque,CDC_T209,.wav,8000,60.0
+Anopheles arabiensis rufisque,CDC_Xperia,.wav,44100,352.304762
+Anopheles arabiensis rufisque,CDC_Nexus,.wav,44100,291.456871
+Anopheles quadriannulatus,CDC_T209,.wav,8000,60.0
+Anopheles quadriannulatus,CDC_T209,.wav,8000,60.0
+Anopheles quadriannulatus,CDC_T209,.wav,8000,60.0
+Anopheles quadriannulatus,CDC_T209,.wav,8000,60.0
+Anopheles quadriannulatus,CDC_T209,.wav,8000,60.0
+Anopheles quadriannulatus,CDC_Xperia,.wav,44100,438.857143
+Anopheles quadriannulatus,CDC_Nexus,.wav,44100,339.243537
+Anopheles gambiae kisumu,iPhone6,.wav,44100,20.72381
+Anopheles gambiae kisumu,iPhone6,.m4a,44100,38.011066
+Anopheles gambiae kisumu,CDC_T209,.wav,8000,60.0
+Anopheles gambiae kisumu,CDC_T209,.wav,8000,60.0
+Anopheles gambiae kisumu,CDC_T209,.wav,8000,60.0
+Anopheles gambiae kisumu,CDC_T209,.wav,8000,60.0
+Anopheles gambiae kisumu,CDC_T209,.wav,8000,60.0
+Anopheles gambiae kisumu,iPhone4S,.wav,44100,12.212245
+Anopheles gambiae kisumu,iPhone4S,.wav,44100,20.72381
+Anopheles gambiae kisumu,iPhone4S,.wav,44100,18.504853
+Anopheles gambiae kisumu,iPhone4S,.wav,44100,12.212245
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,9.752381
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,9.613061
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,18.552744
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,2.693515
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,13.490794
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,12.260136
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,17.113107
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,7.082086
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,15.719909
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,23.730794
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,5.22449
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,8.893243
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,9.613061
+Anopheles gambiae kisumu,iPhone4S,.m4a,44100,3.506213
+Anopheles gambiae kisumu,SamsungT209,.wav,44100,20.72381
+Anopheles gambiae kisumu,SamsungT209,.wav,8000,35.3
+Anopheles gambiae kisumu,SamsungT209,.wav,8000,24.3
+Anopheles gambiae kisumu,SamsungT209,.wav,8000,60.0
+Anopheles gambiae kisumu,SamsungT209,.wav,8000,28.34
+Anopheles gambiae kisumu,SamsungT209,.wav,8000,16.72
+Anopheles gambiae kisumu,SamsungT209,.amr,8000,35.3
+Anopheles gambiae kisumu,SamsungT209,.amr,8000,24.3
+Anopheles gambiae kisumu,SamsungT209,.amr,8000,60.0
+Anopheles gambiae kisumu,SamsungT209,.amr,8000,28.34
+Anopheles gambiae kisumu,SamsungT209,.amr,8000,16.72
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,29.257143
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,20.72381
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,31.834558
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,26.749388
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,7.662585
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,22.360816
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,4.87619
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,13.374694
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,6.408707
+Anopheles gambiae kisumu,GoogleNexus,.wav,44100,6.757007
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,13.46
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,20.74
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,7.94
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,19.22
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,14.6
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,7.44
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,18.96
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,25.74
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,9.86
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,11.28
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,5.78
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,11.92
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,29.96
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,4.5
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,11.54
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,30.98
+Anopheles gambiae kisumu,Huawei866C,.wav,8000,18.18
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,19.22
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,14.6
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,13.46
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,20.74
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,25.74
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,7.44
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,18.96
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,11.28
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,5.78
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,11.92
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,9.86
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,11.54
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,18.18
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,30.98
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,29.96
+Anopheles gambiae kisumu,Huawei866C,.amr,8000,4.5
+Anopheles gambiae kisumu,Nokia5235,.mp4,48000,39.189333
+Anopheles gambiae kisumu,Nokia5235,.wav,44100,20.72381
+Anopheles gambiae kisumu,Nokia5235,.mp4,48000,63.68
+Anopheles gambiae kisumu,Nokia5235,.mp4,48000,50.794667
+Anopheles gambiae kisumu,Nokia5235,.mp4,48000,23.829333
+Anopheles gambiae kisumu,Nokia5235,.mp4,48000,33.984
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,25.6
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,20.72381
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,26.819048
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,24.380952
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,19.504762
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,35.352381
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,28.038095
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,25.6
+Anopheles gambiae kisumu,SonyXperia,.wav,44100,39.009524
+Anopheles gambiae kisumu,CDC_Xperia,.wav,44100,310.857143
+Anopheles gambiae kisumu,CDC_Nexus,.wav,44100,215.318639
+Anopheles gambiae kisumu,Nokia6555B,.wav,44100,20.72381
+Anopheles gambiae kisumu,Nokia6555B,.wav,8000,47.84
+Anopheles gambiae kisumu,Nokia6555B,.wav,8000,27.84
+Anopheles gambiae kisumu,Nokia6555B,.wav,8000,10.4
+Anopheles gambiae kisumu,Nokia6555B,.amr,8000,49.38325
+Anopheles gambiae kisumu,Nokia6555B,.amr,8000,28.738125
+Anopheles gambiae kisumu,Nokia6555B,.amr,8000,10.7355
+Anopheles freeborni,iPhone6,.m4a,44100,31.068299
+Anopheles freeborni,iPhone6,.wav,44100,20.72381
+Anopheles freeborni,iPhone6,.m4a,44100,57.283628
+Anopheles freeborni,iPhone6,.m4a,44100,53.266576
+Anopheles freeborni,iPhone6,.m4a,44100,49.365624
+Anopheles freeborni,iPhone6,.m4a,44100,44.419773
+Anopheles freeborni,iPhone6,.m4a,44100,25.170431
+Anopheles freeborni,iPhone4S,.wav,44100,20.72381
+Anopheles freeborni,iPhone4S,.wav,44100,67.893696
+Anopheles freeborni,iPhone4S,.wav,44100,45.091701
+Anopheles freeborni,iPhone4S,.wav,44100,47.970975
+Anopheles freeborni,iPhone4S,.wav,44100,47.135057
+Anopheles freeborni,iPhone4S,.wav,44100,75.115102
+Anopheles freeborni,iPhone4S,.wav,44100,59.371973
+Anopheles freeborni,iPhone4S,.wav,44100,67.057778
+Anopheles freeborni,iPhone4S,.wav,44100,33.597823
+Anopheles freeborni,iPhone4S,.m4a,44100,67.941587
+Anopheles freeborni,iPhone4S,.m4a,44100,33.645714
+Anopheles freeborni,iPhone4S,.m4a,44100,67.105669
+Anopheles freeborni,iPhone4S,.m4a,44100,75.162993
+Anopheles freeborni,iPhone4S,.m4a,44100,59.419864
+Anopheles freeborni,iPhone4S,.m4a,44100,45.139592
+Anopheles freeborni,iPhone4S,.m4a,44100,47.182948
+Anopheles freeborni,iPhone4S,.m4a,44100,48.018866
+Anopheles freeborni,SamsungT209,.wav,44100,20.72381
+Anopheles freeborni,SamsungT209,.wav,8000,60.0
+Anopheles freeborni,SamsungT209,.wav,8000,60.0
+Anopheles freeborni,SamsungT209,.wav,8000,60.0
+Anopheles freeborni,SamsungT209,.wav,8000,60.0
+Anopheles freeborni,SamsungT209,.wav,8000,60.0
+Anopheles freeborni,SamsungT209,.amr,8000,60.0
+Anopheles freeborni,SamsungT209,.amr,8000,60.0
+Anopheles freeborni,SamsungT209,.amr,8000,60.0
+Anopheles freeborni,SamsungT209,.amr,8000,60.0
+Anopheles freeborni,SamsungT209,.amr,8000,60.0
+Anopheles freeborni,GoogleNexus,.wav,44100,20.72381
+Anopheles freeborni,GoogleNexus,.wav,44100,47.299048
+Anopheles freeborni,GoogleNexus,.wav,44100,72.864218
+Anopheles freeborni,GoogleNexus,.wav,44100,30.998639
+Anopheles freeborni,GoogleNexus,.wav,44100,57.260408
+Anopheles freeborni,GoogleNexus,.wav,44100,56.633469
+Anopheles freeborni,GoogleNexus,.wav,44100,46.11483
+Anopheles freeborni,GoogleNexus,.wav,44100,69.172245
+Anopheles freeborni,GoogleNexus,.wav,44100,63.460136
+Anopheles freeborni,GoogleNexus,.wav,44100,60.325442
+Anopheles freeborni,GoogleNexus,.wav,44100,43.119456
+Anopheles freeborni,GoogleNexus,.wav,44100,5.572789
+Anopheles freeborni,GoogleNexus,.wav,44100,11.493878
+Anopheles freeborni,GoogleNexus,.wav,44100,78.715646
+Anopheles freeborni,GoogleNexus,.wav,44100,10.588299
+Anopheles freeborni,GoogleNexus,.wav,44100,38.800544
+Anopheles freeborni,GoogleNexus,.wav,44100,49.179864
+Anopheles freeborni,Huawei866C,.wav,8000,7.94
+Anopheles freeborni,Huawei866C,.wav,8000,29.84
+Anopheles freeborni,Huawei866C,.wav,8000,43.54
+Anopheles freeborni,Huawei866C,.wav,8000,24.58
+Anopheles freeborni,Huawei866C,.wav,8000,40.98
+Anopheles freeborni,Huawei866C,.amr,8000,40.98
+Anopheles freeborni,Huawei866C,.amr,8000,29.84
+Anopheles freeborni,Huawei866C,.amr,8000,43.54
+Anopheles freeborni,Huawei866C,.amr,8000,24.58
+Anopheles freeborni,Nokia5235,.mp4,48000,93.12
+Anopheles freeborni,Nokia5235,.wav,44100,20.72381
+Anopheles freeborni,Nokia5235,.mp4,48000,68.224
+Anopheles freeborni,Nokia5235,.mp4,48000,36.224
+Anopheles freeborni,Nokia5235,.mp4,48000,24.96
+Anopheles freeborni,Nokia5235,.mp4,48000,76.074667
+Anopheles freeborni,SonyXperia,.wav,44100,20.72381
+Anopheles freeborni,SonyXperia,.wav,44100,65.828571
+Anopheles freeborni,SonyXperia,.wav,44100,87.771429
+Anopheles freeborni,SonyXperia,.wav,44100,59.733333
+Anopheles freeborni,SonyXperia,.wav,44100,58.514286
+Anopheles freeborni,SonyXperia,.wav,44100,74.361905
+Anopheles freeborni,Nokia6555B,.wav,44100,20.72381
+Anopheles freeborni,Nokia6555B,.wav,8000,81.6
+Anopheles freeborni,Nokia6555B,.wav,8000,100.16
+Anopheles freeborni,Nokia6555B,.wav,8000,114.56
+Anopheles freeborni,Nokia6555B,.wav,8000,52.96
+Anopheles freeborni,Nokia6555B,.wav,8000,78.56
+Anopheles freeborni,Nokia6555B,.amr,8000,84.23225
+Anopheles freeborni,Nokia6555B,.amr,8000,54.668375
+Anopheles freeborni,Nokia6555B,.amr,8000,103.391
+Anopheles freeborni,Nokia6555B,.amr,8000,118.2555
+Anopheles freeborni,Nokia6555B,.amr,8000,81.09425
+Aedes aegypti,Auburn_T209,.wav,8000,60.0
+Aedes aegypti,Auburn_T209,.wav,8000,60.0
+Aedes aegypti,Auburn_T209,.wav,8000,60.0
+Aedes aegypti,Auburn_T209,.wav,8000,60.0
+Aedes aegypti,Auburn_T209,.wav,8000,60.0
+Aedes aegypti,CDC_T209,.wav,8000,60.0
+Aedes aegypti,CDC_T209,.wav,8000,60.0
+Aedes aegypti,CDC_T209,.wav,8000,60.0
+Aedes aegypti,CDC_T209,.wav,8000,60.0
+Aedes aegypti,CDC_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,60.0
+Aedes aegypti,UCD_LA_T209,.wav,8000,18.616625
+Aedes aegypti,CDC_Xperia,.wav,44100,152.380952
+Aedes aegypti,CDC_Xperia,.wav,44100,246.247619
+Aedes aegypti,CDC_Nexus,.wav,44100,293.894966
+Aedes aegypti,UCD_PR_T209,.wav,8000,60.0
+Aedes aegypti,UCD_PR_T209,.wav,8000,60.0
+Aedes aegypti,UCD_PR_T209,.wav,8000,5.730625
+Anopheles albimanus,iPhone6,.m4a,44100,49.226304
+Anopheles albimanus,iPhone6,.wav,44100,20.72381
+Anopheles albimanus,iPhone6,.m4a,44100,40.100862
+Anopheles albimanus,iPhone6,.m4a,44100,51.687619
+Anopheles albimanus,iPhone6,.m4a,44100,68.591746
+Anopheles albimanus,iPhone6,.m4a,44100,37.198367
+Anopheles albimanus,iPhone4S,.wav,44100,40.912109
+Anopheles albimanus,iPhone4S,.wav,44100,20.72381
+Anopheles albimanus,iPhone4S,.wav,44100,73.071746
+Anopheles albimanus,iPhone4S,.wav,44100,33.481723
+Anopheles albimanus,iPhone4S,.wav,44100,70.331791
+Anopheles albimanus,iPhone4S,.wav,44100,34.805261
+Anopheles albimanus,iPhone4S,.wav,44100,48.481814
+Anopheles albimanus,iPhone4S,.m4a,44100,73.119637
+Anopheles albimanus,iPhone4S,.m4a,44100,40.96
+Anopheles albimanus,iPhone4S,.m4a,44100,48.529705
+Anopheles albimanus,iPhone4S,.m4a,44100,34.853152
+Anopheles albimanus,iPhone4S,.m4a,44100,70.379683
+Anopheles albimanus,iPhone4S,.m4a,44100,33.529615
+Anopheles albimanus,SamsungT209,.wav,44100,20.72381
+Anopheles albimanus,SamsungT209,.wav,8000,60.0
+Anopheles albimanus,SamsungT209,.wav,8000,60.0
+Anopheles albimanus,SamsungT209,.wav,8000,60.0
+Anopheles albimanus,SamsungT209,.wav,8000,60.0
+Anopheles albimanus,SamsungT209,.wav,8000,60.0
+Anopheles albimanus,SamsungT209,.amr,8000,60.0
+Anopheles albimanus,SamsungT209,.amr,8000,60.0
+Anopheles albimanus,SamsungT209,.amr,8000,60.0
+Anopheles albimanus,SamsungT209,.amr,8000,60.0
+Anopheles albimanus,SamsungT209,.amr,8000,60.0
+Anopheles albimanus,GoogleNexus,.wav,44100,65.619592
+Anopheles albimanus,GoogleNexus,.wav,44100,20.72381
+Anopheles albimanus,GoogleNexus,.wav,44100,64.087075
+Anopheles albimanus,GoogleNexus,.wav,44100,57.190748
+Anopheles albimanus,GoogleNexus,.wav,44100,47.717007
+Anopheles albimanus,GoogleNexus,.wav,44100,49.040544
+Anopheles albimanus,Huawei866C,.wav,8000,61.32
+Anopheles albimanus,Huawei866C,.wav,8000,59.54
+Anopheles albimanus,Huawei866C,.wav,8000,58.26
+Anopheles albimanus,Huawei866C,.wav,8000,7.94
+Anopheles albimanus,Huawei866C,.wav,8000,52.88
+Anopheles albimanus,Huawei866C,.wav,8000,35.6
+Anopheles albimanus,Huawei866C,.amr,8000,52.88
+Anopheles albimanus,Huawei866C,.amr,8000,35.6
+Anopheles albimanus,Huawei866C,.amr,8000,61.32
+Anopheles albimanus,Huawei866C,.amr,8000,59.54
+Anopheles albimanus,Huawei866C,.amr,8000,58.26
+Anopheles albimanus,Nokia5235,.wav,44100,20.72381
+Anopheles albimanus,Nokia5235,.mp4,48000,73.984
+Anopheles albimanus,Nokia5235,.mp4,48000,121.6
+Anopheles albimanus,Nokia5235,.mp4,48000,69.504
+Anopheles albimanus,Nokia5235,.mp4,48000,62.869333
+Anopheles albimanus,Nokia5235,.mp4,48000,76.309333
+Anopheles albimanus,SonyXperia,.wav,44100,56.07619
+Anopheles albimanus,SonyXperia,.wav,44100,20.72381
+Anopheles albimanus,SonyXperia,.wav,44100,54.857143
+Anopheles albimanus,SonyXperia,.wav,44100,74.361905
+Anopheles albimanus,SonyXperia,.wav,44100,29.257143
+Anopheles albimanus,SonyXperia,.wav,44100,75.580952
+Anopheles albimanus,Nokia6555B,.wav,8000,89.44
+Anopheles albimanus,Nokia6555B,.wav,44100,20.72381
+Anopheles albimanus,Nokia6555B,.wav,8000,91.36
+Anopheles albimanus,Nokia6555B,.wav,8000,64.48
+Anopheles albimanus,Nokia6555B,.wav,8000,48.8
+Anopheles albimanus,Nokia6555B,.amr,8000,92.325125
+Anopheles albimanus,Nokia6555B,.amr,8000,94.307125
+Anopheles albimanus,Nokia6555B,.amr,8000,66.56
+Anopheles albimanus,Nokia6555B,.amr,8000,50.37425
+Culex quinquefasciatus,SanMateoVCD_Xperia,.wav,44100,64.609524
+Culex quinquefasciatus,SanMateoVCD_Xperia,.wav,44100,62.171429
+Culex quinquefasciatus,SanMateoVCD_Xperia,.wav,44100,82.895238
+Culex quinquefasciatus,SanMateoVCD_Xperia,.wav,44100,92.647619
+Culex quinquefasciatus,SanMateoVCD_Xperia,.wav,44100,45.104762
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,46.647438
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,62.088707
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,55.169161
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,56.910658
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,40.703129
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,69.774512
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,58.210975
+Culex quinquefasciatus,SanMateoVCD_iPhone4S,.wav,44100,21.198367
+Anopheles farauti,iPhone6,.m4a,44100,38.220045
+Anopheles farauti,iPhone6,.m4a,44100,26.029569
+Anopheles farauti,iPhone6,.wav,44100,20.72381
+Anopheles farauti,iPhone6,.m4a,44100,48.367166
+Anopheles farauti,iPhone6,.m4a,44100,48.367166
+Anopheles farauti,iPhone6,.m4a,44100,36.896508
+Anopheles farauti,iPhone6,.m4a,44100,48.390385
+Anopheles farauti,iPhone4S,.wav,44100,86.841179
+Anopheles farauti,iPhone4S,.wav,44100,44.580862
+Anopheles farauti,iPhone4S,.wav,44100,20.72381
+Anopheles farauti,iPhone4S,.wav,44100,36.291338
+Anopheles farauti,iPhone4S,.wav,44100,9.75093
+Anopheles farauti,iPhone4S,.wav,44100,18.992472
+Anopheles farauti,iPhone4S,.wav,44100,49.596372
+Anopheles farauti,iPhone4S,.wav,44100,39.449252
+Anopheles farauti,iPhone4S,.wav,44100,35.24644
+Anopheles farauti,iPhone4S,.m4a,44100,49.644263
+Anopheles farauti,iPhone4S,.m4a,44100,9.798821
+Anopheles farauti,iPhone4S,.m4a,44100,19.040363
+Anopheles farauti,iPhone4S,.m4a,44100,36.339229
+Anopheles farauti,iPhone4S,.m4a,44100,44.628753
+Anopheles farauti,iPhone4S,.m4a,44100,86.88907
+Anopheles farauti,iPhone4S,.m4a,44100,35.294331
+Anopheles farauti,iPhone4S,.m4a,44100,39.497143
+Anopheles farauti,SamsungT209,.wav,44100,20.72381
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.wav,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,SamsungT209,.amr,8000,60.0
+Anopheles farauti,GoogleNexus,.wav,44100,52.105578
+Anopheles farauti,GoogleNexus,.wav,44100,20.72381
+Anopheles farauti,GoogleNexus,.wav,44100,39.566803
+Anopheles farauti,GoogleNexus,.wav,44100,71.122721
+Anopheles farauti,GoogleNexus,.wav,44100,30.51102
+Anopheles farauti,GoogleNexus,.wav,44100,38.939864
+Anopheles farauti,Huawei866C,.wav,8000,7.94
+Anopheles farauti,Huawei866C,.wav,8000,27.78
+Anopheles farauti,Huawei866C,.wav,8000,39.18
+Anopheles farauti,Huawei866C,.wav,8000,2.06
+Anopheles farauti,Huawei866C,.wav,8000,36.88
+Anopheles farauti,Huawei866C,.wav,8000,50.44
+Anopheles farauti,Huawei866C,.wav,8000,52.24
+Anopheles farauti,Huawei866C,.amr,8000,2.06
+Anopheles farauti,Huawei866C,.amr,8000,36.88
+Anopheles farauti,Huawei866C,.amr,8000,50.44
+Anopheles farauti,Huawei866C,.amr,8000,52.24
+Anopheles farauti,Huawei866C,.amr,8000,27.78
+Anopheles farauti,Huawei866C,.amr,8000,39.18
+Anopheles farauti,Nokia5235,.wav,44100,20.72381
+Anopheles farauti,Nokia5235,.mp4,48000,60.394667
+Anopheles farauti,Nokia5235,.mp4,48000,47.274667
+Anopheles farauti,Nokia5235,.mp4,48000,47.424
+Anopheles farauti,Nokia5235,.mp4,48000,60.949333
+Anopheles farauti,Nokia5235,.mp4,48000,57.92
+Anopheles farauti,SonyXperia,.wav,44100,24.380952
+Anopheles farauti,SonyXperia,.wav,44100,20.72381
+Anopheles farauti,SonyXperia,.wav,44100,54.857143
+Anopheles farauti,SonyXperia,.wav,44100,71.92381
+Anopheles farauti,SonyXperia,.wav,44100,51.2
+Anopheles farauti,SonyXperia,.wav,44100,90.209524
+Anopheles farauti,SonyXperia,.wav,44100,36.571429
+Anopheles farauti,Nokia6555B,.wav,44100,20.72381
+Anopheles farauti,Nokia6555B,.wav,8000,57.28
+Anopheles farauti,Nokia6555B,.wav,8000,68.0
+Anopheles farauti,Nokia6555B,.wav,8000,59.36
+Anopheles farauti,Nokia6555B,.wav,8000,49.76
+Anopheles farauti,Nokia6555B,.wav,8000,42.4
+Anopheles farauti,Nokia6555B,.amr,8000,51.365125
+Anopheles farauti,Nokia6555B,.amr,8000,43.76775
+Anopheles farauti,Nokia6555B,.amr,8000,59.12775
+Anopheles farauti,Nokia6555B,.amr,8000,70.1935
+Anopheles farauti,Nokia6555B,.amr,8000,61.274875
+Anopheles merus,-,.wav,8000,60.0
+Anopheles merus,-,.wav,8000,60.0
+Anopheles merus,-,.wav,8000,60.0
+Anopheles merus,-,.wav,8000,60.0
+Anopheles merus,-,.wav,8000,60.0
+Culiseta incidens,-,.wav,44100,20.455329
+Culiseta incidens,-,.wav,44100,32.994104
+Culiseta incidens,-,.wav,44100,96.338141
+Culiseta incidens,-,.wav,44100,35.10712
+Culiseta incidens,-,.wav,44100,66.988118
+Culiseta incidens,-,.wav,44100,28.512653
+Culiseta incidens,-,.wav,44100,66.291519
+Culiseta incidens,-,.wav,44100,68.009796
+Culiseta incidens,-,.wav,44100,75.277642
+Culiseta incidens,-,.wav,44100,118.791837
+Culiseta incidens,-,.wav,44100,10.006349
+Culiseta incidens,-,.wav,44100,135.370884
+Culiseta incidens,-,.wav,44100,83.799365
+Culiseta incidens,-,.wav,44100,101.53941
+Culiseta incidens,-,.wav,44100,99.681814
+Culiseta incidens,-,.wav,44100,52.754286
+Culiseta incidens,-,.wav,44100,46.856417
+Culiseta incidens,-,.wav,44100,12.746304
+Culiseta incidens,-,.wav,44100,26.701497
+Culiseta incidens,-,.wav,44100,69.565533
+Culiseta incidens,-,.wav,44100,46.786757
+Culiseta incidens,-,.wav,44100,30.486349
+Culiseta incidens,-,.wav,44100,95.548662
+Culiseta incidens,-,.wav,44100,41.957007
+Culiseta incidens,-,.wav,44100,31.577687
+Culiseta incidens,-,.wav,44100,98.892336
+Culiseta incidens,-,.wav,44100,26.724717
+Culiseta incidens,-,.wav,44100,87.328798
+Culiseta incidens,-,.wav,44100,310.890522
+Culiseta incidens,-,.wav,44100,62.274467
+Culiseta incidens,Snipped,.wav,44100,61.109002
+Culiseta incidens,Snipped,.wav,44100,60.155011
+Culiseta incidens,Snipped,.wav,44100,59.199002
+Culiseta incidens,Snipped,.wav,44100,59.675986
+Culiseta incidens,Snipped,.wav,44100,59.199002
+Culiseta incidens,Snipped,.wav,44100,59.199002
+Culiseta incidens,Snipped,.wav,44100,532.793152
+Anopheles atroparvus,CDC_T209,.wav,8000,60.0
+Anopheles atroparvus,CDC_T209,.wav,8000,60.0
+Anopheles atroparvus,CDC_T209,.wav,8000,60.0
+Anopheles atroparvus,CDC_T209,.wav,8000,60.0
+Anopheles atroparvus,CDC_T209,.wav,8000,60.0
+Anopheles atroparvus,CDC_Xperia,.wav,44100,314.514286
+Anopheles atroparvus,CDC_Nexus,.wav,44100,293.128707
+Anopheles quadrimaculatus,Auburn_T209,.wav,8000,60.0
+Anopheles quadrimaculatus,Auburn_T209,.wav,8000,60.0
+Anopheles quadrimaculatus,Auburn_T209,.wav,8000,60.0
+Anopheles quadrimaculatus,Auburn_T209,.wav,8000,60.0
+Anopheles quadrimaculatus,Auburn_T209,.wav,8000,60.0
+Anopheles quadrimaculatus,Auburn_Xperia,.wav,44100,365.714286
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,75.045442
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,51.709388
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,18.946032
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,50.153651
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,37.196916
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,37.382676
+Culex tarsalis,PrakashLab_iPhone4S,.wav,44100,70.81941
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,18.993923
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,51.757279
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,75.093333
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,70.867302
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,37.430567
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,37.244807
+Culex tarsalis,PrakashLab_iPhone4S,.m4a,44100,50.201542
+Culex tarsalis,PrakashLab_T209,.wav,8000,60.0
+Culex tarsalis,PrakashLab_T209,.wav,8000,60.0
+Culex tarsalis,PrakashLab_T209,.wav,8000,60.0
+Culex tarsalis,PrakashLab_T209,.wav,8000,32.62
+Culex tarsalis,PrakashLab_T209,.wav,8000,60.0
+Aedes sierrensis,-,.wav,44100,0.551927
+Aedes sierrensis,-,.wav,44100,6.047528
+Aedes sierrensis,-,.wav,44100,1.384082
+Aedes sierrensis,-,.wav,44100,2.242698
+Aedes sierrensis,-,.wav,44100,0.119252
+Aedes sierrensis,-,.wav,44100,0.357166
+Aedes sierrensis,-,.wav,44100,1.446667
+Aedes sierrensis,-,.wav,44100,0.594989
+Aedes sierrensis,-,.wav,44100,0.655306
+Aedes sierrensis,-,.wav,44100,0.3022
+Aedes sierrensis,-,.wav,44100,0.206485
+Aedes sierrensis,-,.wav,44100,3.559161
+Aedes sierrensis,-,.wav,44100,0.110431
+Aedes sierrensis,-,.wav,44100,1.937347
+Aedes sierrensis,-,.wav,44100,3.258322
+Aedes sierrensis,-,.wav,44100,0.302585
+Aedes sierrensis,-,.wav,44100,0.46839
+Aedes sierrensis,-,.wav,44100,0.141587
+Aedes sierrensis,-,.wav,44100,3.970408
+Aedes sierrensis,-,.wav,44100,12.171293
+Aedes sierrensis,-,.wav,44100,0.211995
+Aedes sierrensis,-,.wav,44100,0.159705
+Aedes sierrensis,-,.wav,44100,0.958254
+Aedes sierrensis,-,.wav,44100,0.191474
+Aedes sierrensis,-,.wav,44100,5.668957
+Aedes sierrensis,-,.wav,44100,1.183537
+Aedes sierrensis,-,.wav,44100,3.589955
+Aedes sierrensis,-,.wav,44100,2.151497
+Aedes sierrensis,-,.wav,44100,0.633764
+Aedes sierrensis,-,.wav,44100,0.052857
+Aedes sierrensis,-,.wav,44100,1.311202
+Aedes sierrensis,-,.wav,44100,0.257415
+Aedes sierrensis,-,.wav,44100,0.353401
+Aedes sierrensis,-,.wav,44100,1.720975
+Aedes sierrensis,-,.wav,44100,0.230907
+Aedes sierrensis,-,.wav,44100,0.174104
+Aedes sierrensis,-,.wav,44100,0.801429
+Aedes sierrensis,-,.wav,44100,0.455896
+Aedes sierrensis,-,.wav,44100,10.323084
+Aedes sierrensis,-,.wav,44100,0.238889
+Aedes sierrensis,-,.wav,44100,17.339615
+Aedes sierrensis,-,.wav,44100,1.986009
+Aedes sierrensis,-,.wav,44100,4.090567
+Aedes sierrensis,-,.wav,44100,0.640454
+Aedes sierrensis,-,.wav,44100,2.113741
+Aedes sierrensis,-,.wav,44100,0.84839
+Aedes sierrensis,-,.wav,44100,0.388571
+Aedes sierrensis,-,.wav,44100,9.216621
+Aedes sierrensis,-,.wav,44100,1.489206
+Aedes sierrensis,-,.wav,44100,1.3
+Aedes sierrensis,-,.wav,44100,1.162766
+Aedes sierrensis,-,.wav,44100,4.137959
+Aedes sierrensis,-,.wav,44100,1.79415
+Aedes sierrensis,-,.wav,44100,0.099093
+Aedes sierrensis,-,.wav,44100,3.47195
+Aedes sierrensis,-,.wav,44100,0.085147
+Aedes sierrensis,-,.wav,44100,4.668685
+Aedes sierrensis,-,.wav,44100,1.867596
+Aedes sierrensis,-,.wav,44100,0.223991
+Aedes sierrensis,-,.wav,44100,0.283311
+Aedes sierrensis,-,.wav,44100,3.007891
+Aedes sierrensis,-,.wav,44100,0.145102
+Aedes sierrensis,-,.wav,44100,0.13093
+Aedes sierrensis,-,.wav,44100,5.097506
+Aedes sierrensis,-,.wav,44100,14.91966
+Aedes sierrensis,-,.wav,44100,0.723107
+Aedes sierrensis,-,.wav,44100,6.568776
+Aedes sierrensis,-,.wav,44100,2.392789
+Aedes sierrensis,-,.wav,44100,0.448435
+Aedes sierrensis,-,.wav,44100,10.353741
+Aedes sierrensis,-,.wav,44100,0.162494
+Aedes sierrensis,-,.wav,44100,0.158866
+Aedes sierrensis,-,.wav,44100,0.997619
+Aedes sierrensis,-,.wav,44100,3.399456
+Aedes sierrensis,-,.wav,44100,0.510272
+Aedes sierrensis,-,.wav,44100,0.052562
+Aedes sierrensis,-,.wav,44100,8.845918
+Aedes sierrensis,-,.wav,44100,1.793288
+Aedes sierrensis,-,.wav,44100,2.391542
+Aedes sierrensis,-,.wav,44100,1.978571
+Aedes sierrensis,-,.wav,44100,10.742132
+Aedes sierrensis,-,.wav,44100,2.837438
+Aedes sierrensis,-,.wav,44100,2.079138
+Aedes sierrensis,-,.wav,44100,3.870385
+Aedes sierrensis,-,.wav,44100,0.12229
+Aedes sierrensis,-,.wav,44100,3.177755
+Aedes sierrensis,-,.wav,44100,0.670703
+Aedes sierrensis,-,.wav,44100,5.357007
+Aedes sierrensis,-,.wav,44100,1.044898
+Aedes sierrensis,-,.wav,44100,1.465556
+Aedes sierrensis,-,.wav,44100,1.012608
+Aedes sierrensis,-,.wav,44100,2.50839
+Aedes sierrensis,-,.wav,44100,3.786689
+Aedes sierrensis,-,.wav,44100,4.009683
+Aedes sierrensis,-,.wav,44100,0.616803
+Aedes sierrensis,-,.wav,44100,1.649524
+Aedes sierrensis,-,.wav,44100,0.756054
+Aedes sierrensis,-,.wav,44100,0.321905
+Aedes sierrensis,-,.wav,44100,2.847256
+Aedes sierrensis,-,.wav,44100,0.12737
+Aedes sierrensis,-,.wav,44100,0.405102
+Aedes sierrensis,-,.wav,44100,1.703084
+Aedes sierrensis,-,.wav,44100,0.561361
+Aedes sierrensis,-,.wav,44100,3.032766
+Aedes sierrensis,-,.wav,44100,1.743107
+Aedes sierrensis,-,.wav,44100,7.720045
+Aedes sierrensis,-,.wav,44100,4.928912
+Aedes sierrensis,-,.wav,44100,12.375669
+Aedes sierrensis,-,.wav,44100,0.511927
+Aedes sierrensis,-,.wav,44100,0.245669
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.589841
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.006984
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.664127
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,28.769524
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,13.734603
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.264762
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,33.401905
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.826667
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.126984
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,21.211429
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.088254
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.752381
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.844444
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.738413
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,12.109206
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.99619
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.126984
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.095238
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,12.596825
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.565079
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.664127
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,13.084444
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.508571
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,17.066667
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,14.628571
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,19.504762
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,29.257143
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,14.628571
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,31.695238
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,13.409524
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,23.161905
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.285714
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.095238
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.095238
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,40.228571
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,29.97551
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,17.436735
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,40.09941
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,38.265034
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,48.922993
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,76.995918
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,38.312925
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,77.04381
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,48.970884
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,30.023401
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,40.147302
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,17.484626
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,22.057506
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,22.105397
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.411882
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,23.891882
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.749388
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.29424
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.552744
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,19.294331
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.48
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.687438
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,4.342132
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,10.797279
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,4.527891
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,19.342222
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,3.459773
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,23.939773
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,2.600635
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,5.735329
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,31.32
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.24
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.6
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,38.52
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.24
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.72
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.92
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,77.16
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.96
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,12.24
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,20.28
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,28.68
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,47.4
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.76
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,28.200635
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,12.271746
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,64.446984
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,94.354286
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,46.08
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.646349
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,80.457143
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,25.112381
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,44.292063
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,9.914921
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,21.699048
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,22.349206
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.285714
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,44.942222
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,29.500952
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.226032
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,53.800635
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.745397
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.688889
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.307302
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.632381
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.03873
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.12
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,7.476825
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.356825
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.501587
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.469841
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,16.416508
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.226032
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.307302
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.257778
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.657143
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.275556
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.519365
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.819683
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,17.960635
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.370794
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.36381
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.713651
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,1.869206
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.607619
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.208254
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.688889
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.250794
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,3.900952
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,19.586032
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.307302
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,17.599274
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,16.995556
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.899592
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,22.800544
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,17.043447
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,18.947483
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,17.647166
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,22.848435
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,19.387211
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,23.775782
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,26.864036
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,17.668934
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,25.772698
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,28.884172
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,22.754104
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,43.953923
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,26.283537
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,22.011066
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,40.842449
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,32.878005
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,21.778866
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,40.819229
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,21.012608
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,23.079184
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,37.986395
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,43.094785
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.063673
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,28.932063
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,17.716825
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,25.82059
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,23.823673
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,19.435102
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,26.911927
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,21.060499
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,18.111565
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,38.034286
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,43.142676
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,23.127075
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,32.925896
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,40.89034
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,22.058957
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,26.331429
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,40.86712
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,21.826757
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,44.001814
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,22.801995
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,14.69678
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,16.531156
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.029569
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.215329
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.543492
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.656508
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,10.563628
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,8.125533
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,25.540499
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.339138
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,13.071383
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.901043
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,2.924263
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,13.814422
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,4.758639
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,5.873197
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,1.391746
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,31.090068
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,14.232381
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,20.130249
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,18.063673
+Aedes sierrensis,RawData_WithAllFieldNoises,.wav,44100,6.732336
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,5.387029
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,25.58839
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,10.704399
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,8.591383
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,8.173424
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,10.611519
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,16.579048
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,14.744671
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,10.26322
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,10.07746
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,6.780227
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,18.111565
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,31.137959
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,20.178141
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,14.280272
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,4.806531
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,13.862313
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,1.439637
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,5.921088
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,13.119274
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,2.972154
+Aedes sierrensis,RawData_WithAllFieldNoises,.m4a,44100,2.948934
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.551927
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.079138
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.12229
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.384082
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.110431
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.594989
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,4.668685
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.391542
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.052857
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.616803
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.655306
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.465556
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.559161
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,9.216621
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,8.845918
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.321905
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.489206
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,5.097506
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,10.742132
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.405102
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.448435
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.837438
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.870385
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.151497
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.258322
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.223991
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.633764
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.141587
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.245669
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,4.009683
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.353401
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.720975
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.085147
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.230907
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,4.137959
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.79415
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,10.323084
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.13093
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.47195
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.640454
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,5.357007
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.723107
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,14.91966
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.032766
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.510272
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.012608
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.113741
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.211995
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.044898
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.158866
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,17.339615
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,10.353741
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.052562
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.801429
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.162766
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,6.568776
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.191474
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.174104
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.145102
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.970408
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.455896
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.311202
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.183537
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.3
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.867596
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.099093
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,4.090567
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.997619
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.162494
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.392789
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.46839
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.793288
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.206485
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.3022
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.007891
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.399456
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.388571
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.589955
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.446667
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.50839
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.238889
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.283311
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.242698
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,12.171293
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.357166
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.670703
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.177755
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.978571
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.986009
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.561361
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,3.786689
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.84839
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.12737
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.756054
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.958254
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.159705
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,12.375669
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,7.720045
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,6.047528
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.937347
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.511927
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.743107
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,5.668957
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.703084
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,4.928912
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.119252
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,2.847256
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.302585
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,0.257415
+Aedes sierrensis,CleanedData_SnippedToIsolateMosquitoSounds,.wav,44100,1.649524
+Anopheles gambiae akron,CDC_T209,.wav,8000,60.0
+Anopheles gambiae akron,CDC_T209,.wav,8000,60.0
+Anopheles gambiae akron,CDC_T209,.wav,8000,60.0
+Anopheles gambiae akron,CDC_T209,.wav,8000,60.0
+Anopheles gambiae akron,CDC_T209,.wav,8000,60.0
+Anopheles gambiae akron,CDC_Xperia,.wav,44100,355.961905
+Anopheles gambiae akron,CDC_Nexus,.wav,44100,317.022041
+Anopheles dirus,iPhone6,.m4a,44100,31.973878
+Anopheles dirus,iPhone6,.wav,44100,20.72381
+Anopheles dirus,iPhone6,.m4a,44100,32.484717
+Anopheles dirus,iPhone6,.m4a,44100,47.275828
+Anopheles dirus,iPhone6,.m4a,44100,53.777415
+Anopheles dirus,iPhone6,.m4a,44100,25.309751
+Anopheles dirus,iPhone6,.m4a,44100,32.902676
+Anopheles dirus,iPhone6,.m4a,44100,28.235465
+Anopheles dirus,iPhone6,.m4a,44100,57.887347
+Anopheles dirus,iPhone6,.m4a,44100,31.230839
+Anopheles dirus,iPhone6,.m4a,44100,54.938413
+Anopheles dirus,iPhone4S,.wav,44100,40.633469
+Anopheles dirus,iPhone4S,.wav,44100,29.650431
+Anopheles dirus,iPhone4S,.wav,44100,20.72381
+Anopheles dirus,iPhone4S,.wav,44100,49.549932
+Anopheles dirus,iPhone4S,.wav,44100,40.726349
+Anopheles dirus,iPhone4S,.wav,44100,39.495692
+Anopheles dirus,iPhone4S,.wav,44100,25.0761
+Anopheles dirus,iPhone4S,.wav,44100,38.984853
+Anopheles dirus,iPhone4S,.wav,44100,36.918277
+Anopheles dirus,iPhone4S,.wav,44100,28.187574
+Anopheles dirus,iPhone4S,.m4a,44100,39.543583
+Anopheles dirus,iPhone4S,.m4a,44100,40.77424
+Anopheles dirus,iPhone4S,.m4a,44100,49.597823
+Anopheles dirus,iPhone4S,.m4a,44100,40.681361
+Anopheles dirus,iPhone4S,.m4a,44100,29.698322
+Anopheles dirus,iPhone4S,.m4a,44100,28.235465
+Anopheles dirus,iPhone4S,.m4a,44100,36.966168
+Anopheles dirus,iPhone4S,.m4a,44100,39.032744
+Anopheles dirus,iPhone4S,.m4a,44100,25.123991
+Anopheles dirus,SamsungT209,.wav,44100,20.72381
+Anopheles dirus,SamsungT209,.wav,8000,60.0
+Anopheles dirus,SamsungT209,.wav,8000,60.0
+Anopheles dirus,SamsungT209,.wav,8000,60.0
+Anopheles dirus,SamsungT209,.wav,8000,60.0
+Anopheles dirus,SamsungT209,.wav,8000,60.0
+Anopheles dirus,SamsungT209,.amr,8000,60.0
+Anopheles dirus,SamsungT209,.amr,8000,60.0
+Anopheles dirus,SamsungT209,.amr,8000,60.0
+Anopheles dirus,SamsungT209,.amr,8000,60.0
+Anopheles dirus,SamsungT209,.amr,8000,60.0
+Anopheles dirus,GoogleNexus,.wav,44100,20.72381
+Anopheles dirus,GoogleNexus,.wav,44100,30.58068
+Anopheles dirus,GoogleNexus,.wav,44100,66.38585
+Anopheles dirus,GoogleNexus,.wav,44100,66.943129
+Anopheles dirus,GoogleNexus,.wav,44100,48.692245
+Anopheles dirus,Huawei866C,.wav,8000,15.88
+Anopheles dirus,Huawei866C,.wav,8000,7.94
+Anopheles dirus,Huawei866C,.wav,8000,29.06
+Anopheles dirus,Huawei866C,.wav,8000,17.94
+Anopheles dirus,Huawei866C,.wav,8000,29.06
+Anopheles dirus,Huawei866C,.wav,8000,25.1
+Anopheles dirus,Huawei866C,.wav,8000,1.42
+Anopheles dirus,Huawei866C,.wav,8000,33.94
+Anopheles dirus,Huawei866C,.wav,8000,38.54
+Anopheles dirus,Huawei866C,.wav,8000,31.5
+Anopheles dirus,Huawei866C,.wav,8000,14.74
+Anopheles dirus,Huawei866C,.amr,8000,15.88
+Anopheles dirus,Huawei866C,.amr,8000,29.06
+Anopheles dirus,Huawei866C,.amr,8000,17.94
+Anopheles dirus,Huawei866C,.amr,8000,29.06
+Anopheles dirus,Huawei866C,.amr,8000,1.42
+Anopheles dirus,Huawei866C,.amr,8000,33.94
+Anopheles dirus,Huawei866C,.amr,8000,25.1
+Anopheles dirus,Huawei866C,.amr,8000,14.74
+Anopheles dirus,Huawei866C,.amr,8000,31.5
+Anopheles dirus,Huawei866C,.amr,8000,38.54
+Anopheles dirus,Nokia5235,.wav,44100,20.72381
+Anopheles dirus,Nokia5235,.mp4,48000,62.954667
+Anopheles dirus,Nokia5235,.mp4,48000,62.144
+Anopheles dirus,Nokia5235,.mp4,48000,50.709333
+Anopheles dirus,Nokia5235,.mp4,48000,64.554667
+Anopheles dirus,Nokia5235,.mp4,48000,69.269333
+Anopheles dirus,Nokia5235,.mp4,48000,33.024
+Anopheles dirus,Nokia5235,.mp4,48000,59.2
+Anopheles dirus,Nokia5235,.mp4,48000,30.869333
+Anopheles dirus,SonyXperia,.wav,44100,95.085714
+Anopheles dirus,SonyXperia,.wav,44100,20.72381
+Anopheles dirus,SonyXperia,.wav,44100,29.257143
+Anopheles dirus,SonyXperia,.wav,44100,62.171429
+Anopheles dirus,SonyXperia,.wav,44100,65.828571
+Anopheles dirus,SonyXperia,.wav,44100,59.733333
+Anopheles dirus,Nokia6555B,.wav,44100,20.72381
+Anopheles dirus,Nokia6555B,.wav,8000,67.84
+Anopheles dirus,Nokia6555B,.wav,8000,61.6
+Anopheles dirus,Nokia6555B,.wav,8000,63.84
+Anopheles dirus,Nokia6555B,.wav,8000,70.24
+Anopheles dirus,Nokia6555B,.wav,8000,78.88
+Anopheles dirus,Nokia6555B,.amr,8000,81.4245
+Anopheles dirus,Nokia6555B,.amr,8000,70.028375
+Anopheles dirus,Nokia6555B,.amr,8000,63.587125
+Anopheles dirus,Nokia6555B,.amr,8000,65.899375
+Anopheles dirus,Nokia6555B,.amr,8000,72.50575

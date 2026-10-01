@@ -1,0 +1,899 @@
+path,start_s,end_s,median_snr_db
+data/raw/abuzz/audio/Aedes aegypti/Auburn_T209/Voice0121 AEGY ui.wav,0.0,60.0,21.1
+data/raw/abuzz/audio/Aedes aegypti/Auburn_T209/Voice0122.wav,0.0,60.0,22.1
+data/raw/abuzz/audio/Aedes aegypti/Auburn_T209/Voice0123.wav,0.0,60.0,22.5
+data/raw/abuzz/audio/Aedes aegypti/Auburn_T209/Voice0124.wav,0.0,60.0,21.7
+data/raw/abuzz/audio/Aedes aegypti/Auburn_T209/Voice0125 aegy ui.wav,0.0,60.0,23.3
+data/raw/abuzz/audio/Aedes aegypti/CDC_Nexus/10130f.wav,0.0,293.5,22.4
+data/raw/abuzz/audio/Aedes aegypti/CDC_T209/Voice0131 10130f.wav,0.0,60.0,23.3
+data/raw/abuzz/audio/Aedes aegypti/CDC_T209/Voice0132.wav,0.0,60.0,23.7
+data/raw/abuzz/audio/Aedes aegypti/CDC_T209/Voice0133.wav,0.0,60.0,24.9
+data/raw/abuzz/audio/Aedes aegypti/CDC_T209/Voice0134.wav,0.0,60.0,22.9
+data/raw/abuzz/audio/Aedes aegypti/CDC_T209/Voice0135 AEGY10130f.wav,0.0,60.0,23.0
+data/raw/abuzz/audio/Aedes aegypti/CDC_Xperia/11-16-2016-111457 10130f.wav,0.0,152.0,19.3
+data/raw/abuzz/audio/Aedes aegypti/CDC_Xperia/11-16-2016-111839 10130f.wav,0.0,246.0,20.0
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Snipped/Aela.wav,0.0,18.5,24.1
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Aela1.wav,0.0,60.0,23.9
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Aela2.wav,0.0,60.0,22.0
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Aela3.wav,0.0,60.0,23.0
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Aela4.wav,0.0,60.0,24.2
+data/raw/abuzz/audio/Aedes aegypti/UCD_LA_T209/Aela5.wav,0.0,60.0,24.3
+data/raw/abuzz/audio/Aedes aegypti/UCD_PR_T209/Snipped/Aepr.wav,0.0,5.5,27.3
+data/raw/abuzz/audio/Aedes aegypti/UCD_PR_T209/Voice0091.wav,0.0,60.0,26.8
+data/raw/abuzz/audio/Aedes aegypti/UCD_PR_T209/Voice0092.wav,0.0,60.0,27.1
+data/raw/abuzz/audio/Aedes albopictus/CDC_Nexus/albof.wav,0.0,339.5,23.5
+data/raw/abuzz/audio/Aedes albopictus/CDC_T209/Voice0136 albof.wav,0.0,60.0,25.3
+data/raw/abuzz/audio/Aedes albopictus/CDC_T209/Voice0137.wav,0.0,60.0,25.7
+data/raw/abuzz/audio/Aedes albopictus/CDC_T209/Voice0138.wav,0.0,60.0,22.2
+data/raw/abuzz/audio/Aedes albopictus/CDC_T209/Voice0139.wav,0.0,60.0,21.4
+data/raw/abuzz/audio/Aedes albopictus/CDC_T209/Voice0140 albof.wav,0.0,60.0,23.8
+data/raw/abuzz/audio/Aedes albopictus/CDC_Xperia/11-16-2016-125240 albopictus f.wav,0.0,326.5,19.6
+data/raw/abuzz/audio/Aedes mediovittatus/UCD_T209/Ae medi 3.wav,0.0,60.0,25.2
+data/raw/abuzz/audio/Aedes mediovittatus/UCD_T209/Ae medio 2.wav,0.0,60.0,25.1
+data/raw/abuzz/audio/Aedes mediovittatus/UCD_T209/Ae medio 4.wav,0.0,60.0,25.2
+data/raw/abuzz/audio/Aedes sierrensis/Anna1.wav,0.0,2.5,22.3
+data/raw/abuzz/audio/Aedes sierrensis/Anna2.wav,0.0,0.67,21.2
+data/raw/abuzz/audio/Aedes sierrensis/Anna3.wav,0.0,1.5,17.8
+data/raw/abuzz/audio/Aedes sierrensis/Anna4.wav,0.0,1.5,21.3
+data/raw/abuzz/audio/Aedes sierrensis/Anna5.wav,0.0,1.5,19.4
+data/raw/abuzz/audio/Aedes sierrensis/Anna6.wav,0.0,12.0,17.3
+data/raw/abuzz/audio/Aedes sierrensis/Argo10_sp2_12_multiple.wav,0.0,10.0,28.5
+data/raw/abuzz/audio/Aedes sierrensis/Argo11_sp2_13.wav,0.0,1.5,28.5
+data/raw/abuzz/audio/Aedes sierrensis/Argo12_sp2_14.wav,0.0,1.0,21.4
+data/raw/abuzz/audio/Aedes sierrensis/Argo13_sp2_16.wav,0.0,0.63,33.7
+data/raw/abuzz/audio/Aedes sierrensis/Argo15_sp2_18.wav,0.0,0.59,28.5
+data/raw/abuzz/audio/Aedes sierrensis/Argo1_sp2_1.wav,0.0,3.5,17.5
+data/raw/abuzz/audio/Aedes sierrensis/Argo2_sp2_2.wav,0.0,0.55,39.8
+data/raw/abuzz/audio/Aedes sierrensis/Argo3_sp2_4.wav,0.0,0.64,26.8
+data/raw/abuzz/audio/Aedes sierrensis/Argo4_sp2_6.wav,0.0,3.5,25.1
+data/raw/abuzz/audio/Aedes sierrensis/Argo7_sp2_8.wav,0.0,2.0,30.7
+data/raw/abuzz/audio/Aedes sierrensis/Argo8_sp2_10.wav,0.0,0.51,33.7
+data/raw/abuzz/audio/Aedes sierrensis/Argo9_sp2_11_a.wav,0.0,7.5,19.2
+data/raw/abuzz/audio/Aedes sierrensis/Christine10_Trail Xing 6_57.wav,0.0,6.0,31.6
+data/raw/abuzz/audio/Aedes sierrensis/Christine11_Trail Xing 7_04.wav,0.0,12.0,24.9
+data/raw/abuzz/audio/Aedes sierrensis/Christine12_Trail Xing 7_05.wav,0.0,3.5,26.9
+data/raw/abuzz/audio/Aedes sierrensis/Christine13_Trail Xing 7_20.wav,0.0,3.5,25.4
+data/raw/abuzz/audio/Aedes sierrensis/Christine1_2 Mosquitoes East Ridge 6_37.wav,0.0,5.0,23.0
+data/raw/abuzz/audio/Aedes sierrensis/Christine3_At Trail Crossing. 6_43.wav,0.0,1.5,21.5
+data/raw/abuzz/audio/Aedes sierrensis/Christine4_At Trail Xing Multiple 6_46.wav,0.0,2.5,18.6
+data/raw/abuzz/audio/Aedes sierrensis/Christine5_East ridge 2 Not In Bag 6_34.wav,0.0,3.5,26.4
+data/raw/abuzz/audio/Aedes sierrensis/Christine6_East Ridge Trail 6_27p.wav,0.0,1.5,32.3
+data/raw/abuzz/audio/Aedes sierrensis/Christine7_In the bag.wav,0.0,0.85,23.5
+data/raw/abuzz/audio/Aedes sierrensis/Christine8_Multiple Swarming Trail Xing 6_52.wav,0.0,17.0,19.3
+data/raw/abuzz/audio/Aedes sierrensis/Christine9_Trail Xing 6_54.wav,0.0,0.62,28.0
+data/raw/abuzz/audio/Aedes sierrensis/Deepak10_1824.wav,0.0,10.0,29.7
+data/raw/abuzz/audio/Aedes sierrensis/Deepak11_1856.wav,0.0,2.0,20.2
+data/raw/abuzz/audio/Aedes sierrensis/Deepak13_1914.wav,0.0,0.72,20.1
+data/raw/abuzz/audio/Aedes sierrensis/Deepak15_1916.wav,0.0,1.0,27.9
+data/raw/abuzz/audio/Aedes sierrensis/Deepak16_1917.wav,0.0,4.0,18.0
+data/raw/abuzz/audio/Aedes sierrensis/Deepak17_1918.wav,0.0,4.0,27.2
+data/raw/abuzz/audio/Aedes sierrensis/Deepak18_1919.wav,0.0,0.8,22.4
+data/raw/abuzz/audio/Aedes sierrensis/Deepak20_1922.wav,0.0,1.0,32.2
+data/raw/abuzz/audio/Aedes sierrensis/Deepak21_1923.wav,0.0,2.0,23.2
+data/raw/abuzz/audio/Aedes sierrensis/Deepak22_1926.wav,0.0,1.5,34.4
+data/raw/abuzz/audio/Aedes sierrensis/Deepak24_2002.wav,0.0,0.96,24.6
+data/raw/abuzz/audio/Aedes sierrensis/Deepak26_2004.wav,0.0,0.51,21.8
+data/raw/abuzz/audio/Aedes sierrensis/Deepak3_1811.wav,0.0,2.0,27.2
+data/raw/abuzz/audio/Aedes sierrensis/Deepak8_1822.wav,0.0,5.5,17.0
+data/raw/abuzz/audio/Aedes sierrensis/Felix1_Cross Pine East 1.wav,0.0,9.0,30.0
+data/raw/abuzz/audio/Aedes sierrensis/Felix2_Peak 1 (1).wav,0.0,14.5,22.7
+data/raw/abuzz/audio/Aedes sierrensis/Felix3_Peak 1.wav,0.0,10.5,30.2
+data/raw/abuzz/audio/Aedes sierrensis/Hari1_185015.wav,0.0,4.5,28.6
+data/raw/abuzz/audio/Aedes sierrensis/Hari3_1923c.wav,0.0,4.0,38.9
+data/raw/abuzz/audio/Aedes sierrensis/Hari4_1923b.wav,0.0,8.5,28.8
+data/raw/abuzz/audio/Aedes sierrensis/Hari5_1923a.wav,0.0,3.0,30.8
+data/raw/abuzz/audio/Aedes sierrensis/Laurel1_Summit1.wav,0.0,1.5,23.0
+data/raw/abuzz/audio/Aedes sierrensis/Matt2_2a.wav,0.0,3.0,30.5
+data/raw/abuzz/audio/Aedes sierrensis/Matt3_2b.wav,0.0,3.0,23.8
+data/raw/abuzz/audio/Aedes sierrensis/Matt6_10.wav,0.0,6.5,35.5
+data/raw/abuzz/audio/Aedes sierrensis/Stefan10_1916.wav,0.0,5.0,21.8
+data/raw/abuzz/audio/Aedes sierrensis/Stefan14_1936.wav,0.0,1.0,34.5
+data/raw/abuzz/audio/Aedes sierrensis/Stefan15_1937.wav,0.0,1.0,24.7
+data/raw/abuzz/audio/Aedes sierrensis/Stefan1_1823.wav,0.0,3.0,16.8
+data/raw/abuzz/audio/Aedes sierrensis/Stefan2_1829.wav,0.0,2.0,28.4
+data/raw/abuzz/audio/Aedes sierrensis/Stefan3_1835.wav,0.0,2.0,26.8
+data/raw/abuzz/audio/Aedes sierrensis/Stefan5_1836__.wav,0.0,0.56,25.1
+data/raw/abuzz/audio/Aedes sierrensis/Stefan7_1907.wav,0.0,0.66,29.8
+data/raw/abuzz/audio/Aedes sierrensis/Stefan8_1914.wav,0.0,2.5,33.3
+data/raw/abuzz/audio/Aedes sierrensis/Stefan9_1915.wav,0.0,1.5,26.6
+data/raw/abuzz/audio/Aedes sierrensis/Vivek2.wav,0.0,1.0,27.1
+data/raw/abuzz/audio/Aedes sierrensis/Vivek3.wav,0.0,1.0,34.7
+data/raw/abuzz/audio/Aedes sierrensis/William10_15.wav,0.0,1.0,30.6
+data/raw/abuzz/audio/Aedes sierrensis/William12_21.wav,0.0,3.0,26.0
+data/raw/abuzz/audio/Aedes sierrensis/William1_1.wav,0.0,0.76,20.7
+data/raw/abuzz/audio/Aedes sierrensis/William2_2.wav,0.0,1.5,40.5
+data/raw/abuzz/audio/Aedes sierrensis/William4_5.wav,0.0,1.0,19.8
+data/raw/abuzz/audio/Aedes sierrensis/William5_6.wav,0.0,4.5,14.3
+data/raw/abuzz/audio/Aedes sierrensis/William7_8.wav,0.0,1.0,31.2
+data/raw/abuzz/audio/Aedes sierrensis/William8_9.wav,0.0,3.0,23.5
+data/raw/abuzz/audio/Aedes sierrensis/William9_12.wav,0.0,1.0,32.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL1.wav,0.0,2.5,22.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL2.wav,0.0,0.67,21.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL3.wav,0.0,1.5,17.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL4.wav,0.0,1.5,21.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL5.wav,0.0,1.5,19.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/AL6.wav,0.0,12.0,17.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo10_sp2_12_multiple.wav,0.0,10.0,28.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo11_sp2_13.wav,0.0,1.5,28.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo12_sp2_14.wav,0.0,1.0,21.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo13_sp2_16.wav,0.0,0.63,33.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo15_sp2_18.wav,0.0,0.59,28.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo1_sp2_1.wav,0.0,3.5,17.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo2_sp2_2.wav,0.0,0.55,39.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo3_sp2_4.wav,0.0,0.64,26.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo4_sp2_6.wav,0.0,3.5,25.1
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo7_sp2_8.wav,0.0,2.0,30.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo8_sp2_10.wav,0.0,0.51,33.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/Argo9_sp2_11_a.wav,0.0,7.5,19.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK10_Trail Xing 6_57.wav,0.0,6.0,31.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK11_Trail Xing 7_04.wav,0.0,12.0,24.9
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK12_Trail Xing 7_05.wav,0.0,3.5,26.9
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK13_Trail Xing 7_20.wav,0.0,3.5,25.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK1_2 Mosquitoes East Ridge 6_37.wav,0.0,5.0,23.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK3_At Trail Crossing. 6_43.wav,0.0,1.5,21.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK4_At Trail Xing Multiple 6_46.wav,0.0,2.5,18.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK5_East ridge 2 Not In Bag 6_34.wav,0.0,3.5,26.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK6_East Ridge Trail 6_27p.wav,0.0,1.5,32.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK7_In the bag.wav,0.0,0.85,23.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK8_Multiple Swarming Trail Xing 6_52.wav,0.0,17.0,19.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/CK9_Trail Xing 6_54.wav,0.0,0.62,28.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK10_1824.wav,0.0,10.0,29.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK11_1856.wav,0.0,2.0,20.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK13_1914.wav,0.0,0.72,20.1
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK15_1916.wav,0.0,1.0,27.9
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK16_1917.wav,0.0,4.0,18.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK17_1918.wav,0.0,4.0,27.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK18_1919.wav,0.0,0.8,22.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK20_1922.wav,0.0,1.0,32.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK21_1923.wav,0.0,2.0,23.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK22_1926.wav,0.0,1.5,34.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK24_2002.wav,0.0,0.96,24.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK26_2004.wav,0.0,0.51,21.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK3_1811.wav,0.0,2.0,27.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/DK8_1822.wav,0.0,5.5,17.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/FH1_Cross Pine East 1.wav,0.0,9.0,30.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/FH2_Peak 1 (1).wav,0.0,14.5,22.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/FH3_Peak 1.wav,0.0,10.5,30.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/HP1_185015.wav,0.0,4.5,28.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/HP3_1923c.wav,0.0,4.0,38.9
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/HP4_1923b.wav,0.0,8.5,28.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/HP5_1923a.wav,0.0,3.0,30.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/LK1_Summit1.wav,0.0,1.5,23.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/MB2_2a.wav,0.0,3.0,30.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/MB3_2b.wav,0.0,3.0,23.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/MB6_10.wav,0.0,6.5,35.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK10_1916.wav,0.0,5.0,21.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK14_1936.wav,0.0,1.0,34.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK15_1937.wav,0.0,1.0,24.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK1_1823.wav,0.0,3.0,16.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK2_1829.wav,0.0,2.0,28.4
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK3_1835.wav,0.0,2.0,26.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK5_1836__.wav,0.0,0.56,25.1
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK7_1907.wav,0.0,0.66,29.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK8_1914.wav,0.0,2.5,33.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/SK9_1915.wav,0.0,1.5,26.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/VP2.wav,0.0,1.0,27.1
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/VP3.wav,0.0,1.0,34.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG10_15.wav,0.0,1.0,30.6
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG12_21.wav,0.0,3.0,26.0
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG1_1.wav,0.0,0.76,20.7
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG2_2.wav,0.0,1.5,40.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG4_5.wav,0.0,1.0,19.8
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG5_6.wav,0.0,4.5,14.3
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG7_8.wav,0.0,1.0,31.2
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG8_9.wav,0.0,3.0,23.5
+data/raw/abuzz/audio/Aedes sierrensis/CleanedData_SnippedToIsolateMosquitoSounds/WG9_12.wav,0.0,1.0,32.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-131817.wav,0.0,29.0,27.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-181559.wav,0.0,11.0,9.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-181559.wav,12.0,20.5,11.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-181559.wav,21.5,23.0,8.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-181559.wav,25.0,36.0,13.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-181559.wav,37.0,40.0,10.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-182115.wav,0.0,1.5,10.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-182115.wav,2.5,14.5,10.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-185015 sherman Grove small f falcon tube .wav,0.0,23.0,18.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191347 sequoia f small .wav,0.0,5.5,9.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191347 sequoia f small .wav,7.5,8.5,7.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191611 sequoia f small .wav,0.0,6.0,14.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191711 sequoia f small .wav,1.5,7.0,9.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191711 sequoia f small .wav,8.0,11.5,14.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-191711 sequoia f small .wav,12.5,17.5,7.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192005 sequoia f small free flight .wav,0.0,4.0,11.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192005 sequoia f small free flight .wav,5.5,7.5,13.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192005 sequoia f small free flight .wav,9.0,10.5,9.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192005 sequoia f small free flight .wav,11.5,17.0,11.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192055 sequoia f small .wav,0.0,6.0,10.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192443 sequoia f 1923c.wav,0.0,19.5,18.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192543 sequoia f 1923b.wav,0.0,31.5,19.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/HP/08-17-2016-192711 sequoia f 1923a.wav,0.0,14.5,17.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/1 Vivek Shadowbrook -7pm.m4a,0.5,23.5,25.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/2 Mosquitoes East Ridge 6_37.m4a,0.0,28.5,13.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/2 Vivek Shadowbrook -7pm.m4a,0.0,4.0,17.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/3 Vivek Shadowbrook -7pm (maybe Bag).m4a,0.0,10.5,13.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/4 Vivek Shadowbrook -7pm.m4a,0.5,3.0,12.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/5 Vivek Shadowbrook -7pm.m4a,0.0,4.0,16.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/6 Vivek Shadowbrook -7pm.m4a,0.0,2.5,16.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/7 Vivek Shadowbrook -7pm.m4a,0.0,5.5,25.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/Raw/8 Vivek Shadowbrook -7pm.m4a,0.0,19.0,19.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/__rec_20160817-1836.wav,0.0,9.5,18.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/_rec_20160817-1836.wav,0.0,3.0,17.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/_rec_20160817-1943.wav,0.0,6.5,14.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 1.m4a,0.0,38.0,22.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 2.m4a,0.5,24.5,14.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 2.m4a,25.5,26.5,14.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 2.m4a,27.5,36.5,12.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 2.m4a,37.5,38.5,14.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 2.m4a,39.5,48.5,15.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 3.m4a,0.0,76.5,18.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 4.m4a,0.0,17.0,17.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 5.m4a,0.5,40.0,18.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 6.m4a,0.0,23.0,16.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AL/Raw/AL 6.m4a,24.0,29.5,14.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1828 sp2_1.wav,0.0,53.5,11.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1836_sp2_2.wav,0.0,29.5,12.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1837_sp2_3.wav,0.0,21.5,33.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1839_sp2_4.wav,0.0,44.0,15.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1840_bag2_sp2_6.wav,0.0,64.0,12.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1841_sp2_5.wav,0.0,4.0,13.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1852_sp2_7.wav,0.0,9.5,14.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1853_sp2_8.wav,0.0,46.0,14.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1855_sp2_10.wav,0.0,10.5,14.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1857_bag3_sp2_11_a.wav,0.0,44.5,13.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1903_sp2_12_multiple.wav,0.0,83.0,14.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1903_sp2_12_multiple.wav,84.0,93.5,12.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1904_sp2_13.wav,0.0,22.0,12.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1904_sp2_14.wav,0.0,17.5,11.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1912_bag2_15.wav,0.0,80.0,21.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1913_s p2_16.wav,0.0,28.0,14.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1914_sp2_17.wav,0.0,12.0,16.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/AR/ARGV_20160817-1915_sp2_18.wav,0.0,25.0,16.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/At Trail Crossing 2 6_44.m4a,0.0,26.0,15.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/At Trail Crossing. 6_43.m4a,0.0,43.5,16.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/At Trail Xing Multiple 6_46.m4a,0.0,40.5,15.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/FH/Raw/Cross Pine And East 1.m4a,0.0,17.5,16.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/FH/Raw/Cross Pine East 1.m4a,0.0,3.0,25.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/FH/Raw/Cross Pine East 1.m4a,4.0,17.5,20.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/dk small sequioa ff 1922.wav,0.0,5.0,11.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/dk small sequioa ff 1923.wav,0.0,6.5,22.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/ds1-tinyspecies-parkinglot-454.wav,0.0,9.0,17.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/East ridge 2 Not In Bag 6_34.m4a,0.5,40.5,14.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/East Ridge Trail 6_27p.m4a,0.0,22.5,17.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/In the bag.m4a,0.0,43.0,15.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Inside Bag 3 Next Morning 7_51a.m4a,0.0,23.0,20.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb-2a-532.wav,0.0,12.0,23.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb10-long-snallstripesgreen.wav,0.0,31.0,32.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb11and12-freeflight-fireroad-718.wav,2.0,7.5,15.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb11and12-freeflight-fireroad-718.wav,11.0,16.0,16.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb11and12-freeflight-fireroad-718.wav,17.0,18.0,10.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb13-freeflight-ants-good-731.wav,9.5,11.0,21.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb13-freeflight-ants-good-731.wav,37.5,38.5,12.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb14-larger-antslocation-732.wav,0.0,10.5,25.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb15-tiny-antslocation-&736.wav,0.0,47.0,20.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb2b-536.wav,0.0,28.0,23.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb3-ants-falcontube-530ish.wav,0.0,77.0,28.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb4-aedis-536.wav,1.5,3.5,51.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb5-greenaedis.wav,0.0,1.5,15.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb5-greenaedis.wav,3.0,4.5,26.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb5-greenaedis.wav,7.5,8.5,8.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/mb6and7-greensmall-lastatants.wav,0.0,20.0,17.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Multiple Swarming Trail Xing 6_52.m4a,0.0,21.5,18.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 1.m4a,0.0,13.0,20.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 10.m4a,0.0,8.5,15.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 11.m4a,0.0,10.5,26.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 12.m4a,0.0,8.0,30.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 13.m4a,0.0,10.5,16.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 14.m4a,0.0,10.0,14.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 15.m4a,0.0,10.0,17.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 16.m4a,0.0,14.5,24.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 17.m4a,0.0,16.5,17.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 18.m4a,0.0,6.5,13.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 19.m4a,0.0,18.0,26.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 2.m4a,0.0,2.5,35.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 20.m4a,0.0,14.0,24.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 21.m4a,0.0,20.0,21.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 22.m4a,0.0,31.0,24.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 3.m4a,0.0,2.5,42.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 4.m4a,0.0,1.0,23.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 5.m4a,0.0,5.5,14.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 6.m4a,0.0,13.5,13.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 7.m4a,0.0,4.5,13.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 8.m4a,0.0,5.0,18.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/WG/Raw/New Recording 9.m4a,0.0,25.5,12.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/FH/Raw/Peak 1.m4a,0.0,16.5,22.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/FH/Raw/Peak 1 (1).m4a,0.0,22.5,24.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1801 dk small near sequoia ff.wav,0.0,3.5,20.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1801 dk small sequioa ff.wav,0.0,19.0,17.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1810 dk small species sequio ff.wav,0.0,5.0,18.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1811 dk small sp sequioa ff.wav,0.0,3.5,25.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1813 dk small sequio ff.wav,0.0,2.0,6.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1813 dk small sequio ff.wav,3.0,4.5,11.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1815 dk small sequio ff.wav,0.0,5.5,11.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1820 dk small sp sequioa ff.wav,0.0,1.5,20.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1821 dk small sp sequioa a ff.wav,0.0,2.0,23.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1822 dk small sp sequioa ff.wav,0.0,6.5,16.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1823.wav,0.0,12.5,16.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1823 dk small sp sequioa ff.wav,0.0,3.0,21.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1824 dk small sp sequioa ff.wav,0.0,7.5,25.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1824 dk small sp sequioa ff.wav,8.5,16.0,31.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1829.wav,0.0,13.5,16.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1833.wav,0.0,8.0,34.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1834.wav,0.0,6.5,31.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1835.wav,0.0,9.5,23.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1836.wav,0.0,10.5,15.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1856 dk small sp sherman ff.wav,0.0,6.5,16.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1900.wav,0.0,8.0,17.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1904.wav,0.0,33.0,18.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1907.wav,0.0,9.0,17.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1913dk small sequioa ff.wav,0.0,2.5,18.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1914.wav,0.0,21.0,23.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1914 dk small sequioa ff.wav,0.0,3.5,14.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1915.wav,0.0,6.5,20.3
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1915 dk small sequioa ff.wav,0.0,1.5,22.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1916.wav,0.0,9.5,22.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1916 dk small sequioa ff.wav,0.0,4.5,20.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1917 dk small sequioa ff.wav,0.0,17.5,12.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1918 dk small sequioa ff.wav,0.0,7.5,21.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1919 dk small sequioa ff.wav,0.5,4.0,21.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1920 dk small sequioa ff.wav,0.0,1.0,10.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1921.wav,0.0,3.5,18.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1921 dk small sequioa ff.wav,0.0,3.5,11.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1921 dk small sequioa ff.wav,4.5,8.0,22.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1924.wav,0.0,2.5,34.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1924 dk small sequioa ff.wav,0.0,4.0,9.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-1926 dk small sequioa ff.wav,0.0,5.0,30.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1928.wav,0.0,3.0,21.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1936.wav,0.0,9.5,18.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1937.wav,0.0,12.0,18.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-1943.wav,0.0,6.0,20.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-2001 dk plot ff.wav,0.0,5.5,10.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-2002 plot dk ff.wav,0.0,3.0,18.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-2003 dk plot ff.wav,0.0,3.5,15.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-2004 dk plot ff.wav,0.0,4.0,14.4
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/DK/rec_20160817-2005 dk plot ff.wav,0.0,4.0,20.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-2332.wav,0.0,13.0,32.0
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/SK/rec_20160817-2338.wav,0.0,28.5,28.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/LK/Raw/Summit1.m4a,0.0,22.0,22.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 6_54.m4a,0.0,18.0,15.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 6_57.m4a,0.0,21.0,20.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_04.m4a,0.0,22.0,21.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_05.m4a,0.0,32.5,17.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_15.m4a,0.0,37.5,12.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_20.m4a,0.0,21.0,13.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_20.m4a,22.5,25.5,12.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_22.m4a,0.0,17.5,12.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_24.m4a,0.0,23.5,26.8
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_25.m4a,0.0,19.0,13.5
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/CK/Raw/Trail Xing 7_27.m4a,0.0,26.5,17.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/MB/Voice 17.wav,0.0,3.0,22.1
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP1 Shadowbrook -7pm.wav,0.5,23.5,25.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP2 Shadowbrook -7pm.wav,0.0,4.0,17.7
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP3 Shadowbrook -7pm (maybe Bag).wav,0.0,10.5,13.9
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP4 Shadowbrook -7pm.wav,0.5,3.0,12.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP5 Shadowbrook -7pm.wav,0.0,4.0,16.2
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP6 Shadowbrook -7pm.wav,0.0,2.5,16.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP7 Shadowbrook -7pm.wav,0.0,5.5,25.6
+data/raw/abuzz/audio/Aedes sierrensis/RawData_WithAllFieldNoises/VP/VP8 Shadowbrook -7pm.wav,0.0,19.0,19.4
+data/raw/abuzz/audio/Anopheles albimanus/GoogleNexus/Rec_1980-02-16_17.39.29aalb.wav,0.0,64.0,20.6
+data/raw/abuzz/audio/Anopheles albimanus/GoogleNexus/Rec_1980-02-16_17.40.56aalb.wav,0.0,49.0,20.9
+data/raw/abuzz/audio/Anopheles albimanus/GoogleNexus/Rec_1980-02-16_17.42.01aalb.wav,0.0,47.5,21.2
+data/raw/abuzz/audio/Anopheles albimanus/GoogleNexus/Rec_1980-02-16_17.43.05aalb.wav,0.0,57.0,21.7
+data/raw/abuzz/audio/Anopheles albimanus/GoogleNexus/Rec_1980-02-16_17.44.18aalb.wav,0.0,65.5,22.7
+data/raw/abuzz/audio/Anopheles albimanus/Huawei866C/Raw/Recording19800216_019.amr,0.5,35.5,19.0
+data/raw/abuzz/audio/Anopheles albimanus/Huawei866C/Raw/Recording19800216_021.amr,0.5,61.0,20.2
+data/raw/abuzz/audio/Anopheles albimanus/Huawei866C/Raw/Recording19800216_022.amr,0.5,59.5,20.6
+data/raw/abuzz/audio/Anopheles albimanus/Huawei866C/Raw/Recording19800216_023.amr,0.5,58.0,21.4
+data/raw/abuzz/audio/Anopheles albimanus/Huawei866C/Raw/Recording19800216_024.amr,0.5,52.5,20.8
+data/raw/abuzz/audio/Anopheles albimanus/Nokia5235/Sound clip 190 aalbi.mp4,0.0,69.0,14.4
+data/raw/abuzz/audio/Anopheles albimanus/Nokia5235/Sound clip 191 aalbi.mp4,0.0,62.5,14.2
+data/raw/abuzz/audio/Anopheles albimanus/Nokia5235/Sound clip 192 aalbi.mp4,0.0,73.5,14.8
+data/raw/abuzz/audio/Anopheles albimanus/Nokia5235/Sound clip 193 aalbm.mp4,0.5,121.5,16.9
+data/raw/abuzz/audio/Anopheles albimanus/Nokia5235/Sound clip 194 aalbf.mp4,0.0,76.0,17.1
+data/raw/abuzz/audio/Anopheles albimanus/Nokia6555B/Raw/Audio032 aalbi.amr,0.0,64.0,17.2
+data/raw/abuzz/audio/Anopheles albimanus/Nokia6555B/Raw/Audio033 aalbf.amr,0.0,48.5,16.4
+data/raw/abuzz/audio/Anopheles albimanus/Nokia6555B/Raw/Audio034 aalbm.amr,0.0,90.5,16.3
+data/raw/abuzz/audio/Anopheles albimanus/Nokia6555B/Raw/Audio035 aalbi.amr,0.0,89.0,17.1
+data/raw/abuzz/audio/Anopheles albimanus/SamsungT209/Raw/Voice0043.amr,0.0,60.0,18.0
+data/raw/abuzz/audio/Anopheles albimanus/SamsungT209/Raw/Voice0044.amr,0.0,60.0,16.4
+data/raw/abuzz/audio/Anopheles albimanus/SamsungT209/Raw/Voice0045.amr,0.0,60.0,18.1
+data/raw/abuzz/audio/Anopheles albimanus/SamsungT209/Raw/Voice0046.amr,0.0,60.0,16.5
+data/raw/abuzz/audio/Anopheles albimanus/SamsungT209/Raw/Voice0047.amr,0.0,60.0,28.4
+data/raw/abuzz/audio/Anopheles albimanus/SonyXperia/03-03-2016-162952 aalbi.wav,0.0,54.5,17.4
+data/raw/abuzz/audio/Anopheles albimanus/SonyXperia/03-03-2016-163123 aalbm.wav,0.0,75.5,13.9
+data/raw/abuzz/audio/Anopheles albimanus/SonyXperia/03-03-2016-163314 aalbf.wav,0.0,73.5,14.5
+data/raw/abuzz/audio/Anopheles albimanus/SonyXperia/03-03-2016-163521 aalbi .wav,0.0,55.5,15.5
+data/raw/abuzz/audio/Anopheles albimanus/SonyXperia/03-03-2016-164124 aalbi tube .wav,0.0,29.0,24.9
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 160934.m4a,0.0,33.0,24.5
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 161039AalbF.m4a,0.0,34.5,24.8
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 161130AalbM.m4a,0.0,73.0,24.8
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 161254.m4a,0.0,48.0,23.9
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 161352.m4a,0.0,70.0,24.4
+data/raw/abuzz/audio/Anopheles albimanus/iPhone4S/Raw/20160303 161512.m4a,0.0,40.5,23.0
+data/raw/abuzz/audio/Anopheles albimanus/iPhone6/Aalb.m4a,0.0,40.0,23.9
+data/raw/abuzz/audio/Anopheles albimanus/iPhone6/Aalb (1).m4a,0.0,51.5,25.5
+data/raw/abuzz/audio/Anopheles albimanus/iPhone6/Aalb (2).m4a,0.0,68.5,25.3
+data/raw/abuzz/audio/Anopheles albimanus/iPhone6/AalbF.m4a,0.0,37.0,24.9
+data/raw/abuzz/audio/Anopheles albimanus/iPhone6/Aalbm.m4a,0.0,49.0,24.6
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_Nexus/dongola f.wav,0.0,407.5,22.9
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_T209/Voice0156 dongolaf.wav,0.0,60.0,18.4
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_T209/Voice0157.wav,0.0,60.0,21.1
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_T209/Voice0159.wav,0.0,60.0,21.0
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_T209/Voice0160 dongolaf.wav,0.0,60.0,19.4
+data/raw/abuzz/audio/Anopheles arabiensis dongola/CDC_Xperia/11-17-2016-191652 dongola .wav,0.0,392.5,16.5
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_Nexus/rufisque.wav,0.0,291.0,27.0
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_T209/Voice0172 rufisque.wav,0.0,60.0,27.4
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_T209/Voice0173.wav,0.0,60.0,28.9
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_T209/Voice0174.wav,0.0,60.0,26.4
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_T209/Voice0175.wav,0.0,60.0,24.7
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_T209/Voice0176 rufisque.wav,0.0,60.0,29.6
+data/raw/abuzz/audio/Anopheles arabiensis rufisque/CDC_Xperia/11-18-2016-135704 rufisque f.wav,0.0,352.0,22.2
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_Nexus/ebro f.wav,0.0,293.0,27.5
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_T209/Voice0161 ebrof.wav,0.0,60.0,28.6
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_T209/Voice0162.wav,0.0,60.0,28.3
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_T209/Voice0163.wav,0.0,60.0,26.8
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_T209/Voice0165.wav,0.0,60.0,25.2
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_T209/Voice0166 ebrof.wav,0.0,60.0,28.6
+data/raw/abuzz/audio/Anopheles atroparvus/CDC_Xperia/11-18-2016-092525 ebro f.wav,0.0,314.5,21.1
+data/raw/abuzz/audio/Anopheles dirus/GoogleNexus/Rec_1980-02-15_16.35.43 adirus mix.wav,0.0,66.5,21.6
+data/raw/abuzz/audio/Anopheles dirus/GoogleNexus/Rec_1980-02-15_16.38.25 adirus mix.wav,0.0,30.5,19.8
+data/raw/abuzz/audio/Anopheles dirus/GoogleNexus/Rec_1980-02-15_16.44.54 adirus mix.wav,0.0,66.0,18.5
+data/raw/abuzz/audio/Anopheles dirus/GoogleNexus/Rec_1980-02-15_16.47.04 adirus.wav,0.0,48.5,17.5
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_022_F.amr,0.5,14.5,20.9
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_023_M.amr,0.5,29.0,20.5
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_024_M.amr,0.5,15.5,17.3
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_025_F.amr,0.5,25.0,18.5
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_026_F.amr,0.5,38.5,19.4
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_027_M.amr,0.5,29.0,18.4
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_028_M.amr,0.5,31.5,19.3
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_029_F.amr,0.5,17.5,17.5
+data/raw/abuzz/audio/Anopheles dirus/Huawei866C/Raw/Recording19800215_030_M.amr,0.5,33.5,20.6
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adf.mp4,0.5,32.5,14.4
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adf1.mp4,0.0,62.5,18.1
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adf2.mp4,0.0,50.5,17.6
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adf3.mp4,0.0,62.0,18.0
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adm1.mp4,0.0,59.0,17.6
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adm2.mp4,0.0,62.5,17.6
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Adm3.mp4,0.0,68.5,17.0
+data/raw/abuzz/audio/Anopheles dirus/Nokia5235/Admf.mp4,0.0,30.5,19.5
+data/raw/abuzz/audio/Anopheles dirus/Nokia6555B/Raw/Audio003.amr,0.0,78.5,20.1
+data/raw/abuzz/audio/Anopheles dirus/Nokia6555B/Raw/Audio004.amr,0.0,67.5,19.5
+data/raw/abuzz/audio/Anopheles dirus/Nokia6555B/Raw/Audio005.amr,0.0,61.5,19.5
+data/raw/abuzz/audio/Anopheles dirus/Nokia6555B/Raw/Audio006.amr,0.0,70.0,18.2
+data/raw/abuzz/audio/Anopheles dirus/Nokia6555B/Raw/Audio007.amr,0.0,63.5,18.2
+data/raw/abuzz/audio/Anopheles dirus/SamsungT209/Raw/Voice0013.amr,0.0,60.0,16.6
+data/raw/abuzz/audio/Anopheles dirus/SamsungT209/Raw/Voice0014.amr,0.0,60.0,16.6
+data/raw/abuzz/audio/Anopheles dirus/SamsungT209/Raw/Voice0015.amr,0.0,60.0,16.6
+data/raw/abuzz/audio/Anopheles dirus/SamsungT209/Raw/Voice0016.amr,0.0,60.0,17.1
+data/raw/abuzz/audio/Anopheles dirus/SamsungT209/Raw/Voice0017.amr,0.0,60.0,16.6
+data/raw/abuzz/audio/Anopheles dirus/SonyXperia/03-02-2016-163059 adirus mix .wav,0.0,62.0,15.4
+data/raw/abuzz/audio/Anopheles dirus/SonyXperia/03-02-2016-163400 adirus mix .wav,0.0,29.0,20.0
+data/raw/abuzz/audio/Anopheles dirus/SonyXperia/03-02-2016-163922 adirus mix .wav,0.0,59.5,17.5
+data/raw/abuzz/audio/Anopheles dirus/SonyXperia/03-02-2016-164146 adirus mix bugdorm .wav,0.0,65.5,14.3
+data/raw/abuzz/audio/Anopheles dirus/SonyXperia/03-02-2016-164309 adirus mix bugdorm .wav,0.0,95.0,15.6
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154000AdM.m4a,0.0,38.5,20.8
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154124AdF.m4a,0.0,40.5,18.6
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154229AdF.m4a,0.0,49.5,23.5
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154329AdM.m4a,0.0,28.0,23.9
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154415AdF.m4a,0.0,29.5,25.1
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154516AdF.m4a,0.0,25.0,23.3
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154608AdM.m4a,0.0,36.5,23.7
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154733AdM.m4a,0.0,40.5,22.4
+data/raw/abuzz/audio/Anopheles dirus/iPhone4S/Raw/20160302 154836AdM.m4a,0.0,39.0,20.7
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf.m4a,0.0,32.0,23.9
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf (1).m4a,0.0,53.5,25.8
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf (2).m4a,0.0,25.0,21.6
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf (3).m4a,0.0,32.5,21.1
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf (4).m4a,0.0,57.5,24.7
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adf Adm.m4a,0.0,47.0,23.8
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adm.m4a,0.0,54.5,23.2
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adm (1).m4a,0.0,31.5,26.1
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adm (2).m4a,0.0,31.0,24.2
+data/raw/abuzz/audio/Anopheles dirus/iPhone6/Adm (3).m4a,0.0,28.0,24.8
+data/raw/abuzz/audio/Anopheles farauti/GoogleNexus/Rec_1980-02-16_15.56.16afar.wav,0.0,38.5,19.9
+data/raw/abuzz/audio/Anopheles farauti/GoogleNexus/Rec_1980-02-16_15.57.33afarm.wav,0.0,30.5,21.1
+data/raw/abuzz/audio/Anopheles farauti/GoogleNexus/Rec_1980-02-16_15.58.23afarf.wav,0.0,39.5,18.7
+data/raw/abuzz/audio/Anopheles farauti/GoogleNexus/Rec_1980-02-16_15.59.31afar.wav,0.0,71.0,20.1
+data/raw/abuzz/audio/Anopheles farauti/GoogleNexus/Rec_1980-02-16_16.01.00afar.wav,0.0,52.0,18.5
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_010.amr,0.5,52.0,19.3
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_011.amr,0.5,50.0,19.3
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_012.amr,0.5,2.0,25.3
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_013.amr,0.5,36.5,21.3
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_014.amr,0.5,27.5,21.3
+data/raw/abuzz/audio/Anopheles farauti/Huawei866C/Raw/Recording19800216_015.amr,0.5,39.0,19.4
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar.mp4,0.0,32.5,14.5
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar.mp4,33.5,47.0,16.9
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar2.mp4,0.5,60.0,17.6
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar3.mp4,0.0,16.0,14.1
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar3.mp4,17.5,47.0,18.9
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar4.mp4,0.0,60.0,16.1
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar5.mp4,0.0,5.0,15.1
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar5.mp4,7.0,22.5,12.8
+data/raw/abuzz/audio/Anopheles farauti/Nokia5235/Afar5.mp4,23.5,57.5,16.0
+data/raw/abuzz/audio/Anopheles farauti/Nokia6555B/Raw/Afar1.amr,0.0,59.0,17.9
+data/raw/abuzz/audio/Anopheles farauti/Nokia6555B/Raw/Afar2.amr,0.0,68.0,18.8
+data/raw/abuzz/audio/Anopheles farauti/Nokia6555B/Raw/Afar3.amr,0.0,57.0,18.7
+data/raw/abuzz/audio/Anopheles farauti/Nokia6555B/Raw/Afar4.amr,0.0,42.0,18.4
+data/raw/abuzz/audio/Anopheles farauti/Nokia6555B/Raw/Afar5.amr,0.0,49.5,20.0
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0037.amr,0.0,60.0,16.1
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0038.amr,0.0,60.0,17.4
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0039.amr,0.0,60.0,17.1
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0040.amr,0.0,60.0,15.9
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0041.amr,0.0,60.0,17.6
+data/raw/abuzz/audio/Anopheles farauti/SamsungT209/Raw/Voice0042.amr,0.0,60.0,17.0
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-152728Afar.wav,0.0,51.0,14.6
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-152936Afar.wav,0.0,36.5,16.2
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-153127Afar.wav,0.0,71.5,17.0
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-153338AfarM.wav,0.0,54.5,16.2
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-153508Afar.wav,0.0,24.0,17.3
+data/raw/abuzz/audio/Anopheles farauti/SonyXperia/03-03-2016-153600AfarF.wav,0.0,90.0,16.0
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 142649AfarTube.m4a,0.0,18.5,22.3
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 142944AfarTube.m4a,0.0,9.5,21.1
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143129.m4a,0.0,36.0,22.7
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143303AfarM.m4a,1.0,39.0,21.4
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143402AfarF.m4a,0.0,86.5,21.4
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143541.m4a,0.0,35.0,20.0
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143628.m4a,0.0,44.5,21.5
+data/raw/abuzz/audio/Anopheles farauti/iPhone4S/Raw/20160303 143729.m4a,0.0,49.5,21.6
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar.m4a,0.0,25.5,24.3
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar (1).m4a,0.0,48.0,24.6
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar (2).m4a,0.0,36.5,22.9
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar (3).m4a,0.0,48.0,24.2
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar (4).m4a,0.0,48.0,24.2
+data/raw/abuzz/audio/Anopheles farauti/iPhone6/Afar (5).m4a,0.0,38.0,25.5
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af1.wav,0.0,69.0,23.5
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af2.wav,0.0,60.0,20.6
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af3.wav,0.0,43.0,24.1
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af4.wav,0.0,78.5,22.5
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af5.wav,0.0,10.5,18.3
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af6.wav,0.0,11.0,21.3
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af7.wav,0.0,5.5,22.1
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/af8.wav,0.0,30.5,19.0
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/aff.wav,0.0,63.0,22.7
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/afm.wav,0.0,46.0,21.7
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.51.15afree.wav,0.0,49.0,20.8
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.53.50afree.wav,0.0,57.0,20.8
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.55.18afreeF.wav,0.0,47.0,20.8
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.56.33afreeM.wav,0.0,56.5,21.9
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.58.11afree.wav,0.0,72.5,20.8
+data/raw/abuzz/audio/Anopheles freeborni/GoogleNexus/Rec_1980-02-16_12.59.43afree.wav,0.0,38.5,25.1
+data/raw/abuzz/audio/Anopheles freeborni/Huawei866C/Raw/Recording19800216_001.amr,0.5,29.5,20.8
+data/raw/abuzz/audio/Anopheles freeborni/Huawei866C/Raw/Recording19800216_002.amr,0.5,24.5,19.6
+data/raw/abuzz/audio/Anopheles freeborni/Huawei866C/Raw/Recording19800216_003.amr,0.5,43.5,20.2
+data/raw/abuzz/audio/Anopheles freeborni/Huawei866C/Raw/Recording19800216_004.amr,0.5,40.5,19.8
+data/raw/abuzz/audio/Anopheles freeborni/Nokia5235/Sound clip 170 af.mp4,0.0,36.0,16.3
+data/raw/abuzz/audio/Anopheles freeborni/Nokia5235/Sound clip 171 afmix.mp4,0.0,24.5,21.4
+data/raw/abuzz/audio/Anopheles freeborni/Nokia5235/Sound clip 172 aff.mp4,0.0,76.0,18.7
+data/raw/abuzz/audio/Anopheles freeborni/Nokia5235/Sound clip 173 afm.mp4,0.0,92.0,20.5
+data/raw/abuzz/audio/Anopheles freeborni/Nokia5235/Sound clip 175 afmix.mp4,0.5,68.0,18.7
+data/raw/abuzz/audio/Anopheles freeborni/Nokia6555B/Raw/Audio014 afmix bugdorm.amr,0.0,100.0,20.0
+data/raw/abuzz/audio/Anopheles freeborni/Nokia6555B/Raw/Audio015 aff.amr,0.0,114.5,19.7
+data/raw/abuzz/audio/Anopheles freeborni/Nokia6555B/Raw/Audio016 af f long.amr,0.0,52.5,27.4
+data/raw/abuzz/audio/Anopheles freeborni/Nokia6555B/Raw/Audio017 afm.amr,0.0,81.5,21.8
+data/raw/abuzz/audio/Anopheles freeborni/Nokia6555B/Raw/Audio018 afswarm.amr,0.0,78.5,24.9
+data/raw/abuzz/audio/Anopheles freeborni/SamsungT209/Raw/Voice0024.amr,0.0,60.0,25.3
+data/raw/abuzz/audio/Anopheles freeborni/SamsungT209/Raw/Voice0025.amr,0.0,60.0,22.4
+data/raw/abuzz/audio/Anopheles freeborni/SamsungT209/Raw/Voice0026.amr,0.0,60.0,18.0
+data/raw/abuzz/audio/Anopheles freeborni/SamsungT209/Raw/Voice0027.amr,0.0,60.0,17.4
+data/raw/abuzz/audio/Anopheles freeborni/SamsungT209/Raw/Voice0028.amr,0.0,60.0,20.1
+data/raw/abuzz/audio/Anopheles freeborni/SonyXperia/03-03-2016-105658 afmix bugdorm .wav,0.0,65.5,16.6
+data/raw/abuzz/audio/Anopheles freeborni/SonyXperia/03-03-2016-105844 afm bugdorm .wav,0.0,74.0,15.1
+data/raw/abuzz/audio/Anopheles freeborni/SonyXperia/03-03-2016-110042 aff bugdorm .wav,0.0,87.5,17.0
+data/raw/abuzz/audio/Anopheles freeborni/SonyXperia/03-03-2016-110345 af .wav,0.0,59.5,24.5
+data/raw/abuzz/audio/Anopheles freeborni/SonyXperia/03-03-2016-110540 afswarm .wav,0.0,58.5,17.4
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110028AfreeF.m4a,0.0,33.5,26.3
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110154AfreeM.m4a,0.0,59.0,27.8
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110341.m4a,0.0,45.0,27.4
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110441.m4a,0.0,67.0,25.6
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110623.m4a,0.0,75.0,27.0
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110753.m4a,0.0,47.0,27.1
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 110941.m4a,0.0,67.5,28.1
+data/raw/abuzz/audio/Anopheles freeborni/iPhone4S/Raw/20160303 111100.m4a,0.0,47.0,27.0
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/Afree.m4a,0.0,57.0,23.3
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/Afree (1).m4a,0.0,53.0,24.7
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/Afree (2).m4a,0.0,44.0,26.3
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/Afree (3).m4a,0.0,49.0,25.2
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/AfreeF.m4a,0.0,25.0,25.4
+data/raw/abuzz/audio/Anopheles freeborni/iPhone6/AfreeM.m4a,0.0,30.5,25.3
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_Nexus/akronf.wav,0.5,317.0,22.0
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_T209/Voice0146 akron.wav,0.0,60.0,21.7
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_T209/Voice0147.wav,0.0,60.0,21.1
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_T209/Voice0148.wav,0.0,60.0,20.1
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_T209/Voice0149.wav,0.0,60.0,21.8
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_T209/Voice0150 akron.wav,0.0,60.0,21.9
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_Xperia/11-17-2016-150332 akron .wav,0.0,173.0,15.8
+data/raw/abuzz/audio/Anopheles gambiae akron/CDC_Xperia/11-17-2016-150332 akron .wav,174.5,355.5,15.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_Nexus/gambiaef.wav,0.0,215.0,25.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_T209/Voice0141 agam.wav,0.0,60.0,22.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_T209/Voice0142.wav,0.0,60.0,23.4
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_T209/Voice0143.wav,0.0,60.0,22.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_T209/Voice0144.wav,0.0,60.0,22.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_T209/Voice0145 agam.wav,0.0,60.0,22.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/CDC_Xperia/11-16-2016-150308 gambiae f.wav,0.0,310.5,20.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/ag1ft rec1.wav,0.0,26.5,24.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/ag2.wav,0.0,6.0,20.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/ag3.wav,0.0,13.0,20.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/ag4.wav,0.0,4.5,20.5
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/ag5.wav,0.0,22.0,22.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/agf.wav,0.0,6.5,20.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/agf1.wav,0.0,7.5,19.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/Rec_1980-02-15_13.02.54 ag1ft.wav,0.0,31.5,22.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/GoogleNexus/Rec_1980-02-15_13.05.09 ag1ft.wav,0.0,29.0,22.5
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_005_F.amr,0.5,5.5,21.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_006_F.amr,0.5,11.5,20.4
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_007_F.amr,0.5,11.5,22.5
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_008_M.amr,0.5,4.5,19.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_009_F.amr,0.5,18.5,19.6
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_010_MF.amr,0.5,14.5,19.6
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_011_F.amr,0.5,13.0,20.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_012_M.amr,0.5,9.5,20.4
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_013_F.amr,0.5,20.5,20.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_014_F.amr,0.5,25.5,18.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_015_F.amr,0.5,19.0,19.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_016_M.amr,0.5,11.0,22.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_017_M.amr,0.5,18.0,20.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_018_M.amr,0.5,7.0,18.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_019_MF.amr,0.5,29.5,19.5
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Huawei866C/Raw/Recording19800215_020_F.amr,0.5,30.5,20.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia5235/Sound clip 146 ag1ft.mp4,0.0,23.5,21.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia5235/Sound clip 147 ag1ft.mp4,0.0,33.5,22.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia5235/Sound clip 148 agmix.mp4,0.0,39.0,15.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia5235/Sound clip 149 agmix.mp4,0.0,63.5,17.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia5235/Sound clip 150 agmix.mp4,0.0,50.5,18.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia6555B/Raw/Audio000.amr,0.0,10.0,32.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia6555B/Raw/Audio001.amr,0.0,27.5,23.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/Nokia6555B/Raw/Audio002.amr,0.0,47.5,20.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SamsungT209/Raw/Voice0008.amr,0.0,16.5,17.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SamsungT209/Raw/Voice0009.amr,0.0,28.0,17.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SamsungT209/Raw/Voice0010.amr,0.0,24.0,19.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SamsungT209/Raw/Voice0011.amr,0.0,35.0,15.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SamsungT209/Raw/Voice0012.amr,0.0,60.0,15.4
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-113334 ag1mt.wav,0.0,25.5,40.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-113427 ag1mt.wav,0.0,24.0,20.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-113635 ag1mt .wav,0.0,26.5,20.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-113928 ag1ft.wav,0.0,19.5,19.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-114051 ag1ft .wav,0.0,28.0,15.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-115917 ag1ft .wav,0.0,25.5,17.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-124107 agmix bugdorm .wav,0.0,39.0,14.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/SonyXperia/03-02-2016-124432 agmix bugdorm swarm .wav,0.0,35.0,13.4
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 113600AgamFThet.m4a,0.0,15.5,25.1
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114300AgamM.m4a,0.0,5.0,17.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114342AgamF.m4a,0.0,9.5,22.5
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114505AgamF.m4a,0.0,9.5,22.3
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114604AgamM.m4a,0.0,2.5,24.8
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114652AgamF.m4a,0.0,12.0,28.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 114921AgamF.m4a,0.0,8.5,21.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115033AgamF.m4a,0.0,18.5,23.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115120AgamF.m4a,0.0,7.0,18.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115227AgamF.m4a,0.0,3.0,21.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115315AgamM.m4a,0.0,9.5,25.0
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115346.m4a,0.0,23.5,22.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115438.m4a,0.0,17.0,20.7
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/Raw/20160302 115601AgamM.m4a,0.0,13.0,22.9
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone4S/20160302_114652AgamF.wav,0.0,12.0,28.2
+data/raw/abuzz/audio/Anopheles gambiae kisumu/iPhone6/Ag Mix Cage 1.m4a,0.0,37.5,22.1
+data/raw/abuzz/audio/Anopheles gambiae rsp/CDC_Nexus/rsp.wav,0.0,253.0,22.3
+data/raw/abuzz/audio/Anopheles gambiae rsp/CDC_Xperia/11-18-2016-145016 rsp f.wav,0.0,314.5,18.2
+data/raw/abuzz/audio/Anopheles merus/Voice0151 maff.wav,0.0,60.0,27.4
+data/raw/abuzz/audio/Anopheles merus/Voice0152.wav,0.0,60.0,28.4
+data/raw/abuzz/audio/Anopheles merus/Voice0153.wav,0.0,60.0,24.4
+data/raw/abuzz/audio/Anopheles merus/Voice0154.wav,0.0,60.0,24.3
+data/raw/abuzz/audio/Anopheles merus/Voice0155 maff.wav,0.0,60.0,24.7
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am1.wav,0.0,7.0,19.1
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am2.wav,0.0,6.5,21.7
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am3.wav,0.0,5.5,19.3
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am4.wav,0.0,13.0,22.0
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am5.wav,0.0,9.5,20.6
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/am6.wav,0.0,22.5,20.1
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/Rec_1980-02-16_13.49.10amin.wav,0.0,40.5,21.6
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/Rec_1980-02-16_13.50.19aminM.wav,0.0,37.5,19.9
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/Rec_1980-02-16_13.51.21aminF.wav,0.0,67.0,20.9
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/Rec_1980-02-16_13.52.45amin.wav,0.0,45.0,21.3
+data/raw/abuzz/audio/Anopheles minimus/GoogleNexus/Rec_1980-02-16_13.53.59amin.wav,0.0,74.0,20.6
+data/raw/abuzz/audio/Anopheles minimus/Huawei866C/Raw/Recording19800216_005.amr,0.5,29.5,18.8
+data/raw/abuzz/audio/Anopheles minimus/Huawei866C/Raw/Recording19800216_006.amr,0.5,66.0,18.5
+data/raw/abuzz/audio/Anopheles minimus/Huawei866C/Raw/Recording19800216_007.amr,0.5,71.0,18.2
+data/raw/abuzz/audio/Anopheles minimus/Huawei866C/Raw/Recording19800216_008.amr,0.5,57.5,18.9
+data/raw/abuzz/audio/Anopheles minimus/Huawei866C/Raw/Recording19800216_009.amr,0.5,66.0,18.6
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin1.mp4,0.0,55.5,18.0
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin2.mp4,0.0,88.0,17.7
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin3.mp4,0.0,61.5,18.5
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin4.mp4,0.0,84.0,17.6
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin5.mp4,0.0,88.0,18.9
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin6.mp4,0.5,36.5,17.2
+data/raw/abuzz/audio/Anopheles minimus/Nokia5235/Amin7.mp4,0.5,97.0,18.0
+data/raw/abuzz/audio/Anopheles minimus/Nokia6555B/Raw/Audio019 amm.amr,0.0,88.0,17.6
+data/raw/abuzz/audio/Anopheles minimus/Nokia6555B/Raw/Audio020 amf.amr,0.0,120.0,18.4
+data/raw/abuzz/audio/Anopheles minimus/Nokia6555B/Raw/Audio021 am .amr,0.0,85.0,20.1
+data/raw/abuzz/audio/Anopheles minimus/Nokia6555B/Raw/Audio022 am.amr,0.0,121.0,17.8
+data/raw/abuzz/audio/Anopheles minimus/Nokia6555B/Raw/Audio023 am swarm.amr,0.0,62.5,17.7
+data/raw/abuzz/audio/Anopheles minimus/SamsungT209/Raw/Voice0029.amr,0.0,60.0,19.2
+data/raw/abuzz/audio/Anopheles minimus/SamsungT209/Raw/Voice0030.amr,0.0,60.0,17.1
+data/raw/abuzz/audio/Anopheles minimus/SamsungT209/Raw/Voice0031.amr,0.0,60.0,20.4
+data/raw/abuzz/audio/Anopheles minimus/SamsungT209/Raw/Voice0032.amr,0.0,60.0,18.1
+data/raw/abuzz/audio/Anopheles minimus/SamsungT209/Raw/Voice0033.amr,0.0,60.0,22.2
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-121410 am in tube held on end .wav,0.0,64.5,23.5
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-122802 am.wav,0.0,62.0,14.3
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-123102 amm.wav,0.0,63.0,19.2
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-123404 amm2.wav,0.0,71.5,39.8
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-123658 amf.wav,0.0,99.5,17.7
+data/raw/abuzz/audio/Anopheles minimus/SonyXperia/03-03-2016-125307 am.wav,0.0,88.5,20.9
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 121505.m4a,0.0,49.5,25.6
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 121659AminM.m4a,0.0,27.0,27.1
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 121749AminF.m4a,0.0,36.5,27.1
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 121930.m4a,0.0,54.0,26.1
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 122033.m4a,0.0,42.5,25.1
+data/raw/abuzz/audio/Anopheles minimus/iPhone4C/20160303 122127.m4a,0.0,70.0,26.2
+data/raw/abuzz/audio/Anopheles minimus/iPhone6/Amin.m4a,0.0,50.5,26.4
+data/raw/abuzz/audio/Anopheles minimus/iPhone6/Amin (1).m4a,0.0,73.5,25.5
+data/raw/abuzz/audio/Anopheles minimus/iPhone6/Amin (2).m4a,0.0,70.5,25.6
+data/raw/abuzz/audio/Anopheles minimus/iPhone6/AminF.m4a,0.0,28.0,25.8
+data/raw/abuzz/audio/Anopheles minimus/iPhone6/AminM.m4a,0.0,54.5,27.7
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_Nexus/sanqua.wav,0.0,339.0,26.4
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_T209/Voice0167 sanqua.wav,0.0,60.0,24.4
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_T209/Voice0168.wav,0.0,60.0,24.9
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_T209/Voice0169.wav,0.0,60.0,25.2
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_T209/Voice0170.wav,0.0,60.0,23.8
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_T209/Voice0171 sanqua.wav,0.0,60.0,25.0
+data/raw/abuzz/audio/Anopheles quadriannulatus/CDC_Xperia/11-18-2016-105358 sanqua.wav,0.0,438.5,20.9
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_T209/Voice0126 quad.wav,0.0,60.0,31.2
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_T209/Voice0127.wav,0.0,60.0,31.0
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_T209/Voice0128.wav,0.0,60.0,31.3
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_T209/Voice0129.wav,0.0,60.0,28.2
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_T209/Voice0130 quad.wav,0.0,60.0,28.3
+data/raw/abuzz/audio/Anopheles quadrimaculatus/Auburn_Xperia/11-11-2016-151731 quadri.wav,0.0,365.5,24.1
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as1.wav,0.0,39.5,22.7
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as2.wav,0.0,27.0,21.5
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as3.wav,0.0,65.5,23.3
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as4.wav,0.0,45.0,21.9
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as5.wav,0.0,46.5,20.5
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as6.wav,0.0,35.0,18.6
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/as7.wav,0.0,37.5,19.2
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/asf1.wav,0.0,75.0,21.1
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/asf2.wav,0.0,42.0,20.3
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/asm1.wav,0.0,25.0,19.2
+data/raw/abuzz/audio/Anopheles stephensi/GoogleNexus/asswarm1.wav,0.0,18.5,19.3
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_031.amr,0.5,39.0,19.1
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_032.amr,0.5,64.0,18.6
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_033.amr,0.5,68.5,18.1
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_034.amr,0.5,58.0,17.9
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_035.amr,0.5,40.5,19.1
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_036.amr,0.5,63.5,18.5
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_037.amr,0.5,26.0,17.8
+data/raw/abuzz/audio/Anopheles stephensi/Huawei866C/Raw/Recording19800215_038.amr,0.5,51.0,18.8
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As.mp4,0.0,57.0,18.5
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As1.mp4,0.0,12.0,15.3
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As1.mp4,13.0,28.0,17.4
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As2.mp4,0.0,25.0,14.4
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As2.mp4,26.0,30.5,15.4
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As2.mp4,31.5,59.0,16.7
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As4.mp4,0.0,75.0,18.2
+data/raw/abuzz/audio/Anopheles stephensi/Nokia5235/Raw/As5.mp4,1.0,44.5,17.4
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio008.amr,0.0,58.0,22.6
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio009.amr,0.0,76.5,18.3
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio010.amr,0.0,60.0,17.8
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio011.amr,0.0,110.5,18.2
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio012.amr,0.0,61.0,19.6
+data/raw/abuzz/audio/Anopheles stephensi/Nokia6555B/Raw/Audio013.amr,0.0,60.0,22.3
+data/raw/abuzz/audio/Anopheles stephensi/SamsungT209/Raw/Voice0019.amr,0.0,58.0,18.9
+data/raw/abuzz/audio/Anopheles stephensi/SamsungT209/Raw/Voice0020.amr,0.0,60.0,16.9
+data/raw/abuzz/audio/Anopheles stephensi/SamsungT209/Raw/Voice0021.amr,0.0,60.0,18.0
+data/raw/abuzz/audio/Anopheles stephensi/SamsungT209/Raw/Voice0022.amr,0.0,60.0,18.2
+data/raw/abuzz/audio/Anopheles stephensi/SamsungT209/Raw/Voice0023.amr,0.0,60.0,17.8
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-172557 asmix bugdorm .wav,0.0,37.5,16.2
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-172812 asmix bugdorm .wav,0.0,81.5,16.0
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-173231 asf bugdorm .wav,0.0,1.0,10.7
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-173231 asf bugdorm .wav,2.0,36.5,18.6
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-173312 asm bugdorm .wav,0.0,45.0,17.4
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-173822 as swarm .wav,0.0,90.0,15.9
+data/raw/abuzz/audio/Anopheles stephensi/SonyXperia/03-02-2016-174431 asmix .wav,0.0,78.0,15.8
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 171140AsteF.m4a,0.0,51.0,22.4
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 171441AsteF.m4a,0.0,42.5,18.6
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 171604AsteF.m4a,0.0,37.0,20.7
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 171951.m4a,0.0,50.0,21.3
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 171951.m4a,51.0,52.5,21.8
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172215AsteF.m4a,0.0,9.5,21.9
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172325AsteM.m4a,0.0,19.5,19.8
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172533.m4a,0.0,52.5,23.7
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172634.m4a,0.0,34.0,25.2
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172759.m4a,0.0,55.0,26.3
+data/raw/abuzz/audio/Anopheles stephensi/iPhone4S/Raw/20160302 172902.m4a,0.0,70.5,23.3
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/As.m4a,0.0,62.5,23.8
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/As (1).m4a,0.0,42.5,23.9
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/As (2).m4a,0.0,40.5,23.8
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/As (3).m4a,0.0,30.5,24.5
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/As (4).m4a,0.0,15.0,24.9
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/Asf.m4a,0.0,33.5,23.1
+data/raw/abuzz/audio/Anopheles stephensi/iPhone6/Raw/Asm.m4a,0.0,23.0,24.3
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 1.wav,0.0,23.5,13.8
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 1.wav,24.5,41.0,15.4
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 1.wav,42.0,48.5,12.8
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 1.wav,49.5,123.5,14.3
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,0.0,25.5,11.9
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,28.0,35.0,9.1
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,36.5,39.5,9.5
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,41.0,58.5,18.4
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,59.5,60.5,7.2
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 2.wav,61.5,62.5,7.3
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,0.0,22.5,12.2
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,25.0,56.0,12.5
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,57.5,74.5,12.2
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,76.0,91.5,15.6
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,92.5,99.5,11.3
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,100.5,126.0,12.5
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_Xperia/Cxp 3.wav,128.0,131.5,8.8
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_iPhone4S/P1.wav,0.0,49.5,24.4
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_iPhone4S/P2.wav,0.0,44.5,24.7
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_iPhone4S/P3.wav,0.0,88.5,25.0
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_iPhone4S/P4.wav,0.0,96.5,24.7
+data/raw/abuzz/audio/Culex pipiens/SanMateoVCD_iPhone4S/P5.wav,0.0,65.5,25.6
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 1.wav,0.0,26.5,16.5
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 1.wav,28.5,65.5,15.8
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 1.wav,67.0,78.5,12.2
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 1.wav,80.5,82.5,6.5
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 2.wav,0.0,24.0,17.1
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 2.wav,25.0,26.0,7.5
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 2.wav,27.5,64.5,18.7
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 3.wav,0.0,18.0,17.3
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 3.wav,19.5,42.0,15.2
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 3.wav,43.0,61.5,17.3
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 4.wav,0.0,39.5,14.2
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 4.wav,40.5,44.5,17.0
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 4.wav,46.0,87.5,12.4
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 4.wav,88.5,90.0,12.0
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_Xperia/Cxq 4.wav,91.0,92.5,8.5
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q1.wav,0.0,21.0,22.3
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q2.wav,0.0,58.0,19.4
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q3.wav,0.0,69.5,26.0
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q4.wav,0.0,55.0,27.4
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q5.wav,0.0,62.0,27.9
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q6.wav,0.0,56.5,29.9
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q7.wav,0.0,40.5,30.4
+data/raw/abuzz/audio/Culex quinquefasciatus/SanMateoVCD_iPhone4S/Q8.wav,0.0,46.5,28.7
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_T209/Voice0065.wav,0.0,60.0,17.3
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_T209/Voice0066.wav,0.0,60.0,17.6
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_T209/Voice0067.wav,0.0,60.0,15.6
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_T209/Voice0068.wav,0.0,60.0,15.9
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_T209/Voice0069.wav,0.0,32.5,13.0
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F.m4a,0.0,51.5,30.0
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (1).m4a,0.0,18.5,21.0
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (2).m4a,0.0,50.0,33.2
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (3).m4a,0.0,37.0,26.9
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (4).m4a,0.0,37.0,25.6
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (5).m4a,0.0,70.5,21.6
+data/raw/abuzz/audio/Culex tarsalis/PrakashLab_iPhone4S/Raw/CxT F (6).m4a,0.0,75.0,26.6
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Day 4_ Blood Fed_ Glenn Park Ds1.wav,0.0,66.5,16.4
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park - March 2016 - Ds1.wav,0.0,26.5,35.4
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park - March 2016 - dS2.wav,0.0,12.5,22.7
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park - March 2016 - DS4.wav,0.0,10.0,25.3
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park - Outdoors - March 2016 - DS7.wav,0.0,75.0,25.3
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park - Recorded Outside - March 2016 - dS6.wav,0.0,41.5,28.2
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park Day 4_ Blood Fed_ Ds2.wav,0.0,69.5,14.7
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glen Park Day 4_ Blood Fed_ Ds4.wav,0.0,98.5,24.2
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glenn Park - 1hr After Blood Fed_ Day 4_ Ds5.wav,0.0,46.5,28.5
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glenn Park - March 2016 - DS3.wav,0.0,32.0,28.9
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glenn Park - Recorded Outdoors - March 2016 - DS5.wav,0.0,26.5,28.6
+data/raw/abuzz/audio/Culiseta incidens/Big Black Mosquito Glenn Park_ Blood fed Day4_ Ds5.wav,0.0,68.0,23.4
+data/raw/abuzz/audio/Culiseta incidens/Black Mosquito - Glen Park - Blood Fed_ 1hr Day 4_ds6.wav,0.0,35.0,27.0
+data/raw/abuzz/audio/Culiseta incidens/Black Mosquito Glenn Park Day4_ 1hr After Blood Fed_ Ds7.wav,0.0,101.5,28.9
+data/raw/abuzz/audio/Culiseta incidens/Glen Park - Black Mosquito - Day 2 - dS4 - Iphone5.wav,0.0,135.0,22.7
+data/raw/abuzz/audio/Culiseta incidens/Glen Park Black Mosquito Day 1 DS6 - Iphone5.wav,0.0,99.5,23.4
+data/raw/abuzz/audio/Culiseta incidens/Glen Park Black Mosquito Day 2 - Ds7 - Iphone5.wav,0.0,96.0,26.7
+data/raw/abuzz/audio/Culiseta incidens/Glen Park Black Mosquito Day 2 Ds8 - Iphone5.wav,0.0,117.5,24.8
+data/raw/abuzz/audio/Culiseta incidens/Glen PArk Black Mosquito Day 3 Ds1 Iphone6.wav,0.0,52.5,23.4
+data/raw/abuzz/audio/Culiseta incidens/Glen Park Black Mosquito Ziplock Recording6.wav,0.0,95.5,22.2
+data/raw/abuzz/audio/Culiseta incidens/Glen. Park Black Mosquito Ziplock 5.wav,0.0,46.5,23.0
+data/raw/abuzz/audio/Culiseta incidens/Glen. Park. black Mosquito - Long Recording - Day 2-dS2.wav,0.0,310.5,24.9
+data/raw/abuzz/audio/Culiseta incidens/Glen. PRL Black Mosquito Day 3 Ds2 Iphone6.wav,0.0,30.0,29.4
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park - Black Mosquito - Day 2 - dS1.wav,0.0,31.5,20.2
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park - Black Mosquito - Day2_ Ds3_ Iphone6.wav,0.0,66.0,22.8
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park Big Black Mosquito Inside Ziplock Bag - Trying To Fly.wav,0.0,83.5,27.8
+data/raw/abuzz/audio/Culiseta incidens/Glenn park black mosquito - day 2 - da5 - iphone5.wav,0.0,87.0,24.3
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park Black Mosquito Day 3 Ds3 Iphone6.wav,0.0,20.0,24.1
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park Black Mosquito Day 3 dS4 Iphone6.wav,0.0,62.0,28.6
+data/raw/abuzz/audio/Culiseta incidens/Glenn Park Black Mosquito day3 Ds5 Iphone6.wav,0.0,28.5,29.7
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S.wav,0.0,532.5,29.6
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part2.wav,0.0,60.0,30.9
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part3.wav,0.0,59.0,29.0
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part4.wav,0.0,59.5,29.7
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part6.wav,0.0,59.0,31.8
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part7.wav,0.0,59.0,27.7
+data/raw/abuzz/audio/Culiseta incidens/Snipped/CuIncidensF_iPhone4S_Part8.wav,0.0,61.0,27.9

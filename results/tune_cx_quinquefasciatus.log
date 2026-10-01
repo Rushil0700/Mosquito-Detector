@@ -1,0 +1,611 @@
+[I 2026-09-28 16:59:19,655] A new study created in RDB with name: cx_quinquefasciatus
+[w2] trial 2: 0.922 [0.931, 0.924, 0.911]
+[w0] trial 0: 0.989 [0.993, 0.99, 0.983]
+[w1] trial 3: 0.983 [0.981, 0.984, 0.983]
+[w3] trial 1: 0.973 [0.972, 0.972, 0.974]
+[w2] trial 4: 0.999 [1.0, 1.0, 0.997]
+[w0] trial 5: 0.996 [0.996, 0.997, 0.995]
+[w1] trial 6: 0.965 [0.963, 0.966, 0.967]
+[w3] trial 7: 0.999 [1.0, 0.999, 0.999]
+[w0] trial 9: 0.999 [1.0, 0.999, 1.0]
+[w1] trial 10: 0.988 [0.992, 0.984, 0.99]
+[w2] trial 8: 0.932 [0.915, 0.934, 0.948]
+[w3] trial 11: 0.979 [0.986, 0.98, 0.971]
+[w0] trial 12: 0.959 [0.948, 0.956, 0.971]
+[w1] trial 13: 0.991 [0.99, 0.994, 0.99]
+[w3] trial 15: 0.995 [0.995, 0.995, 0.994]
+[w2] trial 14: 0.952 [0.935, 0.952, 0.969]
+[w1] trial 17: 0.992 [0.994, 0.991, 0.991]
+[w0] trial 16: 0.930 [0.921, 0.933, 0.936]
+[w2] trial 19: 0.997 [0.996, 0.998, 0.997]
+[w3] trial 18: 0.989 [0.994, 0.989, 0.983]
+[w1] trial 20: 0.982 [0.988, 0.978, 0.982]
+[w0] trial 21: 0.992 [0.992, 0.991, 0.993]
+[w2] trial 22: 0.899 [0.895, 0.898, 0.905]
+[w3] trial 23: 0.945 [0.953, 0.934, 0.948]
+[w1] trial 24: 0.942 [0.94, 0.94, 0.945]
+[w2] trial 26: 0.978 [0.982, 0.974, 0.978]
+[w0] trial 25: 0.936 [0.937, 0.933, 0.937]
+[w1] trial 28: 0.934 [0.943, 0.944, 0.914]
+[w2] trial 29: 0.985 [0.985, 0.985, 0.986]
+[w3] trial 27: 0.965 [0.972, 0.968, 0.954]
+[w0] trial 30: 0.937 [0.941, 0.939, 0.93]
+[w1] trial 31: 0.919 [0.91, 0.919, 0.929]
+[w3] trial 33: 0.929 [0.936, 0.924, 0.928]
+[w2] trial 32: 0.951 [0.956, 0.936, 0.96]
+[w1] trial 35: 0.933 [0.941, 0.94, 0.917]
+[w0] trial 34: 0.963 [0.977, 0.96, 0.951]
+[w3] trial 36: 0.899 [0.885, 0.919, 0.892]
+[w2] trial 37: 0.888 [0.883, 0.892, 0.888]
+[w1] trial 38: 0.926 [0.922, 0.92, 0.936]
+[w3] trial 40: 0.887 [0.903, 0.887, 0.871]
+[w0] trial 39: 0.905 [0.928, 0.917, 0.869]
+[w2] trial 41: 0.959 [0.953, 0.952, 0.973]
+[w1] trial 42: 0.954 [0.953, 0.949, 0.962]
+[w3] trial 43: 0.904 [0.913, 0.909, 0.891]
+[w2] trial 45: 0.935 [0.924, 0.943, 0.937]
+[w0] trial 44: 0.913 [0.915, 0.915, 0.909]
+[w1] trial 46: 0.951 [0.951, 0.954, 0.948]
+[w3] trial 47: 0.930 [0.936, 0.934, 0.919]
+[w0] trial 49: 0.893 [0.882, 0.913, 0.884]
+[w2] trial 48: 0.948 [0.941, 0.96, 0.945]
+[w1] trial 50: 0.939 [0.938, 0.938, 0.942]
+[w3] trial 51: 0.872 [0.88, 0.85, 0.886]
+[w0] trial 52: 0.931 [0.935, 0.926, 0.933]
+[w2] trial 53: 0.870 [0.887, 0.874, 0.848]
+[w1] trial 54: 0.912 [0.892, 0.928, 0.917]
+[w3] trial 55: 0.949 [0.934, 0.953, 0.959]
+[w0] trial 56: 0.899 [0.907, 0.902, 0.889]
+[w2] trial 57: 0.877 [0.879, 0.888, 0.866]
+[w1] trial 58: 0.924 [0.931, 0.927, 0.914]
+[w3] trial 59: 0.937 [0.919, 0.963, 0.929]
+[w0] trial 60: 0.866 [0.845, 0.866, 0.885]
+[w1] trial 62: 0.903 [0.893, 0.915, 0.901]
+[w2] trial 61: 0.856 [0.835, 0.874, 0.859]
+[w3] trial 63: 0.916 [0.918, 0.902, 0.927]
+[w0] trial 64: 0.879 [0.861, 0.885, 0.89]
+[w1] trial 65: 0.911 [0.904, 0.926, 0.903]
+[w2] trial 66: 0.881 [0.874, 0.885, 0.884]
+[w3] trial 67: 0.882 [0.88, 0.882, 0.883]
+[w0] trial 68: 0.911 [0.9, 0.923, 0.91]
+[w1] trial 69: 0.886 [0.898, 0.868, 0.892]
+[w2] trial 70: 0.898 [0.893, 0.903, 0.897]
+[w3] trial 71: 0.879 [0.89, 0.865, 0.883]
+[w0] trial 72: 0.883 [0.888, 0.892, 0.868]
+[w1] trial 73: 0.962 [0.957, 0.959, 0.969]
+[w2] trial 74: 0.913 [0.918, 0.911, 0.911]
+[w3] trial 75: 0.889 [0.885, 0.906, 0.877]
+[w0] trial 76: 0.881 [0.877, 0.883, 0.884]
+[w1] trial 77: 0.898 [0.886, 0.915, 0.893]
+[w2] trial 78: 0.911 [0.894, 0.918, 0.922]
+[w3] trial 79: 0.914 [0.916, 0.915, 0.911]
+[w0] trial 80: 0.876 [0.877, 0.864, 0.886]
+[w1] trial 81: 0.890 [0.903, 0.894, 0.875]
+[w2] trial 82: 0.934 [0.927, 0.938, 0.936]
+[w3] trial 83: 0.902 [0.902, 0.892, 0.91]
+[w0] trial 84: 0.861 [0.847, 0.88, 0.855]
+[w1] trial 85: 0.901 [0.895, 0.909, 0.898]
+[w2] trial 86: 0.897 [0.891, 0.901, 0.9]
+[w3] trial 87: 0.894 [0.915, 0.904, 0.864]
+[w0] trial 88: 0.867 [0.883, 0.855, 0.864]
+[w1] trial 89: 0.896 [0.906, 0.895, 0.886]
+[w2] trial 90: 0.898 [0.895, 0.906, 0.893]
+[w3] trial 91: 0.891 [0.905, 0.89, 0.879]
+[w0] trial 92: 0.882 [0.875, 0.887, 0.883]
+[w1] trial 93: 0.878 [0.878, 0.894, 0.862]
+[w2] trial 94: 0.880 [0.888, 0.874, 0.878]
+[w3] trial 95: 0.866 [0.871, 0.876, 0.85]
+[w0] trial 96: 0.878 [0.886, 0.887, 0.862]
+[w1] trial 97: 0.906 [0.906, 0.909, 0.904]
+[w3] trial 99: 0.906 [0.919, 0.905, 0.894]
+[w2] trial 98: 0.923 [0.937, 0.92, 0.913]
+[w0] trial 100: 0.886 [0.867, 0.917, 0.873]
+[w1] trial 101: 0.898 [0.895, 0.907, 0.891]
+[w3] trial 102: 0.870 [0.88, 0.865, 0.864]
+[w2] trial 103: 0.902 [0.908, 0.905, 0.894]
+[w0] trial 104: 0.905 [0.888, 0.922, 0.907]
+[w1] trial 105: 0.855 [0.866, 0.848, 0.852]
+[w3] trial 106: 0.867 [0.868, 0.87, 0.864]
+[w2] trial 107: 0.902 [0.899, 0.895, 0.912]
+[w0] trial 108: 0.895 [0.906, 0.9, 0.879]
+[w1] trial 109: 0.882 [0.873, 0.9, 0.874]
+[w3] trial 110: 0.888 [0.869, 0.884, 0.911]
+[w2] trial 111: 0.875 [0.858, 0.882, 0.885]
+[w0] trial 112: 0.897 [0.905, 0.898, 0.889]
+[w1] trial 113: 0.881 [0.89, 0.88, 0.873]
+[w3] trial 114: 0.866 [0.874, 0.863, 0.86]
+[w2] trial 115: 0.880 [0.895, 0.886, 0.858]
+[w0] trial 116: 0.870 [0.872, 0.871, 0.866]
+[w1] trial 117: 0.868 [0.867, 0.868, 0.868]
+[w3] trial 118: 0.876 [0.869, 0.881, 0.88]
+[w2] trial 119: 0.882 [0.873, 0.885, 0.888]
+[w0] trial 120: 0.891 [0.889, 0.885, 0.898]
+[w1] trial 121: 0.865 [0.875, 0.866, 0.853]
+[w2] trial 123: 0.865 [0.865, 0.848, 0.884]
+[w3] trial 122: 0.874 [0.88, 0.866, 0.877]
+[w0] trial 124: 0.905 [0.89, 0.919, 0.905]
+[w1] trial 125: 0.894 [0.899, 0.896, 0.886]
+[w3] trial 127: 0.862 [0.867, 0.856, 0.865]
+[w2] trial 126: 0.872 [0.867, 0.868, 0.882]
+[w0] trial 128: 0.894 [0.903, 0.884, 0.894]
+[w1] trial 129: 0.875 [0.876, 0.886, 0.861]
+[w3] trial 130: 0.885 [0.889, 0.887, 0.878]
+[w2] trial 131: 0.886 [0.885, 0.878, 0.894]
+[w0] trial 132: 0.874 [0.872, 0.884, 0.866]
+[w1] trial 133: 0.888 [0.863, 0.914, 0.887]
+[w3] trial 134: 0.924 [0.937, 0.913, 0.923]
+[w2] trial 135: 0.884 [0.875, 0.895, 0.884]
+[w0] trial 136: 0.857 [0.827, 0.864, 0.879]
+[w1] trial 137: 0.878 [0.883, 0.87, 0.879]
+[w3] trial 138: 0.869 [0.869, 0.886, 0.852]
+[w2] trial 139: 0.882 [0.869, 0.899, 0.88]
+[w0] trial 140: 0.894 [0.895, 0.895, 0.891]
+[w1] trial 141: 0.846 [0.845, 0.858, 0.835]
+[w3] trial 142: 0.880 [0.877, 0.877, 0.884]
+[w2] trial 143: 0.865 [0.857, 0.88, 0.857]
+[w0] trial 144: 0.873 [0.853, 0.881, 0.884]
+[w1] trial 145: 0.874 [0.88, 0.878, 0.864]
+[w3] trial 146: 0.877 [0.879, 0.883, 0.869]
+[w2] trial 147: 0.837 [0.841, 0.843, 0.826]
+[w0] trial 148: 0.846 [0.86, 0.852, 0.826]
+[w1] trial 149: 0.871 [0.846, 0.898, 0.869]
+[w3] trial 150: 0.895 [0.889, 0.897, 0.898]
+[w2] trial 151: 0.904 [0.901, 0.902, 0.908]
+[w0] trial 152: 0.878 [0.889, 0.886, 0.857]
+[w1] trial 153: 0.867 [0.878, 0.882, 0.843]
+[w3] trial 154: 0.886 [0.867, 0.889, 0.904]
+[w2] trial 155: 0.863 [0.854, 0.884, 0.85]
+[w0] trial 156: 0.872 [0.859, 0.886, 0.87]
+[w3] trial 157: 0.867 [0.871, 0.866, 0.866]
+[w2] trial 158: 0.879 [0.871, 0.876, 0.891]
+[w0] trial 159: 0.880 [0.862, 0.886, 0.893]
+
+best trial 147: 0.837 on seeds [7, 11, 13]
+check seeds [17, 19, 23, 29, 31]: current 0.980 [0.982, 0.987, 0.968, 0.982, 0.98]  best 0.873 [0.871, 0.87, 0.883, 0.885, 0.856]  gain +0.107 -> KEEP
+species:
+  cx_quinquefasciatus:
+    tuning:
+      drift_from: track_cv
+      drift_scale: 0.7919190744038367
+      drift_tau_s: 0.06751614811051565
+      am_scale: 0.18419633185958667
+      am_tau_s: 0.01257865533669523
+      harmonic_jitter_db: 3.705202427900036
+      fast_fm_scale: 1.3955742549020467
+      fast_am_scale: 0.9631947490521199
+      fast_bw_hz: 32.39591214130416
+      harmonic_tilt_db: -0.12769643411410128
+      snr_jitter_db: 4.797863464417847
+      tnr_offset_db: 3.00172828943757
+    flight:
+      start_distance_m:
+      - 0.03
+      - 0.15069416906593786
+      speed_m_s:
+      - 0.1
+      - 0.9624433717098839
+      turn_rate: 2.3042120780943476
+      flyby_prob: 0.21551536532353216
+      flyby_miss_m: 0.06001697710605925
+    room:
+      enabled: false
+    source:
+      harmonic_levels: energy
+
+meth(
+           ^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: UPDATE trials SET state=?, datetime_complete=? WHERE trials.trial_id = ?]
+[parameters: ('FAIL', '2026-09-28 11:29:21.266223', 97)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 218, in _run_trial
+    updated_state, values, warning_message = _tell_with_warning(
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_tell.py", line 173, in _tell_with_warning
+    study._storage.set_trial_state_values(frozen_trial._trial_id, state, values)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 194, in set_trial_state_values
+    return self._backend.set_trial_state_values(trial_id, state=state, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 674, in set_trial_state_values
+    with _create_scoped_session(self.scoped_session) as session:
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 98, in _create_scoped_session
+    raise optuna.exceptions.StorageInternalError(message) from e
+optuna.exceptions.StorageInternalError: An exception is raised during the commit. This typically happens due to invalid data in the commit, e.g. exceeding max length. 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 135, in worker
+    study.optimize(objective, n_trials=n_trials)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 256, in _run_trial
+    assert False, "Should not reach."
+           ^^^^^
+AssertionError: Should not reach.
+Process SpawnProcess-3:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 80, in _create_scoped_session
+    session.commit()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2095, in commit
+    trans.commit(_to_root=True)
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction.commit>", line 2, in commit
+    return target(fn, self, _to_root=_to_root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1330, in commit
+    self._prepare_impl()
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction._prepare_impl>", line 2, in _prepare_impl
+    return target(fn, self)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1304, in _prepare_impl
+    self.session.flush()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4536, in flush
+    self._flush(objects)
+  File "<sqlalchemy generated warned() wrapper for sqlalchemy.orm.session.Session._flush>", line 2, in _flush
+    return target(fn, self, objects=objects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4679, in _flush
+    with util.safe_reraise():
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4640, in _flush
+    flush_context.execute()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 467, in execute
+    rec.execute(self)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 643, in execute
+    util.preloaded.orm_persistence._save_obj(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 84, in _save_obj
+    _emit_update_statements(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 916, in _emit_update_statements
+    c = connection.execute(
+        ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: UPDATE trials SET state=?, datetime_complete=? WHERE trials.trial_id = ?]
+[parameters: ('FAIL', '2026-09-28 11:29:23.053056', 98)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 218, in _run_trial
+    updated_state, values, warning_message = _tell_with_warning(
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_tell.py", line 173, in _tell_with_warning
+    study._storage.set_trial_state_values(frozen_trial._trial_id, state, values)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 194, in set_trial_state_values
+    return self._backend.set_trial_state_values(trial_id, state=state, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 674, in set_trial_state_values
+    with _create_scoped_session(self.scoped_session) as session:
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 98, in _create_scoped_session
+    raise optuna.exceptions.StorageInternalError(message) from e
+optuna.exceptions.StorageInternalError: An exception is raised during the commit. This typically happens due to invalid data in the commit, e.g. exceeding max length. 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 135, in worker
+    study.optimize(objective, n_trials=n_trials)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 256, in _run_trial
+    assert False, "Should not reach."
+           ^^^^^
+AssertionError: Should not reach.
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 80, in _create_scoped_session
+    session.commit()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2095, in commit
+    trans.commit(_to_root=True)
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction.commit>", line 2, in commit
+    return target(fn, self, _to_root=_to_root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1330, in commit
+    self._prepare_impl()
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction._prepare_impl>", line 2, in _prepare_impl
+    return target(fn, self)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1304, in _prepare_impl
+    self.session.flush()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4536, in flush
+    self._flush(objects)
+  File "<sqlalchemy generated warned() wrapper for sqlalchemy.orm.session.Session._flush>", line 2, in _flush
+    return target(fn, self, objects=objects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4679, in _flush
+    with util.safe_reraise():
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4640, in _flush
+    flush_context.execute()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 467, in execute
+    rec.execute(self)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 643, in execute
+    util.preloaded.orm_persistence._save_obj(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 84, in _save_obj
+    _emit_update_statements(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 916, in _emit_update_statements
+    c = connection.execute(
+        ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: UPDATE trials SET state=?, datetime_complete=? WHERE trials.trial_id = ?]
+[parameters: ('FAIL', '2026-09-28 11:29:29.464405', 99)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 218, in _run_trial
+    updated_state, values, warning_message = _tell_with_warning(
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_tell.py", line 173, in _tell_with_warning
+    study._storage.set_trial_state_values(frozen_trial._trial_id, state, values)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 194, in set_trial_state_values
+    return self._backend.set_trial_state_values(trial_id, state=state, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 674, in set_trial_state_values
+    with _create_scoped_session(self.scoped_session) as session:
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 98, in _create_scoped_session
+    raise optuna.exceptions.StorageInternalError(message) from e
+optuna.exceptions.StorageInternalError: An exception is raised during the commit. This typically happens due to invalid data in the commit, e.g. exceeding max length. 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 135, in worker
+    study.optimize(objective, n_trials=n_trials)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 256, in _run_trial
+    assert False, "Should not reach."
+           ^^^^^
+AssertionError: Should not reach.
+Process SpawnProcess-4:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: attempt to write a readonly database
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 80, in _create_scoped_session
+    session.commit()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2095, in commit
+    trans.commit(_to_root=True)
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction.commit>", line 2, in commit
+    return target(fn, self, _to_root=_to_root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1330, in commit
+    self._prepare_impl()
+  File "<sqlalchemy generated _go() wrapper for sqlalchemy.orm.session.SessionTransaction._prepare_impl>", line 2, in _prepare_impl
+    return target(fn, self)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 1304, in _prepare_impl
+    self.session.flush()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4536, in flush
+    self._flush(objects)
+  File "<sqlalchemy generated warned() wrapper for sqlalchemy.orm.session.Session._flush>", line 2, in _flush
+    return target(fn, self, objects=objects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4679, in _flush
+    with util.safe_reraise():
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 4640, in _flush
+    flush_context.execute()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 467, in execute
+    rec.execute(self)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/unitofwork.py", line 643, in execute
+    util.preloaded.orm_persistence._save_obj(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 84, in _save_obj
+    _emit_update_statements(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/orm/persistence.py", line 916, in _emit_update_statements
+    c = connection.execute(
+        ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: UPDATE trials SET state=?, datetime_complete=? WHERE trials.trial_id = ?]
+[parameters: ('FAIL', '2026-09-28 11:29:29.923527', 100)]
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 218, in _run_trial
+    updated_state, values, warning_message = _tell_with_warning(
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_tell.py", line 173, in _tell_with_warning
+    study._storage.set_trial_state_values(frozen_trial._trial_id, state, values)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 194, in set_trial_state_values
+    return self._backend.set_trial_state_values(trial_id, state=state, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 674, in set_trial_state_values
+    with _create_scoped_session(self.scoped_session) as session:
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 98, in _create_scoped_session
+    raise optuna.exceptions.StorageInternalError(message) from e
+optuna.exceptions.StorageInternalError: An exception is raised during the commit. This typically happens due to invalid data in the commit, e.g. exceeding max length. 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rushil/Documents/Mosquito Detector/src/synth/tune.py", line 135, in worker
+    study.optimize(objective, n_trials=n_trials)
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/study.py", line 502, in optimize
+    _optimize(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 68, in _optimize
+    _optimize_sequential(
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 165, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/mosquito/lib/python3.11/site-packages/optuna/study/_optimize.py", line 256, in _run_trial
+    assert False, "Should not reach."
+           ^^^^^
+AssertionError: Should not reach.

@@ -1,0 +1,49 @@
+name: m4_real_plus_synth
+seed: 1
+features_dir: data/processed/features
+features_config: configs/features.yaml
+out_dir: results/m4_runs/20261001_104303_real_plus_synth
+tasks:
+- presence
+- species
+synthetic_set:
+- synth2_train
+- synth2other_train
+model:
+  arch: resnet
+  resnet: ResNet50V2
+  pretrained: imagenet
+  input_size:
+  - 128
+  - 128
+  dropout: 0.3
+  whiten_bands: 15
+train:
+  batch_size: 256
+  epochs: 30
+  learning_rate: 0.0003
+  lr_schedule: cosine
+  early_stopping_patience: 8
+  monitor: val_score
+  class_weight: balanced
+  site_balance: true
+augment:
+  gain_db: 10
+  freq_mask: 8
+  time_mask: 10
+  mask_prob: 0.5
+  pitch_shift:
+    prob: 0.7
+    max_ratio: 1.15
+evaluate:
+  splits:
+  - val
+  - test
+  - test_A
+  - test_B
+  - external
+  threshold_from: val_f1
+  smoothing:
+  - 2
+  - 3
+train_data: real+synth

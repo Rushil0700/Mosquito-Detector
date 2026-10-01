@@ -1,0 +1,21 @@
+# M2 model input: log-mel spectrogram of 1 s windows at 8 kHz.
+# 8 kHz: wingbeat fundamentals 300-900 Hz + harmonics up to 4 kHz; matches the phone recordings (a higher rate would
+# let the model tell devices apart by bandwidth) and is cheap on an ESP32-S3.
+sample_rate: 8000
+window_s: 1.0
+hop_s: 0.5                  # 50 % overlap between windows
+n_fft: 512                  # 64 ms -> 15.6 Hz bins (separates nearby fundamentals)
+hop_length: 128             # 16 ms -> 63 frames per 1 s window (center=True)
+n_mels: 64
+fmin: 100
+fmax: 4000
+min_segment_s: 0.4          # shorter segments are dropped; 0.4-1.0 s segments are wrap-padded (flagged `padded`)
+max_windows_per_segment:    # cap per MOSQUITO segment (random, seeded) so long recordings don't dominate; background uncapped
+  train: 60
+  val: 60
+  test: null
+  test_A: null
+  test_B: null
+  external: null
+seed: 0
+out_dir: data/processed/features

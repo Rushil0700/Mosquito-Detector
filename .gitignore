@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------------------------------------------------
+# Mosquito Radar -- keep the repository to code, configs and small result files.
+# Datasets, generated audio / features and trained models are large and are rebuilt with the commands in README.md.
+# ---------------------------------------------------------------------------------------------------------------------
+
+# --- datasets (third-party licences; downloaded by src/download.py or by hand) ---
+data/raw/
+data/noise/public/
+# your own household recordings: personal audio, keep out of version control (the folder README stays)
+data/noise/custom/*
+!data/noise/custom/README.md
+
+# --- generated data (rebuilt by the pipeline) ---
+data/processed/features/
+data/processed/windows/
+data/synthetic/clips*/
+data/synthetic/noise_bank*/
+
+# --- trained models, predictions and large arrays ---
+*.keras
+*.h5
+*.tflite
+*.npy
+*.npz
+results/**/predictions/
+
+# --- audio and archives anywhere ---
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- editors / OS / local tool settings ---
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json

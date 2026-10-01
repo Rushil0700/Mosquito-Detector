@@ -1,0 +1,95 @@
+20:54:26  M5 noise robustness | model results/m4_runs/20260930_114325_real_plus_synth | species classes ['ae_aegypti', 'ae_albopictus', 'an_stephensi', 'cx_quinquefasciatus', 'other_mosquito']
+20:54:26  
+loading test-only noise sources ...
+20:54:34    MUSAN not extracted (data/noise/public/musan/musan) -- skipped
+20:54:34  
+                 files  classes  minutes
+group                                   
+DEMAND held-out      5        5     25.0
+ESC-50 animals     400       10     33.3
+ESC-50 domestic    400       10     33.3
+ESC-50 human       400       10     33.3
+ESC-50 natural     400       10     33.3
+ESC-50 urban       400       10     33.3
+20:54:34  
+loading real TEST mosquito windows (<= 300 per class) ...
+20:54:35  
+                     windows  recordings  sites
+cls                                            
+ae_aegypti               125          36      3
+ae_albopictus             55          52      1
+an_stephensi              17           7      2
+cx_quinquefasciatus      300          88      3
+other_mosquito           300          90      6
+20:54:35  
+A. accuracy vs SNR (mosquito window + held-out noise)
+20:54:41    DEMAND held-out              done (15 s)
+20:54:47    ESC-50 animals               done (21 s)
+20:54:53    ESC-50 domestic              done (27 s)
+20:54:59    ESC-50 human                 done (32 s)
+20:55:04    ESC-50 natural               done (38 s)
+20:55:10    ESC-50 urban                 done (44 s)
+20:55:10  
+  mosquito detected (threshold 0.9) -- by SNR (dB)
+20:55:10  
+snr_db           -10   -5    0    5   10   15   20   30 no noise
+group                                                           
+DEMAND held-out   7%  22%  52%  72%  80%  84%  86%  88%      88%
+ESC-50 animals   55%  63%  74%  81%  85%  86%  87%  88%      88%
+ESC-50 domestic  48%  60%  73%  80%  84%  88%  89%  88%      88%
+ESC-50 human     49%  62%  72%  81%  85%  87%  87%  88%      88%
+ESC-50 natural   29%  46%  65%  79%  84%  86%  88%  89%      88%
+ESC-50 urban     26%  41%  63%  73%  80%  85%  87%  88%      88%
+20:55:10  
+  species correct, 4 target species -- by SNR (dB)
+20:55:10  
+snr_db           -10   -5    0    5   10   15   20   30 no noise
+group                                                           
+DEMAND held-out  21%  28%  34%  43%  52%  58%  62%  64%      64%
+ESC-50 animals   35%  41%  49%  56%  59%  62%  64%  64%      64%
+ESC-50 domestic  40%  47%  51%  57%  61%  63%  63%  64%      64%
+ESC-50 human     31%  40%  47%  55%  58%  61%  63%  63%      64%
+ESC-50 natural   22%  27%  36%  49%  54%  57%  61%  63%      64%
+ESC-50 urban     28%  35%  42%  51%  57%  60%  63%  64%      64%
+20:55:10  
+  genus correct, 4 target species -- by SNR (dB)
+20:55:10  
+snr_db           -10   -5    0    5   10   15   20   30 no noise
+group                                                           
+DEMAND held-out  23%  30%  37%  46%  55%  61%  65%  67%      67%
+ESC-50 animals   37%  43%  51%  58%  62%  65%  67%  67%      67%
+ESC-50 domestic  42%  49%  53%  59%  63%  65%  66%  67%      67%
+ESC-50 human     34%  43%  49%  57%  60%  64%  65%  66%      67%
+ESC-50 natural   24%  30%  39%  51%  57%  60%  64%  66%      67%
+ESC-50 urban     32%  40%  46%  55%  61%  63%  66%  67%      67%
+20:55:10  
+B. false alarms on noise alone (1 s windows, hop 0.5 s)
+20:55:27  
+          group hours FA/h@0.5 FA/h@0.5 2of3 FA/h@0.9 FA/h@0.9 2of3 FA/h@0.98 FA/h@0.98 2of3
+DEMAND held-out   0.4    141.8          48.1     12.0           0.0       0.0            0.0
+ ESC-50 animals   0.5   1178.0         728.0    902.0         496.0     608.0          306.0
+ESC-50 domestic   0.5    872.0         458.0    452.0         210.0     248.0          112.0
+   ESC-50 human   0.5    994.0         538.0    580.0         248.0     342.0          144.0
+ ESC-50 natural   0.5    724.0         376.0    344.0         168.0     208.0          110.0
+   ESC-50 urban   0.5    758.0         434.0    400.0         192.0     236.0          108.0
+20:55:27  
+  worst 15 noise classes (false alarms / hour, threshold 0.9, 2-of-3):
+20:55:27  
+          group              cls hours FA/h@0.5 FA/h@0.5 2of3 FA/h@0.9 FA/h@0.9 2of3 FA/h@0.98 FA/h@0.98 2of3 most common species guess when firing
+ ESC-50 animals              cat   0.1   1380.0         940.0   1300.0         920.0    1220.0          780.0                         An. stephensi
+   ESC-50 human      crying_baby   0.1   1200.0         920.0   1360.0         860.0    1320.0          820.0                        other mosquito
+   ESC-50 urban            siren   0.1    920.0         760.0   1020.0         700.0     980.0          520.0                  Cx. quinquefasciatus
+ ESC-50 animals          rooster   0.1   1040.0         780.0   1040.0         680.0     880.0          560.0                         An. stephensi
+ ESC-50 animals              hen   0.1   1240.0         820.0   1060.0         620.0     780.0          360.0                         An. stephensi
+ ESC-50 animals          insects   0.1    980.0         760.0    940.0         600.0     580.0          360.0                        other mosquito
+ ESC-50 animals              dog   0.1   1280.0         780.0   1040.0         540.0     660.0          320.0                         An. stephensi
+ESC-50 domestic      clock_alarm   0.1   1000.0         820.0    860.0         460.0     480.0          280.0                         An. stephensi
+ ESC-50 natural    pouring_water   0.1   1240.0         760.0   1000.0         440.0     540.0          220.0                         An. stephensi
+   ESC-50 urban         car_horn   0.1    920.0         680.0    820.0         420.0     580.0          220.0                  Cx. quinquefasciatus
+   ESC-50 human         laughing   0.1   1220.0         640.0    900.0         420.0     560.0          260.0                         An. stephensi
+ ESC-50 animals             crow   0.1   1160.0         660.0    680.0         400.0     360.0          160.0                         An. stephensi
+ ESC-50 animals            sheep   0.1   1220.0         680.0    880.0         400.0     560.0          180.0                  Cx. quinquefasciatus
+ESC-50 domestic door_wood_creaks   0.1   1060.0         600.0    640.0         380.0     460.0          260.0                         An. stephensi
+ ESC-50 natural      water_drops   0.1   1000.0         680.0    660.0         340.0     480.0          280.0                         An. stephensi
+20:55:28  
+figure results/m4_runs/20260930_114325_real_plus_synth/m5_noise/noise_robustness.png | tables in results/m4_runs/20260930_114325_real_plus_synth/m5_noise | 1.0 min

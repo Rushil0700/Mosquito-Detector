@@ -1,0 +1,45 @@
+# M4 ResNet: same data, augmentation, balancing and evaluation as m4_final -- only the backbone changes, so the result
+# answers "does a ResNet beat the small CNN?" directly against results/m4_runs/20260930_114325_real_plus_synth.
+#   * ImageNet-pretrained ResNet50V2 behind adapter layers (src/models.py resnet_backbone): whitening + band norm as before,
+#     bilinear resize 64 x 63 -> 128 x 128, learnable 1x1 conv 1 -> 3 channels, ResNet without its classifier, then the same
+#     pooling, dropout and presence / species heads.
+#   * learning rate 3e-4 instead of 1e-3: fine-tuning pretrained weights; 1e-3 tends to wash them out in the first epochs.
+name: m4_resnet
+seed: 1
+features_dir: data/processed/features
+features_config: configs/features.yaml   # mel parameters for the pitch shift
+out_dir: results/m4_resnet
+tasks: [presence, species]
+synthetic_set: [synth2_train, synth2other_train]
+
+model:
+  arch: resnet
+  resnet: ResNet50V2             # any tf.keras.applications ResNet: ResNet50, ResNet50V2, ResNet101V2, ...
+  pretrained: imagenet           # or null for random initialisation
+  input_size: [128, 128]         # [64, 64] is ~4x cheaper but leaves a 2 x 2 map after the ResNet
+  dropout: 0.3
+  whiten_bands: 15
+
+train:
+  batch_size: 256
+  epochs: 30
+  learning_rate: 0.0003
+  lr_schedule: cosine
+  early_stopping_patience: 8
+  monitor: val_score             # mean(val presence AUC, val species balanced accuracy)
+  class_weight: balanced
+  site_balance: true
+
+augment:
+  gain_db: 10
+  freq_mask: 8
+  time_mask: 10
+  mask_prob: 0.5
+  pitch_shift:
+    prob: 0.7
+    max_ratio: 1.15
+
+evaluate:
+  splits: [val, test, test_A, test_B, external]
+  threshold_from: val_f1
+  smoothing: [2, 3]

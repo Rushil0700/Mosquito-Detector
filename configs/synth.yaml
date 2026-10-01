@@ -1,0 +1,93 @@
+# Physics-informed mosquito flight-tone synthesizer (v0.3).
+# Tone parameters, noise and device chain all come from REAL calibration clips
+# (`python -m src.synth.calibrate`). Literature priors are only for sanity checks and for classes/sexes
+# with no real data (males), whose clips are tagged `source=prior`.
+
+seed: 1234
+sample_rate: 8000
+# Bank = v0.3 calibration (octave / subharmonic errors re-estimated or dropped, fine pitch track, fast-wobble
+# stats) paired with the v0.2 notch residuals. The v0.3 clean residuals (noise_bank_v03, used by
+# configs/synth_v03_clean.yaml) score worse on the realism check: see results/experiments.md, M1g.
+calibration_file: data/synthetic/calibration_v03_v02resid.json
+noise_bank_dir: data/synthetic/noise_bank_v03 # where `calibrate` writes clean residuals (tone subtracted)
+out_dir: data/synthetic/clips
+
+# Literature priors: fundamental wingbeat frequency mean / sd in Hz.
+priors:
+  ae_aegypti:          {female: [511, 46], male: [711, 78], ref: "Arthur et al. 2014, PMC3985972 (~23 C)"}
+  ae_albopictus:       {female: [499, 18], male: [704, 50], ref: "PMC12049413 (27 C, swarming-age adults)"}
+  cx_quinquefasciatus: {female: [415, 18], male: [534, 34], ref: "PMC12049413 (27 C, swarming-age adults)"}
+male_female_ratio: [1.29, 1.41]   # used to derive male clips when a class has no real male recordings
+
+source:
+  f0_scale_jitter: 0.0            # extra per-clip f0 scaling; 0 for realism, >0 for training diversity
+  harmonic_profile_jitter_db: 0.0 # jitter on the copied harmonic profile
+  use_measured_phase: true        # fixed measured harmonic phases (real waveform shape)
+  max_harmonic_hz: 3990
+  harmonic_levels: peak           # energy (tone energy per harmonic band) | peak (spectral peak level)
+
+# Knobs tuned against the realism check (v0.2 values; the M1g per-class Optuna search found nothing better by
+# > 0.02 AUC); per-class overrides go under `species`. Drift and AM scale the per-clip measured values.
+tuning:
+  drift_from: sharpness           # sharpness (match each clip's measured f0-peak sharpness) | track_cv (fine pitch track)
+  drift_scale: 0.85
+  drift_tau_s: 0.02
+  am_scale: 0.7
+  am_tau_s: 0.06
+  harmonic_jitter_db: 2.0
+  fast_fm_scale: 0.0              # x measured fast (> 20 Hz) pitch wobble: broad skirts around harmonics
+  fast_am_scale: 0.0              # x measured fast level wobble
+  fast_bw_hz: 80.0                # bandwidth of the fast wobble
+  harmonic_tilt_db: 0.0           # dB added per harmonic above the 1st (negative = darker)
+  snr_jitter_db: 0.0              # jitter on the mixing target (tnr or snr), dB
+  tnr_offset_db: 0.0              # constant offset on the mixing target, dB
+  level_jitter_db: 0.0
+
+flight:
+  start_distance_m: [0.05, 0.3]
+  speed_m_s: [0.2, 0.8]
+  turn_rate: 2.0                  # heading-change strength of the wander
+  flyby_prob: 0.0                 # share of clips that are near-straight passes (approach / pass / leave)
+  flyby_miss_m: 0.1               # max closest-approach distance of a pass
+  spreading_exponent: [1.0, 1.3]  # pressure ~ 1/r^n
+  min_distance_m: 0.02
+  speed_of_sound_m_s: 343.0       # Doppler (from the time-varying path delay)
+
+# Early reflections of a box (cage or room) around the mic, image-source method.
+room:
+  enabled: false
+  dims_m: [0.3, 1.0]              # each side drawn from this range
+  reflection_coef: [0.3, 0.8]     # per wall
+  order: 1                        # 1 = 6 first-order images, 2 = 24 images
+
+# Measured correction filter (src/synth/fit_eq.py, tune split): median real / median synthetic spectrum.
+# OFF: on the v0.3 clean setup both a tone EQ and a mix EQ made the tune AUC worse (M1g).
+eq:
+  enabled: false
+  file: data/synthetic/eq_v03.json
+  apply_to: tone                  # tone (the synthetic part only; the noise is real) | mix
+  max_db: 6.0
+  smooth_hz: 150
+
+# Per-class overrides of any block above (written by src/synth/tune.py --write).
+species:
+  ae_aegypti: {}
+  cx_quinquefasciatus: {}
+
+noise:
+  pairing: same_sr                # same_clip | same_sr (random residual, same dataset + original sample rate)
+  pool_by: [dataset, orig_sr, cls] # residual pool for same_sr pairing (Funchal: one batch per species)
+  mix: tnr                        # tnr: tone-to-noise energy ratio of the source clip | snr: peak-SNR search
+  snr_tol_db: 0.5
+  refill: borrow                  # calibration: refill subtracted bands with borrow (same-frame noise) | random
+
+# Training-time device randomisation. OFF for realism tests: real residuals already carry the
+# real mic colouring, so random EQ on top only adds a giveaway.
+augment_channel:
+  enabled: false
+  highpass_hz: [20, 120]
+  lowpass_hz: [3400, 3990]
+  n_peaking_eq: [0, 3]
+  peaking_gain_db: [-8, 8]
+  self_noise_db: [-60, -35]       # re. clip peak
+  clip_probability: 0.05

@@ -1,0 +1,13 @@
+cls,n,auc_all,auc_fair,top,seed,floor_fair
+ae_aegypti,299,0.9892059372937663,0.9879531548864107,"{'mel_mean_815Hz': 0.87, 'mel_mean_748Hz': 0.87, 'mel_mean_881Hz': 0.86, 'mel_mean_482Hz': 0.84, 'mel_mean_416Hz': 0.83, 'mel_mean_1640Hz': 0.83}",7,0.9811411505464145
+ae_albopictus,130,0.8442011834319526,0.8030769230769231,"{'crest': 0.66, 'mel_std_3487Hz': 0.64, 'mel_std_3735Hz': 0.64, 'mel_std_2839Hz': 0.63, 'h3_h1': 0.63, 'mel_mean_615Hz': 0.63}",7,0.565680473372781
+an_stephensi,113,0.7688150990680555,0.7512726133604826,"{'mel_mean_615Hz': 0.64, 'mel_std_1335Hz': 0.6, 'crest': 0.6, 'mel_std_682Hz': 0.6, 'mel_mean_682Hz': 0.6, 'flatness': 0.6}",7,0.478424308873052
+cx_quinquefasciatus,300,0.9219444444444445,0.9000333333333334,"{'env_cv': 0.7, 'mel_std_1640Hz': 0.7, 'mel_std_1247Hz': 0.67, 'peak_dbfs': 0.67, 'mel_std_615Hz': 0.66, 'n_distinct': 0.66}",7,0.8262888888888889
+ae_aegypti,299,0.9948993859129093,0.9937920157492646,"{'mel_mean_748Hz': 0.85, 'mel_mean_482Hz': 0.85, 'mel_mean_815Hz': 0.84, 'low150_db': 0.84, 'mel_mean_881Hz': 0.83, 'mel_mean_416Hz': 0.83}",11,0.9777407411550205
+ae_albopictus,130,0.8327218934911244,0.8271597633136095,"{'mel_std_3735Hz': 0.69, 'mel_std_3487Hz': 0.69, 'mel_std_2839Hz': 0.67, 'mel_std_3256Hz': 0.66, 'mel_mean_416Hz': 0.65, 'mel_mean_349Hz': 0.65}",11,0.5443195266272189
+an_stephensi,113,0.6989584149111129,0.651108152556974,"{'crest': 0.66, 'flatness': 0.65, 'mel_mean_2158Hz': 0.61, 'mel_mean_948Hz': 0.6, 'mel_mean_1532Hz': 0.59, 'mel_mean_1015Hz': 0.59}",11,0.5327746886991933
+cx_quinquefasciatus,300,0.9033777777777777,0.8762555555555556,"{'env_cv': 0.69, 'mel_std_1757Hz': 0.66, 'mel_std_549Hz': 0.66, 'mel_std_1087Hz': 0.66, 'mel_std_1640Hz': 0.66, 'mel_std_815Hz': 0.64}",11,0.8411888888888889
+ae_aegypti,299,0.9857160434447043,0.9861634657330456,"{'mel_mean_748Hz': 0.84, 'flatness': 0.84, 'mel_mean_815Hz': 0.84, 'mel_mean_482Hz': 0.84, 'mel_mean_881Hz': 0.84, 'low150_db': 0.83}",13,0.97995548148231
+ae_albopictus,130,0.8585207100591716,0.8385798816568047,"{'mel_std_3487Hz': 0.68, 'mel_std_3735Hz': 0.68, 'mel_std_2839Hz': 0.67, 'crest': 0.66, 'mel_std_2158Hz': 0.65, 'mel_std_3040Hz': 0.65}",13,0.6062721893491124
+an_stephensi,113,0.7793092646252642,0.755736549455713,"{'mel_std_682Hz': 0.66, 'mel_std_3256Hz': 0.64, 'mel_std_3487Hz': 0.64, 'flatness': 0.64, 'mel_std_3040Hz': 0.64, 'mel_std_2651Hz': 0.63}",13,0.5167201816900305
+cx_quinquefasciatus,300,0.8982666666666667,0.8772333333333333,"{'env_cv': 0.68, 'mel_std_1087Hz': 0.67, 'mel_std_1640Hz': 0.67, 'mel_std_1757Hz': 0.66, 'peak_dbfs': 0.65, 'mel_std_1247Hz': 0.65}",13,0.8052888888888889

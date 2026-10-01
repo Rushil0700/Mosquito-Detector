@@ -1,0 +1,9 @@
+{
+ "threshold_db": 5.0,
+ "min_harmonics": 2,
+ "target_fpr": 0.02,
+ "humbugdb_bg_fp": 0.9938595008731902,
+ "humbugdb_mosq_recall": 0.9939203765444204,
+ "abuzz_bg_fp": 0.9561717352415027,
+ "abuzz_bg_frames": 2236
+}

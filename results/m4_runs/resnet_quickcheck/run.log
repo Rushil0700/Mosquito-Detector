@@ -1,0 +1,161 @@
+10:05:48  
+10:05:48  ==============================================================================
+10:05:48  STEP 1: environment and settings
+10:05:48  ==============================================================================
+10:05:48    python 3.11.16 | TensorFlow 2.21.0 | devices ['CPU']
+10:05:48    training data: real+synth | seed 1 | output results/m4_runs/resnet_quickcheck
+10:05:48    model ResNet50V2 (imagenet), input resized to [128, 128], dropout 0.3 | batch 256, lr 0.0003, max epochs 2, early stop patience 8
+10:05:48    augmentation: gain ±10 dB, freq mask ≤8 bands, time mask ≤10 frames (p=0.5), pitch shift ±15 % (p=0.7)
+10:05:48    species classes: Ae. aegypti, Ae. albopictus, An. stephensi, Cx. quinquefasciatus, other mosquito
+10:05:48    fixes: whitening 15 bands | site balance True | lr schedule cosine | select epoch by val_score | synthetic set ['synth2_train', 'synth2other_train']
+10:05:48  
+10:05:48  ==============================================================================
+10:05:48  STEP 2: load features (1 s log-mel windows, 64 bands x 63 frames)
+10:05:48  ==============================================================================
+10:05:49    QUICK MODE: 8,000 training / 3,000 validation windows, 2 epochs -- pipeline check only; numbers are not meaningful.
+10:05:49    train         8,000 windows | mosquito   5,894 | background   2,106 | synthetic 2,976 | ~1.1 h
+10:05:49    val           3,000 windows | mosquito   2,598 | background     402 | ~0.4 h
+10:05:49    test         22,866 windows | mosquito  17,703 | background   5,163 | ~3.2 h
+10:05:49    species-labelled TRAINING windows (real / synthetic):
+10:05:49      Ae. aegypti                122 real      307 synthetic
+10:05:49      Ae. albopictus              57 real      293 synthetic
+10:05:49      An. stephensi               54 real      273 synthetic
+10:05:49      Cx. quinquefasciatus       379 real      314 synthetic
+10:05:49      other mosquito           2,798 real      762 synthetic
+10:05:49    (validation and all test sets are real recordings; synthetic clips appear in training only)
+10:05:49  
+10:05:49  ==============================================================================
+10:05:49  STEP 3: build the model (shared CNN, two outputs: presence + species)
+10:05:49  ==============================================================================
+10:05:49    presence training weights: min 0.17, median 0.24, max 15.27  (equal weight per class and per recording site)
+10:05:49    species training weights: min 0.06, median 0.16, max 11.33  (equal weight per class and per recording site)
+10:05:50    training recording sites per species (real): Ae. aegypti 3; Ae. albopictus 1; An. stephensi 1; Cx. quinquefasciatus 1; other mosquito 9
+10:05:50    logmel_db    InputLayer             output (None, 64, 63)         params       0
+10:05:50    whiten       SpectralWhitening      output (None, 64, 63)         params       0
+10:05:50    reshape      Reshape                output (None, 64, 63, 1)      params       0
+10:05:50    band_norm    Rescaling              output (None, 64, 63, 1)      params       0
+10:05:50    to_resnet_size Resizing               output (None, 128, 128, 1)    params       0
+10:05:50    to_rgb       Conv2D                 output (None, 128, 128, 3)    params       6
+10:05:50    resnet       Functional             output (None, 4, 4, 2048)     params 23,564,800
+10:05:50    gap          GlobalAveragePooling2D output (None, 2048)           params       0
+10:05:50    dropout      Dropout                output (None, 2048)           params       0
+10:05:50    presence     Dense                  output (None, 1)              params   2,049
+10:05:50    species      Dense                  output (None, 5)              params  10,245
+10:05:50    total parameters: 23,577,100 (~23025 KB after int8 quantisation, ~92098 KB as float32 -- both small for an Android phone)
+10:05:50  
+10:05:50  ==============================================================================
+10:05:50  STEP 4: train (keeps the epoch with the best val_score; stops after 8 epochs without improvement)
+10:05:50  ==============================================================================
+10:12:27    epoch  1  train: loss 1.4279, presence AUC 0.8863, species acc 0.160  |  val: loss 1.8780, presence AUC 0.7763, species balanced acc 0.445, score 0.6105  (396 s)  <- best so far (weights kept)
+10:17:58    epoch  2  train: loss 1.0050, presence AUC 0.9617, species acc 0.230  |  val: loss 1.4675, presence AUC 0.8957, species balanced acc 0.521, score 0.7081  (330 s)  <- best so far (weights kept)
+10:17:59    done in 12.1 min: best epoch 2; model saved to results/m4_runs/resnet_quickcheck/model.keras
+10:17:59  
+10:17:59  ==============================================================================
+10:17:59  STEP 5: evaluate 'is there a mosquito?' on REAL recordings
+10:17:59  ==============================================================================
+10:17:59    test = held-out sessions / labs; test_A = Kenya and test_B = Thailand (never heard in training); external = UFRGS phones
+10:17:59    predicting val ...
+10:21:01    predicting test ...
+10:24:00  threshold (max F1 on validation): 0.98
+10:24:00  
+split  roc_auc  precision  recall    f1  fa_per_h_raw  fa_per_h_smoothed  recall_smoothed  bg_hours
+  val    0.954      0.954   0.960 0.957      1045.810            487.414            0.934      0.42
+ test    0.960      0.883   0.969 0.924      1324.811            645.671            0.936      0.72
+10:24:00  
+recall per species (share of mosquito windows detected, at the validation threshold):
+10:24:00  
+split                 test    val
+species                          
+(no species label)   0.915  0.956
+ae_aegypti           0.956  0.958
+ae_albopictus        1.000    NaN
+an_stephensi         1.000    NaN
+cx_quinquefasciatus  0.993  0.993
+other_mosquito       0.971  0.954
+10:24:00  
+operating points (2-of-3 smoothing): recall / false alarms per hour
+10:24:00  
+          recall        false_alarms_per_h       
+split       test    val               test    val
+threshold                                        
+0.50       0.952  0.956              382.1  515.8
+0.90       0.947  0.947              541.1  634.1
+0.98       0.936  0.934              645.7  487.4
+10:24:00  
+figure: results/m4_runs/resnet_quickcheck/detection.png
+10:24:00  
+10:24:00  ==============================================================================
+10:24:00  STEP 6: evaluate 'which species?' on REAL recordings
+10:24:00  ==============================================================================
+10:24:00    Only windows with a known species label count. Ae. albopictus and An. stephensi have ~1 min of test audio each
+10:24:00    (the public data has no more from independent labs), so their numbers are weak evidence.
+10:26:24  
+  VAL: per species (window level; recording level = average over a recording's windows)
+10:26:24  
+             species  windows  precision  recall    f1  recordings  recording_recall
+         Ae. aegypti      670      0.079   0.410 0.132          34             0.529
+Cx. quinquefasciatus     3181      0.331   0.966 0.493         122             0.975
+      other mosquito    13166      0.950   0.273 0.424         528             0.231
+10:26:24    macro-F1: windows 0.350 | recordings 0.354   (accuracy: windows 0.408, recordings 0.379)
+10:26:24    genus accuracy on the 4 target species (Aedes / Anopheles / Culex): 0.871
+10:26:24    recall by recording site (where does it work, where not):
+10:26:24  
+                                              recall  windows
+species             site                                     
+ae_aegypti          Ifakara                    0.411      635
+                    UCD_PR                     0.400       35
+cx_quinquefasciatus Oxford Zoology             0.966     3181
+other_mosquito      Abuzz_multiphone_2016-03   0.390     1240
+                    CDC                        0.344     2781
+                    Ifakara                    0.235     9145
+10:26:24    confusion matrix: results/m4_runs/resnet_quickcheck/species_cm_val.png
+10:28:30  
+  TEST: per species (window level; recording level = average over a recording's windows)
+10:28:30  
+             species  windows  precision  recall    f1  recordings  recording_recall
+         Ae. aegypti      848      0.119   0.395 0.183          36             0.444
+      Ae. albopictus       55      0.055   0.273 0.092          52             0.269
+       An. stephensi      121      0.000   0.000 0.000           7             0.000
+Cx. quinquefasciatus     3500      0.306   0.895 0.456         212             0.943
+      other mosquito    11378      0.815   0.185 0.301         443             0.172
+10:28:30    macro-F1: windows 0.206 | recordings 0.294   (accuracy: windows 0.351, recordings 0.408)
+10:28:30    genus accuracy on the 4 target species (Aedes / Anopheles / Culex): 0.774
+10:28:30    recall by recording site (where does it work, where not):
+10:28:30  
+                                                  recall  windows
+species             site                                         
+ae_aegypti          CDC insect cultures, Atlanta   0.000        9
+                    Ifakara                        0.389      764
+                    UCD_LA                         0.507       75
+ae_albopictus       CDC insect cultures, Atlanta   0.273       55
+an_stephensi        CDC insect cultures, Atlanta   0.000        2
+                    LSTMH Culture cages, London    0.000      119
+cx_quinquefasciatus CDC insect cultures, Atlanta   0.857        7
+                    Oxford Zoology                 0.963     3171
+                    SanMateoVCD                    0.233      322
+other_mosquito      CDC                            0.259     1586
+                    CDC insect cultures, Atlanta   0.290       31
+                    Ifakara                        0.180     8854
+                    LSTMH Culture cages, London    0.021      606
+                    field_citizen                  0.262      301
+10:28:30    confusion matrix: results/m4_runs/resnet_quickcheck/species_cm_test.png
+10:30:36  
+  TEST recordings: sensitivity setting -- 'other / uncertain' if P(other) >= threshold, else the best target species (307 target, 443 other-species recordings)
+10:30:36  
+ P(other) threshold target species answered correct when answered other species rejected other called Ae. aegypti
+                0.2                     84%                   82%                    56%                       2%
+                0.3                     91%                   79%                    30%                       7%
+                0.4                     95%                   79%                    13%                      11%
+                0.5                     97%                   79%                     5%                      13%
+                0.6                     99%                   78%                     3%                      15%
+                0.7                    100%                   78%                     1%                      15%
+                0.8                    100%                   79%                     1%                      15%
+10:30:36  
+10:30:36  ==============================================================================
+10:30:36  STEP 7: summary  (QUICK MODE: numbers are not meaningful)
+10:30:36  ==============================================================================
+10:30:36    presence  val       ROC-AUC 0.954
+10:30:36    presence  test      ROC-AUC 0.960
+10:30:36    species   val       macro-F1 0.350 (windows), 0.354 (recordings)
+10:30:36    species   test      macro-F1 0.206 (windows), 0.294 (recordings)
+10:30:36    all outputs in results/m4_runs/resnet_quickcheck  (run.log, model.keras, metrics.json, operating_points.csv, detection.png, species_cm_*.png)

@@ -1,0 +1,293 @@
+20:02:13  
+20:02:13  ==============================================================================
+20:02:13  STEP 1: environment and settings
+20:02:13  ==============================================================================
+20:02:13    python 3.11.16 | TensorFlow 2.21.0 | devices ['CPU']
+20:02:13    training data: real+synth | seed 1 | output results/m4_runs/20260929_200213_real_plus_synth
+20:02:13    model channels [16, 32, 64, 96], dropout 0.3 | batch 256, lr 0.001, max epochs 40, early stop patience 10 (on validation loss)
+20:02:13    augmentation: gain ±10 dB, freq mask ≤8 bands, time mask ≤10 frames (p=0.5)
+20:02:13    species classes: Ae. aegypti, Ae. albopictus, An. stephensi, Cx. quinquefasciatus
+20:02:13    other mosquito species: NOT a species class -- they still train and test the detector; the species
+20:02:13    report checks whether the model is unsure about them (an 'uncertain' answer for unknown species)
+20:02:13    fixes: whitening 15 bands | site balance True | lr schedule cosine | select epoch by val_score | synthetic set ['synth2_train', 'synth2other_train']
+20:02:13  
+20:02:13  ==============================================================================
+20:02:13  STEP 2: load features (1 s log-mel windows, 64 bands x 63 frames)
+20:02:13  ==============================================================================
+20:02:14    train       160,997 windows | mosquito 118,766 | background  42,231 | synthetic 60,000 | ~22.4 h
+20:02:14    val          23,288 windows | mosquito  20,245 | background   3,043 | ~3.2 h
+20:02:14    test         22,866 windows | mosquito  17,703 | background   5,163 | ~3.2 h
+20:02:14    test_A       66,959 windows | mosquito   3,988 | background  62,971 | ~9.3 h
+20:02:14    test_B       31,101 windows | mosquito  16,970 | background  14,131 | ~4.3 h
+20:02:14    external        820 windows | mosquito     535 | background     285 | ~0.1 h
+20:02:14    species-labelled TRAINING windows (real / synthetic):
+20:02:14      Ae. aegypti              2,665 real    6,000 synthetic
+20:02:14      Ae. albopictus           1,113 real    6,000 synthetic
+20:02:14      An. stephensi            1,174 real    6,000 synthetic
+20:02:14      Cx. quinquefasciatus     7,349 real    6,000 synthetic
+20:02:14    (validation and all test sets are real recordings; synthetic clips appear in training only)
+20:02:14  
+20:02:14  ==============================================================================
+20:02:14  STEP 3: build the model (shared CNN, two outputs: presence + species)
+20:02:14  ==============================================================================
+20:02:14    presence training weights: min 0.17, median 0.23, max 14.52  (equal weight per class and per recording site)
+20:02:14    species training weights: min 0.39, median 0.78, max 4.18  (equal weight per class and per recording site)
+20:02:14    training recording sites per species (real): Ae. aegypti 3; Ae. albopictus 1; An. stephensi 1; Cx. quinquefasciatus 1
+20:02:15    logmel_db    InputLayer             output (None, 64, 63)         params       0
+20:02:15    whiten       SpectralWhitening      output (None, 64, 63)         params       0
+20:02:15    reshape      Reshape                output (None, 64, 63, 1)      params       0
+20:02:15    band_norm    Rescaling              output (None, 64, 63, 1)      params       0
+20:02:15    conv0        Conv2D                 output (None, 64, 63, 16)     params     144
+20:02:15    bn0          BatchNormalization     output (None, 64, 63, 16)     params      64
+20:02:15    relu0        ReLU                   output (None, 64, 63, 16)     params       0
+20:02:15    pool0        MaxPooling2D           output (None, 32, 31, 16)     params       0
+20:02:15    conv1        Conv2D                 output (None, 32, 31, 32)     params   4,608
+20:02:15    bn1          BatchNormalization     output (None, 32, 31, 32)     params     128
+20:02:15    relu1        ReLU                   output (None, 32, 31, 32)     params       0
+20:02:15    pool1        MaxPooling2D           output (None, 16, 15, 32)     params       0
+20:02:15    conv2        Conv2D                 output (None, 16, 15, 64)     params  18,432
+20:02:15    bn2          BatchNormalization     output (None, 16, 15, 64)     params     256
+20:02:15    relu2        ReLU                   output (None, 16, 15, 64)     params       0
+20:02:15    pool2        MaxPooling2D           output (None, 8, 7, 64)       params       0
+20:02:15    conv3        Conv2D                 output (None, 8, 7, 96)       params  55,296
+20:02:15    bn3          BatchNormalization     output (None, 8, 7, 96)       params     384
+20:02:15    relu3        ReLU                   output (None, 8, 7, 96)       params       0
+20:02:15    gap          GlobalAveragePooling2D output (None, 96)             params       0
+20:02:15    dropout      Dropout                output (None, 96)             params       0
+20:02:15    presence     Dense                  output (None, 1)              params      97
+20:02:15    species      Dense                  output (None, 4)              params     388
+20:02:15    total parameters: 79,797 (~78 KB after int8 quantisation)
+20:02:15  
+20:02:15  ==============================================================================
+20:02:15  STEP 4: train (keeps the epoch with the best val_score; stops after 10 epochs without improvement)
+20:02:15  ==============================================================================
+20:02:33      epoch 1: batch 100/629  loss 0.5417
+20:02:50      epoch 1: batch 200/629  loss 0.4779
+20:03:06      epoch 1: batch 300/629  loss 0.4400
+20:03:21      epoch 1: batch 400/629  loss 0.4170
+20:03:36      epoch 1: batch 500/629  loss 0.3991
+20:03:51      epoch 1: batch 600/629  loss 0.3848
+20:04:00    epoch  1  train: loss 0.3819, presence AUC 0.9694, species acc 0.381  |  val: loss 0.2875, presence AUC 0.9767, species balanced acc 0.919, score 0.9477  (104 s)  <- best so far (weights kept)
+20:04:15      epoch 2: batch 100/629  loss 0.2934
+20:04:30      epoch 2: batch 200/629  loss 0.2894
+20:04:45      epoch 2: batch 300/629  loss 0.2887
+20:05:00      epoch 2: batch 400/629  loss 0.2862
+20:05:16      epoch 2: batch 500/629  loss 0.2834
+20:05:31      epoch 2: batch 600/629  loss 0.2808
+20:05:38    epoch  2  train: loss 0.2799, presence AUC 0.9810, species acc 0.395  |  val: loss 0.1456, presence AUC 0.9789, species balanced acc 0.911, score 0.9450  (99 s)
+20:05:54      epoch 3: batch 100/629  loss 0.2532
+20:06:09      epoch 3: batch 200/629  loss 0.2564
+20:06:25      epoch 3: batch 300/629  loss 0.2549
+20:06:40      epoch 3: batch 400/629  loss 0.2550
+20:06:55      epoch 3: batch 500/629  loss 0.2529
+20:07:12      epoch 3: batch 600/629  loss 0.2533
+20:07:20    epoch  3  train: loss 0.2531, presence AUC 0.9841, species acc 0.410  |  val: loss 0.2494, presence AUC 0.9813, species balanced acc 0.888, score 0.9345  (102 s)
+20:07:36      epoch 4: batch 100/629  loss 0.2399
+20:07:53      epoch 4: batch 200/629  loss 0.2353
+20:08:19      epoch 4: batch 300/629  loss 0.2368
+20:08:43      epoch 4: batch 400/629  loss 0.2374
+20:09:09      epoch 4: batch 500/629  loss 0.2383
+20:09:33      epoch 4: batch 600/629  loss 0.2388
+20:09:45    epoch  4  train: loss 0.2386, presence AUC 0.9858, species acc 0.413  |  val: loss 0.2130, presence AUC 0.9684, species balanced acc 0.835, score 0.9019  (145 s)
+20:10:11      epoch 5: batch 100/629  loss 0.2260
+20:10:36      epoch 5: batch 200/629  loss 0.2230
+20:11:00      epoch 5: batch 300/629  loss 0.2240
+20:11:26      epoch 5: batch 400/629  loss 0.2261
+20:11:53      epoch 5: batch 500/629  loss 0.2257
+20:12:20      epoch 5: batch 600/629  loss 0.2267
+20:12:33    epoch  5  train: loss 0.2257, presence AUC 0.9868, species acc 0.422  |  val: loss 0.4789, presence AUC 0.9827, species balanced acc 0.737, score 0.8600  (168 s)
+20:12:58      epoch 6: batch 100/629  loss 0.2074
+20:13:23      epoch 6: batch 200/629  loss 0.2120
+20:13:46      epoch 6: batch 300/629  loss 0.2128
+20:14:10      epoch 6: batch 400/629  loss 0.2144
+20:14:36      epoch 6: batch 500/629  loss 0.2149
+20:14:59      epoch 6: batch 600/629  loss 0.2151
+20:15:11    epoch  6  train: loss 0.2147, presence AUC 0.9885, species acc 0.418  |  val: loss 0.3090, presence AUC 0.9573, species balanced acc 0.786, score 0.8716  (158 s)
+20:15:34      epoch 7: batch 100/629  loss 0.2166
+20:15:58      epoch 7: batch 200/629  loss 0.2141
+20:16:21      epoch 7: batch 300/629  loss 0.2120
+20:16:44      epoch 7: batch 400/629  loss 0.2102
+20:17:08      epoch 7: batch 500/629  loss 0.2081
+20:17:32      epoch 7: batch 600/629  loss 0.2071
+20:17:44    epoch  7  train: loss 0.2072, presence AUC 0.9892, species acc 0.419  |  val: loss 0.3834, presence AUC 0.9817, species balanced acc 0.965, score 0.9732  (153 s)  <- best so far (weights kept)
+20:18:08      epoch 8: batch 100/629  loss 0.1966
+20:18:31      epoch 8: batch 200/629  loss 0.2003
+20:18:55      epoch 8: batch 300/629  loss 0.2001
+20:19:18      epoch 8: batch 400/629  loss 0.2002
+20:19:42      epoch 8: batch 500/629  loss 0.1990
+20:20:05      epoch 8: batch 600/629  loss 0.1992
+20:20:16    epoch  8  train: loss 0.1993, presence AUC 0.9899, species acc 0.424  |  val: loss 0.5472, presence AUC 0.9829, species balanced acc 0.942, score 0.9624  (152 s)
+20:20:39      epoch 9: batch 100/629  loss 0.2001
+20:21:02      epoch 9: batch 200/629  loss 0.1950
+20:21:25      epoch 9: batch 300/629  loss 0.1935
+20:21:48      epoch 9: batch 400/629  loss 0.1942
+20:22:11      epoch 9: batch 500/629  loss 0.1950
+20:22:34      epoch 9: batch 600/629  loss 0.1942
+20:22:46    epoch  9  train: loss 0.1951, presence AUC 0.9904, species acc 0.425  |  val: loss 0.1602, presence AUC 0.9849, species balanced acc 0.761, score 0.8731  (150 s)
+20:23:09      epoch 10: batch 100/629  loss 0.1881
+20:23:32      epoch 10: batch 200/629  loss 0.1921
+20:23:55      epoch 10: batch 300/629  loss 0.1906
+20:24:18      epoch 10: batch 400/629  loss 0.1900
+20:24:41      epoch 10: batch 500/629  loss 0.1897
+20:25:04      epoch 10: batch 600/629  loss 0.1897
+20:25:15    epoch 10  train: loss 0.1896, presence AUC 0.9908, species acc 0.421  |  val: loss 0.5238, presence AUC 0.9779, species balanced acc 0.937, score 0.9575  (149 s)
+20:25:38      epoch 11: batch 100/629  loss 0.1852
+20:26:02      epoch 11: batch 200/629  loss 0.1816
+20:26:26      epoch 11: batch 300/629  loss 0.1818
+20:26:49      epoch 11: batch 400/629  loss 0.1822
+20:27:13      epoch 11: batch 500/629  loss 0.1833
+20:27:36      epoch 11: batch 600/629  loss 0.1833
+20:27:48    epoch 11  train: loss 0.1836, presence AUC 0.9913, species acc 0.427  |  val: loss 0.2248, presence AUC 0.9793, species balanced acc 0.586, score 0.7827  (153 s)
+20:28:13      epoch 12: batch 100/629  loss 0.1799
+20:28:35      epoch 12: batch 200/629  loss 0.1835
+20:29:00      epoch 12: batch 300/629  loss 0.1821
+20:29:23      epoch 12: batch 400/629  loss 0.1806
+20:29:48      epoch 12: batch 500/629  loss 0.1795
+20:30:13      epoch 12: batch 600/629  loss 0.1798
+20:30:25    epoch 12  train: loss 0.1799, presence AUC 0.9917, species acc 0.428  |  val: loss 0.8119, presence AUC 0.9737, species balanced acc 0.865, score 0.9194  (156 s)
+20:30:49      epoch 13: batch 100/629  loss 0.1781
+20:31:13      epoch 13: batch 200/629  loss 0.1772
+20:31:36      epoch 13: batch 300/629  loss 0.1756
+20:31:58      epoch 13: batch 400/629  loss 0.1769
+20:32:20      epoch 13: batch 500/629  loss 0.1764
+20:32:42      epoch 13: batch 600/629  loss 0.1761
+20:32:53    epoch 13  train: loss 0.1769, presence AUC 0.9919, species acc 0.429  |  val: loss 0.2017, presence AUC 0.9819, species balanced acc 0.690, score 0.8358  (148 s)
+20:33:16      epoch 14: batch 100/629  loss 0.1668
+20:33:38      epoch 14: batch 200/629  loss 0.1670
+20:34:00      epoch 14: batch 300/629  loss 0.1683
+20:34:22      epoch 14: batch 400/629  loss 0.1698
+20:34:44      epoch 14: batch 500/629  loss 0.1713
+20:35:06      epoch 14: batch 600/629  loss 0.1719
+20:35:17    epoch 14  train: loss 0.1726, presence AUC 0.9924, species acc 0.427  |  val: loss 0.2091, presence AUC 0.9842, species balanced acc 0.922, score 0.9532  (143 s)
+20:35:39      epoch 15: batch 100/629  loss 0.1671
+20:36:01      epoch 15: batch 200/629  loss 0.1671
+20:36:23      epoch 15: batch 300/629  loss 0.1669
+20:36:45      epoch 15: batch 400/629  loss 0.1658
+20:37:07      epoch 15: batch 500/629  loss 0.1670
+20:37:29      epoch 15: batch 600/629  loss 0.1679
+20:37:41    epoch 15  train: loss 0.1679, presence AUC 0.9926, species acc 0.424  |  val: loss 0.1939, presence AUC 0.9863, species balanced acc 0.787, score 0.8865  (144 s)
+20:38:03      epoch 16: batch 100/629  loss 0.1636
+20:38:25      epoch 16: batch 200/629  loss 0.1617
+20:38:47      epoch 16: batch 300/629  loss 0.1636
+20:39:09      epoch 16: batch 400/629  loss 0.1644
+20:39:30      epoch 16: batch 500/629  loss 0.1652
+20:39:52      epoch 16: batch 600/629  loss 0.1644
+20:40:03    epoch 16  train: loss 0.1647, presence AUC 0.9930, species acc 0.430  |  val: loss 0.2090, presence AUC 0.9616, species balanced acc 0.925, score 0.9434  (143 s)
+20:40:26      epoch 17: batch 100/629  loss 0.1624
+20:40:48      epoch 17: batch 200/629  loss 0.1598
+20:41:10      epoch 17: batch 300/629  loss 0.1628
+20:41:32      epoch 17: batch 400/629  loss 0.1629
+20:41:54      epoch 17: batch 500/629  loss 0.1635
+20:42:16      epoch 17: batch 600/629  loss 0.1639
+20:42:27    epoch 17  train: loss 0.1636, presence AUC 0.9931, species acc 0.431  |  val: loss 0.3998, presence AUC 0.9814, species balanced acc 0.819, score 0.9002  (144 s)
+20:42:27    done in 40.2 min: best epoch 7; model saved to results/m4_runs/20260929_200213_real_plus_synth/model.keras
+20:42:27  
+20:42:27  ==============================================================================
+20:42:27  STEP 5: evaluate 'is there a mosquito?' on REAL recordings
+20:42:27  ==============================================================================
+20:42:27    test = held-out sessions / labs; test_A = Kenya and test_B = Thailand (never heard in training); external = UFRGS phones
+20:42:27    predicting val ...
+20:42:31    predicting test ...
+20:42:35    predicting test_A ...
+20:42:48    predicting test_B ...
+20:42:53    predicting external ...
+20:43:00  threshold (max F1 on validation): 0.02
+20:43:00  
+   split  roc_auc  precision  recall    f1  fa_per_h_raw  fa_per_h_smoothed  recall_smoothed  bg_hours
+     val    0.985      0.988   0.970 0.979       359.645            144.331            0.939      0.42
+    test    0.988      0.948   0.981 0.964       725.160            309.587            0.942      0.72
+  test_A    0.553      0.074   0.276 0.117       444.547            202.265            0.199      8.75
+  test_B    0.967      0.769   0.970 0.858       982.351            550.789            0.910      1.96
+external    0.797      0.722   0.976 0.830       884.211            480.000            0.966      0.04
+20:43:00  
+recall per species (share of mosquito windows detected, at the validation threshold):
+20:43:00  
+split                external   test  test_A  test_B    val
+species                                                    
+(no species label)        NaN  0.939     NaN   0.957  0.962
+ae_aegypti              0.976  0.980     NaN     NaN  0.967
+ae_albopictus             NaN  1.000     NaN     NaN    NaN
+an_stephensi              NaN  1.000     NaN     NaN    NaN
+cx_quinquefasciatus       NaN  0.992     NaN     NaN  0.983
+other_mosquito            NaN  0.984   0.276   1.000  0.969
+20:43:00  
+operating points (2-of-3 smoothing): recall / false alarms per hour
+20:43:00  
+          recall                      false_alarms_per_h                    
+split       test test_A test_B    val               test test_A test_B   val
+threshold                                                                   
+0.50       0.875  0.039  0.859  0.857                4.2   46.7   63.2  11.8
+0.90       0.787  0.016  0.823  0.774                0.0   15.1   29.6   2.4
+0.98       0.695  0.010  0.793  0.686                0.0    2.6   22.9   2.4
+20:43:00  
+figure: results/m4_runs/20260929_200213_real_plus_synth/detection.png
+20:43:00  
+20:43:00  ==============================================================================
+20:43:00  STEP 6: evaluate 'which species?' on REAL recordings
+20:43:00  ==============================================================================
+20:43:00    Only windows with a known species label count. Ae. albopictus and An. stephensi have ~1 min of test audio each
+20:43:00    (the public data has no more from independent labs), so their numbers are weak evidence.
+20:43:01  
+  VAL: per species (window level; recording level = average over a recording's windows)
+20:43:01  
+             species  windows  precision  recall    f1  recordings  recording_recall
+         Ae. aegypti      670      0.802   0.984 0.883          34             1.000
+Cx. quinquefasciatus     3181      0.997   0.946 0.971         122             0.975
+20:43:01    macro-F1: windows 0.927 | recordings 0.973   (accuracy: windows 0.952, recordings 0.981)
+20:43:01    genus accuracy on the 4 target species (Aedes / Anopheles / Culex): 0.952
+20:43:01    recall by recording site (where does it work, where not):
+20:43:01  
+                                    recall  windows
+species             site                           
+ae_aegypti          Ifakara          0.984      635
+                    UCD_PR           0.971       35
+cx_quinquefasciatus Oxford Zoology   0.946     3181
+20:43:01    confusion matrix: results/m4_runs/20260929_200213_real_plus_synth/species_cm_val.png
+20:43:03  
+  TEST: per species (window level; recording level = average over a recording's windows)
+20:43:03  
+             species  windows  precision  recall    f1  recordings  recording_recall
+         Ae. aegypti      848      0.683   0.949 0.794          36             0.778
+      Ae. albopictus       55      0.310   0.164 0.214          52             0.173
+       An. stephensi      121      0.000   0.000 0.000           7             0.000
+Cx. quinquefasciatus     3500      0.955   0.901 0.928         212             0.958
+20:43:03    macro-F1: windows 0.484 | recordings 0.466   (accuracy: windows 0.877, recordings 0.782)
+20:43:03    genus accuracy on the 4 target species (Aedes / Anopheles / Culex): 0.880
+20:43:03    recall by recording site (where does it work, where not):
+20:43:03  
+                                                  recall  windows
+species             site                                         
+ae_aegypti          CDC insect cultures, Atlanta   0.111        9
+                    Ifakara                        0.959      764
+                    UCD_LA                         0.947       75
+ae_albopictus       CDC insect cultures, Atlanta   0.164       55
+an_stephensi        CDC insect cultures, Atlanta   0.000        2
+                    LSTMH Culture cages, London    0.000      119
+cx_quinquefasciatus CDC insect cultures, Atlanta   0.429        7
+                    Oxford Zoology                 0.943     3171
+                    SanMateoVCD                    0.500      322
+20:43:03    confusion matrix: results/m4_runs/20260929_200213_real_plus_synth/species_cm_test.png
+20:43:06  
+  TEST: 11,378 windows of OTHER mosquito species (not trained to name) -- forced guesses:
+20:43:06    Ae. aegypti 76%, Cx. quinquefasciatus 22%, Ae. albopictus 1%, An. stephensi 1%
+20:43:06    'uncertain' option: answer a species only if the model's confidence >= threshold
+20:43:06  
+ confidence_threshold target_answered target_correct_when_answered other_species_said_uncertain
+                  0.0            100%                          88%                           0%
+                  0.5             98%                          89%                           3%
+                  0.6             93%                          92%                          11%
+                  0.7             87%                          94%                          18%
+                  0.8             81%                          96%                          28%
+                  0.9             72%                          98%                          43%
+20:43:06  
+20:43:06  ==============================================================================
+20:43:06  STEP 7: summary
+20:43:06  ==============================================================================
+20:43:06    presence  val       ROC-AUC 0.985
+20:43:06    presence  test      ROC-AUC 0.988
+20:43:06    presence  test_A    ROC-AUC 0.553
+20:43:06    presence  test_B    ROC-AUC 0.967
+20:43:06    presence  external  ROC-AUC 0.797
+20:43:06    species   val       macro-F1 0.927 (windows), 0.973 (recordings)
+20:43:06    species   test      macro-F1 0.484 (windows), 0.466 (recordings)
+20:43:06    all outputs in results/m4_runs/20260929_200213_real_plus_synth  (run.log, model.keras, metrics.json, operating_points.csv, detection.png, species_cm_*.png)

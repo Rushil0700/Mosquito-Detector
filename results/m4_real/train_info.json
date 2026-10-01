@@ -1,0 +1,10 @@
+{
+ "params": 79894,
+ "epochs_run": 14,
+ "best_epoch": 9,
+ "best_val": 0.48355522751808167,
+ "monitor": "val_loss",
+ "train_minutes": 430.3,
+ "n_train": 100997,
+ "n_val": 23288
+}

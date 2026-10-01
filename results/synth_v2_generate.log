@@ -1,0 +1,20 @@
+presence  cls                  sex     source    
+0                                      noise_only    12000
+1         ae_aegypti           female  calibrated     3000
+                               male    calibrated     1369
+                                       prior          1631
+          ae_albopictus        female  calibrated     3000
+                               male    calibrated      134
+                                       prior          2866
+          an_stephensi         female  calibrated     3000
+                               male    calibrated     1336
+                                       prior          1664
+          cx_quinquefasciatus  female  calibrated     3000
+                               male    calibrated     3000
+
+noise bed sources (share):
+noise
+household     0.5
+background    0.5
+
+wrote 36000 clips -> data/synthetic/clips_v2, manifest data/synthetic/manifest_clips_v2.csv
